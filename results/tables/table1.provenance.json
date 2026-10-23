@@ -1,0 +1,12 @@
+{
+  "json_sha256": "bf44f53f0c3530fb5b81b594031683519f6608e7a3db530cb7ea648fcb3d5fdf",
+  "source": "results/processed/revision_summary.json",
+  "source_sha256": "cb1bdd55a64e601d1319036514afa3940c37dd4858d705ed5837935c7e040bde",
+  "tex_files": {
+    "table_ci.tex": "4f02e3b10238b8b53e6a49e12d70c8d67447283b1e204a9810ba167c5d6640a8",
+    "table_corruption.tex": "fdcb6c3225638ac8336f66f68949ff8af61f5f0486e7efdefa6f388226aaf95b",
+    "table_metrics.tex": "2144c291f423220db013d0ce9dd40779e111f4d5876cbcdd1bb97be5de9d36f5",
+    "table_paired.tex": "511d558e64b1d98064d1443a1e2002c98462b218869a93665d8a15149a3e7d78"
+  },
+  "tex_sha256": "8e3b147e935c71a2cbabe529398b098d720077b237442a80e6b26d34d5ddb0f8"
+}

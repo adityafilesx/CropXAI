@@ -1,0 +1,64 @@
+# ─── Preprocessing Pipeline Configuration ─────────────────────────────────────
+
+# Global switch: disable all preprocessing
+enabled: true
+
+# ─── Normalization ────────────────────────────────────────────────────────────
+normalization:
+  enabled: true
+  method: minmax            # options: minmax | zscore | percentile | none
+  # Z-score params (used if method=zscore)
+  mean: null                # null = use dataset.statistics.mean
+  std: null                 # null = use dataset.statistics.std
+  # Min-max params (used if method=minmax)
+  min_val: 0.0
+  max_val: 10000.0
+  clip: true                # Clip values before normalizing
+  clip_percentile: [1, 99]  # Percentile clip range
+
+# ─── Band Selection ───────────────────────────────────────────────────────────
+band_selection:
+  enabled: true
+  bands: null               # null = use dataset.bands.selected
+  reorder: true             # Reorder to RGB-first for visualization
+
+# ─── Temporal Alignment ───────────────────────────────────────────────────────
+temporal_alignment:
+  enabled: true
+  target_length: null       # null = use dataset.temporal.num_timesteps
+  fill_strategy: linear     # options: linear | nearest | forward | zero
+  drop_cloudy: true
+  cloud_threshold: 0.2
+
+# ─── Patch Extraction ─────────────────────────────────────────────────────────
+patch_extraction:
+  enabled: true
+  patch_size: null          # null = use dataset.spatial.patch_size
+  strategy: random          # options: random | sliding_window | center
+  overlap: 0
+
+# ─── Missing Value Handling ───────────────────────────────────────────────────
+missing_values:
+  enabled: true
+  strategy: interpolate     # options: interpolate | mask | zero | mean
+  max_missing_fraction: 0.1 # Reject sample if > this fraction is missing
+  fill_value: 0.0
+
+# ─── Resizing ─────────────────────────────────────────────────────────────────
+resize:
+  enabled: false            # Usually disabled when using patch extraction
+  target_size: [224, 224]
+  method: bilinear          # options: bilinear | nearest | bicubic
+
+# ─── Data Type Conversion ─────────────────────────────────────────────────────
+dtype_conversion:
+  enabled: true
+  input_dtype: uint16
+  output_dtype: float32
+  scale: true               # Scale to [0, 1] range during conversion
+
+# ─── Label Encoding ───────────────────────────────────────────────────────────
+label_encoding:
+  enabled: true
+  encoding: integer         # options: integer | onehot
+  ignore_index: 255         # Index to ignore in loss computation

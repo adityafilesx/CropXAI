@@ -1,0 +1,49 @@
+# ─── Experiment Configuration ─────────────────────────────────────────────────
+
+# Run identification
+run_id: null           # null = auto-generate UUID
+run_name: null         # null = auto-generate descriptive name
+group: null            # Group experiments for W&B/TensorBoard grouping
+tags: []               # List of tags for filtering experiments
+
+# Reproducibility
+seed: 42
+deterministic: true    # Fully deterministic (may slow down GPU operations)
+benchmark: false       # torch.backends.cudnn.benchmark (faster, non-deterministic)
+
+# Hardware
+device: auto           # auto | cpu | cuda | mps
+precision: 32          # 16 | 32 | bf16
+
+# Paths (auto-created relative to experiment run)
+dirs:
+  root: ${paths.experiments}/${experiment.run_id}
+  checkpoints: ${experiment.dirs.root}/checkpoints
+  artifacts: ${experiment.dirs.root}/artifacts
+  predictions: ${experiment.dirs.root}/predictions
+  visualizations: ${experiment.dirs.root}/visualizations
+  metrics: ${experiment.dirs.root}/metrics
+  configs: ${experiment.dirs.root}/configs
+  logs: ${experiment.dirs.root}/logs
+
+# Metadata tracking
+metadata:
+  enabled: true
+  db_path: ${paths.metadata}/experiments.csv
+  log_git: true        # Log git commit hash if in a git repo
+  log_env: true        # Capture full Python environment
+  log_hardware: true   # Log CPU/GPU/RAM info
+
+# Checkpointing
+checkpoint:
+  save_top_k: 3
+  monitor: val/loss
+  mode: min
+  save_last: true
+
+# Early stopping (for future training phases)
+early_stopping:
+  enabled: false
+  monitor: val/loss
+  patience: 10
+  mode: min

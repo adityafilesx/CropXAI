@@ -1,0 +1,889 @@
+{
+  "checks": [
+    {
+      "check": "record_rejections",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "summary_current_source",
+      "critical": true,
+      "detail": "Summary was computed from the code now in src/cropxai; re-run `cropxai analyze` otherwise",
+      "passed": true
+    },
+    {
+      "check": "record_06162797028c8751-8987552e",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_098d2c10375d9d27-dfbc504a",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_0f3308d8d9691043-0127285a",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_27e15ca8acc9f91c-a2802359",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_296da2f403b6cf7d-685196b8",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_2ec8bfeaa37a6fc4-9d8f852c",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_33e2e5f5afee8616-5ff9f731",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_427859bc8da9fc05-736e8a0b",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_4552d176bbd4b5f5-0086f08c",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_5b869f4fb44dfbb2-e232e61f",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_65bba586fabf39f9-f0b0aebb",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_766e5436c7072b66-1ecde3f2",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_7a31ee75498bb00b-4e2c427e",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_96f6d00885e84599-7ec1b3cc",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_99ff72bc67a6eb99-d11e32d2",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_b1c3ca156124f5e4-bb22cd20",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_b3e35a3c86c20f9d-530c432f",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_b6fa00398765dbbe-9705373e",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_bfc2210647e0bf33-cc3b4d52",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_cb63bff77918b9f2-1e84f0c3",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_deedb1f3c46f1532-7977260f",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_e46f1c2720aff67e-f79cc1b3",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_edbfcdd9b6cc8181-df03a29e",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "record_f7a69d25d659bbbb-7c71072b",
+      "critical": true,
+      "detail": "Hashes and independent numerical recomputation passed",
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/source_current",
+      "critical": true,
+      "detail": "0 completed record(s) come from superseded code: []",
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/matrix_complete",
+      "critical": true,
+      "detail": {
+        "duplicates": {},
+        "missing": [],
+        "undeclared": []
+      },
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/seed_count_matches",
+      "critical": true,
+      "detail": {
+        "ConvNeXt-T": [
+          42,
+          100,
+          999,
+          1234,
+          2026
+        ],
+        "ResNet-18": [
+          42,
+          100,
+          999,
+          1234,
+          2026
+        ],
+        "ViT-Base": [
+          42,
+          100,
+          999,
+          1234,
+          2026
+        ]
+      },
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/model_identity",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/one_checkpoint_per_architecture",
+      "critical": true,
+      "detail": {
+        "ConvNeXt-T": [
+          "983f1562536e84ff750a1576fb08e54de751dbf2e17c0d8a4a13704341fdcd3d"
+        ],
+        "ResNet-18": [
+          "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+        ],
+        "ViT-Base": [
+          "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/input_representation",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/protocol_homogeneous",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/epochs_completed",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/single_split_id",
+      "critical": true,
+      "detail": [
+        "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899"
+      ],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/manifest_valid",
+      "critical": true,
+      "detail": "manifest present and error-free",
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/manifest_unchanged",
+      "critical": true,
+      "detail": "0 run(s) used a different manifest version: []",
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/identical_test_items",
+      "critical": true,
+      "detail": "all runs evaluate the same ordered test items",
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/metrics_valid",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/artifacts_present",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/provenance_complete",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[rgb_imagenet]/explanation_samples_complete",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/source_current",
+      "critical": true,
+      "detail": "0 completed record(s) come from superseded code: []",
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/matrix_complete",
+      "critical": true,
+      "detail": {
+        "duplicates": {},
+        "missing": [],
+        "undeclared": []
+      },
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/seed_count_matches",
+      "critical": true,
+      "detail": {
+        "Prithvi-EO-1.0-100M": [
+          42,
+          100,
+          999,
+          1234,
+          2026
+        ]
+      },
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/model_identity",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/one_checkpoint_per_architecture",
+      "critical": true,
+      "detail": {
+        "Prithvi-EO-1.0-100M": [
+          "7fac0c8a8693198e32a055e0c5a967f8b005f382182b63df1b29fdcd5c880731"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/input_representation",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/protocol_homogeneous",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/epochs_completed",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/single_split_id",
+      "critical": true,
+      "detail": [
+        "6345578c8d5df213eb2bf5d656335cff08bfb077210d70008a5650baa7d819af"
+      ],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/manifest_valid",
+      "critical": true,
+      "detail": "manifest present and error-free",
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/manifest_unchanged",
+      "critical": true,
+      "detail": "0 run(s) used a different manifest version: []",
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/identical_test_items",
+      "critical": true,
+      "detail": "all runs evaluate the same ordered test items",
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/metrics_valid",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/artifacts_present",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/provenance_complete",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "compliance[ms6_prithvi]/explanation_samples_complete",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "complete_group_ResNet-18",
+      "critical": true,
+      "detail": "Exactly one homogeneous full-data group with the declared seeds and epochs",
+      "passed": true
+    },
+    {
+      "check": "complete_group_ViT-Base",
+      "critical": true,
+      "detail": "Exactly one homogeneous full-data group with the declared seeds and epochs",
+      "passed": true
+    },
+    {
+      "check": "complete_group_ConvNeXt-T",
+      "critical": true,
+      "detail": "Exactly one homogeneous full-data group with the declared seeds and epochs",
+      "passed": true
+    },
+    {
+      "check": "complete_group_Prithvi-EO-1.0-100M",
+      "critical": true,
+      "detail": "Exactly one homogeneous full-data group with the declared seeds and epochs",
+      "passed": true
+    },
+    {
+      "check": "table_hashes",
+      "critical": true,
+      "detail": "Generated table file hashes",
+      "passed": true
+    },
+    {
+      "check": "table_source_current",
+      "critical": true,
+      "detail": "Table must match current summary",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_performance",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_explanation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_calibration",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_robustness",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_uncertainty",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_representation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ResNet-18_composite_trust",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_performance",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_explanation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_calibration",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_robustness",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_uncertainty",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_representation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ViT-Base_composite_trust",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_performance",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_explanation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_calibration",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_robustness",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_uncertainty",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_representation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_ConvNeXt-T_composite_trust",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_performance",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_explanation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_calibration",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_robustness",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_uncertainty",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_representation",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "table_Prithvi-EO-1.0-100M_composite_trust",
+      "critical": true,
+      "detail": "Values and uncertainty match the same run IDs",
+      "passed": true
+    },
+    {
+      "check": "six_pillars_ResNet-18",
+      "critical": true,
+      "detail": "All six components and the composite are measured and tabulated",
+      "passed": true
+    },
+    {
+      "check": "ci_present_ResNet-18",
+      "critical": true,
+      "detail": "Every tabulated component has a seed-level interval (n>=2)",
+      "passed": true
+    },
+    {
+      "check": "registered_ResNet-18",
+      "critical": true,
+      "detail": "Model is in the architecture registry",
+      "passed": true
+    },
+    {
+      "check": "six_pillars_ViT-Base",
+      "critical": true,
+      "detail": "All six components and the composite are measured and tabulated",
+      "passed": true
+    },
+    {
+      "check": "ci_present_ViT-Base",
+      "critical": true,
+      "detail": "Every tabulated component has a seed-level interval (n>=2)",
+      "passed": true
+    },
+    {
+      "check": "registered_ViT-Base",
+      "critical": true,
+      "detail": "Model is in the architecture registry",
+      "passed": true
+    },
+    {
+      "check": "six_pillars_ConvNeXt-T",
+      "critical": true,
+      "detail": "All six components and the composite are measured and tabulated",
+      "passed": true
+    },
+    {
+      "check": "ci_present_ConvNeXt-T",
+      "critical": true,
+      "detail": "Every tabulated component has a seed-level interval (n>=2)",
+      "passed": true
+    },
+    {
+      "check": "registered_ConvNeXt-T",
+      "critical": true,
+      "detail": "Model is in the architecture registry",
+      "passed": true
+    },
+    {
+      "check": "six_pillars_Prithvi-EO-1.0-100M",
+      "critical": true,
+      "detail": "All six components and the composite are measured and tabulated",
+      "passed": true
+    },
+    {
+      "check": "ci_present_Prithvi-EO-1.0-100M",
+      "critical": true,
+      "detail": "Every tabulated component has a seed-level interval (n>=2)",
+      "passed": true
+    },
+    {
+      "check": "registered_Prithvi-EO-1.0-100M",
+      "critical": true,
+      "detail": "Model is in the architecture registry",
+      "passed": true
+    },
+    {
+      "check": "figure_accuracy.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_pillars.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_reliability.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_deletion.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_robustness.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_training_history.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_sensitivity.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_paired_differences.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "figure_confusion.pdf",
+      "critical": true,
+      "detail": "Figure and source hashes; plotted values stored in sidecar",
+      "passed": true
+    },
+    {
+      "check": "citations_resolve",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "no_uncited_bibliography",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "verified_bibliography",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "labels_unique",
+      "critical": true,
+      "detail": "Unique labels",
+      "passed": true
+    },
+    {
+      "check": "references_resolve",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "figure_files_are_generated",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "figures_all_referenced",
+      "critical": true,
+      "detail": "every figure is cited in text",
+      "passed": true
+    },
+    {
+      "check": "stale_asset_free",
+      "critical": true,
+      "detail": "No legacy unsupported figures are embedded",
+      "passed": true
+    },
+    {
+      "check": "scope_statement",
+      "critical": true,
+      "detail": "Evaluated scope is stated",
+      "passed": true
+    },
+    {
+      "check": "no_13_band_claim",
+      "critical": true,
+      "detail": "No 13-band experiment is claimed",
+      "passed": true
+    },
+    {
+      "check": "composite_not_bayesian",
+      "critical": true,
+      "detail": "Weighted sum named correctly",
+      "passed": true
+    },
+    {
+      "check": "weights_documented",
+      "critical": true,
+      "detail": "Weights in text equal versioned configuration",
+      "passed": true
+    },
+    {
+      "check": "stability_not_faithfulness",
+      "critical": true,
+      "detail": "Stability and faithfulness are kept apart",
+      "passed": true
+    },
+    {
+      "check": "nemenyi_withdrawn",
+      "critical": true,
+      "detail": "Unsupported significance test is not claimed",
+      "passed": true
+    },
+    {
+      "check": "prithvi_adaptation_documented",
+      "critical": true,
+      "detail": "Band adaptation described (R3.4)",
+      "passed": true
+    },
+    {
+      "check": "band_mismatch_disclosed",
+      "critical": true,
+      "detail": "Different input bands across cohorts disclosed (R3.5)",
+      "passed": true
+    },
+    {
+      "check": "discrepancy_explained",
+      "critical": true,
+      "detail": "Figure 7/Table 1 discrepancy source documented",
+      "passed": true
+    },
+    {
+      "check": "legacy_withdrawals",
+      "critical": true,
+      "detail": "Proxy and fallback withdrawals disclosed",
+      "passed": true
+    },
+    {
+      "check": "limitations_present",
+      "critical": true,
+      "detail": "Limitations section covers split, synthetic shifts, future work",
+      "passed": true
+    },
+    {
+      "check": "no_crop_health_claim",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "abstract_numbers_traceable",
+      "critical": true,
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "uncertainty_scope_stated",
+      "critical": true,
+      "detail": "Interval scope stated",
+      "passed": true
+    },
+    {
+      "check": "pdf_built",
+      "critical": true,
+      "detail": "PDF newer than its source",
+      "passed": true
+    },
+    {
+      "check": "similarity_report",
+      "critical": true,
+      "detail": "A genuine report from an accepted similarity service is required (not generated here)",
+      "passed": false
+    },
+    {
+      "check": "conference_format_confirmed",
+      "critical": true,
+      "detail": "Local 2024 Procedia files were used; the current Elsevier guide returned HTTP 403 to the revising software and conference-specific compliance is unconfirmed",
+      "passed": false
+    }
+  ],
+  "ready": false
+}

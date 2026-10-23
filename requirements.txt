@@ -1,0 +1,16 @@
+# Validated revision runtime. Full observed environment is in docs/revision/evidence.
+numpy==2.5.1
+scipy==1.18.0
+scikit-learn==1.9.0
+scikit-image==0.26.0
+torch==2.12.1
+torchvision==0.27.1
+Pillow==12.3.0
+matplotlib==3.11.0
+# Multispectral (GeoTIFF) loading and the vendored Prithvi encoder
+rasterio==1.5.0
+einops==0.8.2
+timm==1.0.27
+# Only to download the Prithvi checkpoint (see README)
+huggingface_hub==1.22.0
+# Versions verified by a clean-venv install and the unit tests on 2026-10-23 (see docs/revision/REVISION_CHANGELOG.md).

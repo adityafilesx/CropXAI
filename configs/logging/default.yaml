@@ -1,0 +1,34 @@
+# ─── Logging Configuration ────────────────────────────────────────────────────
+
+# ─── Rich (Console) ───────────────────────────────────────────────────────────
+rich:
+  enabled: true
+  level: INFO           # DEBUG | INFO | WARNING | ERROR | CRITICAL
+  show_path: false
+  show_time: true
+  markup: true
+  log_file: ${paths.logs}/cropxai.log
+
+# ─── TensorBoard ──────────────────────────────────────────────────────────────
+tensorboard:
+  enabled: true
+  log_dir: ${paths.logs}/tensorboard
+  flush_secs: 30
+
+# ─── Weights & Biases ─────────────────────────────────────────────────────────
+wandb:
+  enabled: false          # Disabled by default; enable with +logging.wandb.enabled=true
+  project: cropxai
+  entity: null            # null = use WANDB_ENTITY env var
+  name: null              # null = auto from run_id
+  tags: []
+  notes: ""
+  mode: online            # online | offline | disabled
+  save_code: true
+  log_model: false        # Log model artifacts to W&B
+  log_dataset_stats: true # Log dataset statistics on init
+
+# ─── Profiling ────────────────────────────────────────────────────────────────
+profile:
+  enabled: false
+  output_dir: ${paths.logs}/profiles

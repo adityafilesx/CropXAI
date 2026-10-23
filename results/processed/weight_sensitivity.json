@@ -1,0 +1,2841 @@
+[
+  {
+    "analysis": [
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "default",
+        "scores": {
+          "ConvNeXt-T": 0.7393168270064948,
+          "ResNet-18": 0.8202612252420567,
+          "ViT-Base": 0.750046002240297
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16666666666666666,
+          "explanation": 0.16666666666666666,
+          "performance": 0.16666666666666666,
+          "representation": 0.16666666666666666,
+          "robustness": 0.16666666666666666,
+          "uncertainty": 0.16666666666666666
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "equal",
+        "scores": {
+          "ConvNeXt-T": 0.7393168270064948,
+          "ResNet-18": 0.8202612252420567,
+          "ViT-Base": 0.750046002240297
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16666666666666666,
+          "explanation": 0.16666666666666666,
+          "performance": 0.16666666666666666,
+          "representation": 0.16666666666666666,
+          "robustness": 0.16666666666666666,
+          "uncertainty": 0.16666666666666666
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "reliability",
+        "scores": {
+          "ConvNeXt-T": 0.7876634422765024,
+          "ResNet-18": 0.8395659877420907,
+          "ViT-Base": 0.799513952209302
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.25,
+          "explanation": 0.1,
+          "performance": 0.15,
+          "representation": 0.1,
+          "robustness": 0.25,
+          "uncertainty": 0.15
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "explanation_priority",
+        "scores": {
+          "ConvNeXt-T": 0.6495393777871944,
+          "ResNet-18": 0.8188041464816032,
+          "ViT-Base": 0.6695505531754866
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15,
+          "explanation": 0.35,
+          "performance": 0.15,
+          "representation": 0.1,
+          "robustness": 0.15,
+          "uncertainty": 0.1
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_000",
+        "scores": {
+          "ConvNeXt-T": 0.7558136571384397,
+          "ResNet-18": 0.8218456325265913,
+          "ViT-Base": 0.7649456311596154
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18282495514573013,
+          "explanation": 0.13591969611699847,
+          "performance": 0.16967677905195394,
+          "representation": 0.17731250017276046,
+          "robustness": 0.16636873844733832,
+          "uncertainty": 0.16789733106521876
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_001",
+        "scores": {
+          "ConvNeXt-T": 0.732460494234938,
+          "ResNet-18": 0.8184806227672546,
+          "ViT-Base": 0.7422542613946087
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1284231536950885,
+          "explanation": 0.18054287007790637,
+          "performance": 0.18858849884931983,
+          "representation": 0.18111978162859146,
+          "robustness": 0.13679461072458513,
+          "uncertainty": 0.18453108502450866
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_002",
+        "scores": {
+          "ConvNeXt-T": 0.7469680489717176,
+          "ResNet-18": 0.8294489445313362,
+          "ViT-Base": 0.758210915148713
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18764836297142942,
+          "explanation": 0.17040260245952096,
+          "performance": 0.14757169476261947,
+          "representation": 0.1444403010983942,
+          "robustness": 0.16619355943543082,
+          "uncertainty": 0.1837434792726051
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_003",
+        "scores": {
+          "ConvNeXt-T": 0.7459927349416124,
+          "ResNet-18": 0.8166770543402677,
+          "ViT-Base": 0.756827486555006
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1493585271632777,
+          "explanation": 0.14215527039380452,
+          "performance": 0.15357093729879798,
+          "representation": 0.1636822261048354,
+          "robustness": 0.20096835181840025,
+          "uncertainty": 0.19026468722088422
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_004",
+        "scores": {
+          "ConvNeXt-T": 0.7099490024260964,
+          "ResNet-18": 0.8044660314523107,
+          "ViT-Base": 0.7221011373389138
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1482856803863658,
+          "explanation": 0.19192131281889033,
+          "performance": 0.13603038404560322,
+          "representation": 0.18955073661849614,
+          "robustness": 0.17481608318684244,
+          "uncertainty": 0.1593958029438021
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_005",
+        "scores": {
+          "ConvNeXt-T": 0.7350524606109483,
+          "ResNet-18": 0.82627688104511,
+          "ViT-Base": 0.7469758504461385
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1557056546240209,
+          "explanation": 0.1888595264268159,
+          "performance": 0.15785034721431077,
+          "representation": 0.14293990056219777,
+          "robustness": 0.16458656132323132,
+          "uncertainty": 0.19005800984942334
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_006",
+        "scores": {
+          "ConvNeXt-T": 0.7363057909544684,
+          "ResNet-18": 0.8252128834864638,
+          "ViT-Base": 0.7480409678795991
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16308738569335438,
+          "explanation": 0.1838576884676697,
+          "performance": 0.17613993998704003,
+          "representation": 0.14631837465962808,
+          "robustness": 0.1665558827914394,
+          "uncertainty": 0.16404072840086847
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_007",
+        "scores": {
+          "ConvNeXt-T": 0.7451160740299486,
+          "ResNet-18": 0.8215152499741643,
+          "ViT-Base": 0.7562871145261267
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15016000331621693,
+          "explanation": 0.1558196250572581,
+          "performance": 0.19076738313058883,
+          "representation": 0.15067916011941052,
+          "robustness": 0.19118404929987978,
+          "uncertainty": 0.16138977907664578
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_008",
+        "scores": {
+          "ConvNeXt-T": 0.7511109061992891,
+          "ResNet-18": 0.829172811899854,
+          "ViT-Base": 0.7612114506862427
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15702651140399776,
+          "explanation": 0.16314940818410587,
+          "performance": 0.1793888432572222,
+          "representation": 0.15218435533403407,
+          "robustness": 0.15554039960967916,
+          "uncertainty": 0.19271048221096101
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_009",
+        "scores": {
+          "ConvNeXt-T": 0.7347872547171155,
+          "ResNet-18": 0.8182977369359516,
+          "ViT-Base": 0.7464077293669471
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.14182581443973602,
+          "explanation": 0.1704777698288601,
+          "performance": 0.16450617601138287,
+          "representation": 0.1566541402245472,
+          "robustness": 0.18497262739164272,
+          "uncertainty": 0.1815634721038311
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_010",
+        "scores": {
+          "ConvNeXt-T": 0.7400874704264477,
+          "ResNet-18": 0.8257195026177362,
+          "ViT-Base": 0.7515532935127411
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17899862587538348,
+          "explanation": 0.17677586039234566,
+          "performance": 0.1671580922029146,
+          "representation": 0.1493948877311047,
+          "robustness": 0.16665356219558256,
+          "uncertainty": 0.16101897160266912
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_011",
+        "scores": {
+          "ConvNeXt-T": 0.7466191526690246,
+          "ResNet-18": 0.8277404997465065,
+          "ViT-Base": 0.7580675065044463
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18105703169633924,
+          "explanation": 0.1669002043577276,
+          "performance": 0.18136790573418077,
+          "representation": 0.14148775126147597,
+          "robustness": 0.17729052609653206,
+          "uncertainty": 0.1518965808537443
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_012",
+        "scores": {
+          "ConvNeXt-T": 0.7697497861029277,
+          "ResNet-18": 0.8378464088429345,
+          "ViT-Base": 0.7784882041667067
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1913995059621139,
+          "explanation": 0.14436087737825892,
+          "performance": 0.17544114682466252,
+          "representation": 0.1506200224909901,
+          "robustness": 0.14076976770672137,
+          "uncertainty": 0.19740867963725317
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_013",
+        "scores": {
+          "ConvNeXt-T": 0.7357754942332574,
+          "ResNet-18": 0.8193631524598878,
+          "ViT-Base": 0.7455905603658155
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1692364643632327,
+          "explanation": 0.17430115881021258,
+          "performance": 0.1419356250829818,
+          "representation": 0.18533174444340217,
+          "robustness": 0.13752621501297935,
+          "uncertainty": 0.19166879228719133
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_014",
+        "scores": {
+          "ConvNeXt-T": 0.7190971378869558,
+          "ResNet-18": 0.8095986495141325,
+          "ViT-Base": 0.730197549853185
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1742015692280091,
+          "explanation": 0.18567056776059712,
+          "performance": 0.13828957134670417,
+          "representation": 0.19406537436927818,
+          "robustness": 0.15457424623214572,
+          "uncertainty": 0.15319867106326568
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_015",
+        "scores": {
+          "ConvNeXt-T": 0.7251547365979638,
+          "ResNet-18": 0.814029063927852,
+          "ViT-Base": 0.7366704180311742
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1932095391020295,
+          "explanation": 0.18174047552409797,
+          "performance": 0.14450035199324457,
+          "representation": 0.17964252998216815,
+          "robustness": 0.16400941367499958,
+          "uncertainty": 0.13689768972346023
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_016",
+        "scores": {
+          "ConvNeXt-T": 0.7193709513626199,
+          "ResNet-18": 0.8077344895073727,
+          "ViT-Base": 0.7316053411835122
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16043737246499776,
+          "explanation": 0.1779974515657678,
+          "performance": 0.1299102535086863,
+          "representation": 0.1788001463975138,
+          "robustness": 0.18988828343348668,
+          "uncertainty": 0.1629664926295476
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_017",
+        "scores": {
+          "ConvNeXt-T": 0.7310483910944958,
+          "ResNet-18": 0.8118341966942357,
+          "ViT-Base": 0.7424693048137481
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.147642484394987,
+          "explanation": 0.1632001187588093,
+          "performance": 0.14024711607502208,
+          "representation": 0.1736607927917946,
+          "robustness": 0.19036743336463913,
+          "uncertainty": 0.18488205461474785
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_018",
+        "scores": {
+          "ConvNeXt-T": 0.734703023093286,
+          "ResNet-18": 0.8254690186709701,
+          "ViT-Base": 0.7465330238915461
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13160384977170378,
+          "explanation": 0.18832922633319316,
+          "performance": 0.188323823530525,
+          "representation": 0.14069049258227448,
+          "robustness": 0.16761092577309245,
+          "uncertainty": 0.18344168200921107
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_019",
+        "scores": {
+          "ConvNeXt-T": 0.7551193763240298,
+          "ResNet-18": 0.8323701152578715,
+          "ViT-Base": 0.7659881986434498
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18391027531764392,
+          "explanation": 0.15984145109138034,
+          "performance": 0.16238522127086333,
+          "representation": 0.13831605626041427,
+          "robustness": 0.17047136361382628,
+          "uncertainty": 0.1850756324458718
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_020",
+        "scores": {
+          "ConvNeXt-T": 0.7224291913435282,
+          "ResNet-18": 0.8129415064922096,
+          "ViT-Base": 0.7339619574806299
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17906250515814473,
+          "explanation": 0.1855591081034455,
+          "performance": 0.16219336378709165,
+          "representation": 0.18003059550487643,
+          "robustness": 0.16268966076565738,
+          "uncertainty": 0.13046476668078427
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_021",
+        "scores": {
+          "ConvNeXt-T": 0.7415538635785504,
+          "ResNet-18": 0.8235626856244258,
+          "ViT-Base": 0.7529102151529253
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.19521539743708646,
+          "explanation": 0.1679314413140658,
+          "performance": 0.1435831053445665,
+          "representation": 0.1565257144460263,
+          "robustness": 0.17277341352280715,
+          "uncertainty": 0.16397092793544782
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_022",
+        "scores": {
+          "ConvNeXt-T": 0.7441551274080923,
+          "ResNet-18": 0.8213752521056863,
+          "ViT-Base": 0.7544059117782691
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18181343656454277,
+          "explanation": 0.15885129882959126,
+          "performance": 0.1308606380799559,
+          "representation": 0.1724082210271192,
+          "robustness": 0.16218080042334618,
+          "uncertainty": 0.19388560507544472
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_023",
+        "scores": {
+          "ConvNeXt-T": 0.7575960572958649,
+          "ResNet-18": 0.8267502825420425,
+          "ViT-Base": 0.7666715909258526
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16828493031814473,
+          "explanation": 0.14436851173669962,
+          "performance": 0.18568402882530372,
+          "representation": 0.1668636414030873,
+          "robustness": 0.15563576523541048,
+          "uncertainty": 0.17916312248135402
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_024",
+        "scores": {
+          "ConvNeXt-T": 0.7677250131153621,
+          "ResNet-18": 0.8394817475777747,
+          "ViT-Base": 0.7770654118708296
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1988065039713807,
+          "explanation": 0.1515643832932334,
+          "performance": 0.15712845907947848,
+          "representation": 0.14313349550362772,
+          "robustness": 0.14287134517635294,
+          "uncertainty": 0.20649581297592676
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_025",
+        "scores": {
+          "ConvNeXt-T": 0.7171855081406875,
+          "ResNet-18": 0.8096207443913225,
+          "ViT-Base": 0.7292261437173037
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13141959932961786,
+          "explanation": 0.18892922775260537,
+          "performance": 0.1905011107350768,
+          "representation": 0.17316746271218125,
+          "robustness": 0.17781677544053193,
+          "uncertainty": 0.1381658240299869
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_026",
+        "scores": {
+          "ConvNeXt-T": 0.7343410428289912,
+          "ResNet-18": 0.8146230877503826,
+          "ViT-Base": 0.7447544552468736
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1565266577342521,
+          "explanation": 0.16494852784595462,
+          "performance": 0.1728721469807989,
+          "representation": 0.18119648938228042,
+          "robustness": 0.1657428648787224,
+          "uncertainty": 0.15871331317799153
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_027",
+        "scores": {
+          "ConvNeXt-T": 0.7433837520488498,
+          "ResNet-18": 0.8209132253434479,
+          "ViT-Base": 0.7528569652296269
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15522440731141815,
+          "explanation": 0.16185024081045593,
+          "performance": 0.18326586852091178,
+          "representation": 0.17826464012067356,
+          "robustness": 0.1474266132649395,
+          "uncertainty": 0.1739682299716012
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_028",
+        "scores": {
+          "ConvNeXt-T": 0.7476385119990988,
+          "ResNet-18": 0.8279493220203549,
+          "ViT-Base": 0.758199886005765
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17566375001271278,
+          "explanation": 0.1668772370916944,
+          "performance": 0.1675832551613867,
+          "representation": 0.15312953552378217,
+          "robustness": 0.15866150816172475,
+          "uncertainty": 0.17808471404869924
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_029",
+        "scores": {
+          "ConvNeXt-T": 0.7326775258377749,
+          "ResNet-18": 0.8167653216679425,
+          "ViT-Base": 0.7435956010802729
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13971427522523017,
+          "explanation": 0.17286430234364983,
+          "performance": 0.14455887893729216,
+          "representation": 0.17123617761176516,
+          "robustness": 0.16750381982085505,
+          "uncertainty": 0.20412254606120772
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_030",
+        "scores": {
+          "ConvNeXt-T": 0.7438264313603664,
+          "ResNet-18": 0.8182122995567659,
+          "ViT-Base": 0.7538083704928705
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18099626089862547,
+          "explanation": 0.15266199973970146,
+          "performance": 0.16408866629673066,
+          "representation": 0.17917610363589997,
+          "robustness": 0.16620607092271875,
+          "uncertainty": 0.1568708985063237
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_031",
+        "scores": {
+          "ConvNeXt-T": 0.739056748530914,
+          "ResNet-18": 0.8194717758230716,
+          "ViT-Base": 0.7494454529283255
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13803556486004182,
+          "explanation": 0.1664610172466426,
+          "performance": 0.18911722500257433,
+          "representation": 0.16765641062593645,
+          "robustness": 0.16437880647311492,
+          "uncertainty": 0.17435097579168984
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_032",
+        "scores": {
+          "ConvNeXt-T": 0.7324108467299638,
+          "ResNet-18": 0.8220990625458983,
+          "ViT-Base": 0.7432125300520918
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17812311664159966,
+          "explanation": 0.1865802017543941,
+          "performance": 0.1330400042282205,
+          "representation": 0.17143695903880424,
+          "robustness": 0.14148899819307956,
+          "uncertainty": 0.18933072014390198
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_033",
+        "scores": {
+          "ConvNeXt-T": 0.7239610781024729,
+          "ResNet-18": 0.8175074379138572,
+          "ViT-Base": 0.7365101897338474
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18134955130370087,
+          "explanation": 0.1908821772520023,
+          "performance": 0.13288208626055026,
+          "representation": 0.15964510997294076,
+          "robustness": 0.1749166750293595,
+          "uncertainty": 0.16032440018144634
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_034",
+        "scores": {
+          "ConvNeXt-T": 0.724949067754453,
+          "ResNet-18": 0.8164435495600593,
+          "ViT-Base": 0.7365962195477844
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13963218567818964,
+          "explanation": 0.18833673001830267,
+          "performance": 0.1469723437134626,
+          "representation": 0.1667686405023645,
+          "robustness": 0.16498008554654145,
+          "uncertainty": 0.19331001454113927
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_035",
+        "scores": {
+          "ConvNeXt-T": 0.7636641299002127,
+          "ResNet-18": 0.8339489984455865,
+          "ViT-Base": 0.7727672372085647
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18910734953129182,
+          "explanation": 0.14800161614676394,
+          "performance": 0.18124831807919908,
+          "representation": 0.15482761119977975,
+          "robustness": 0.14626302286479606,
+          "uncertainty": 0.18055208217816934
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_036",
+        "scores": {
+          "ConvNeXt-T": 0.7599259976585622,
+          "ResNet-18": 0.8302211096977403,
+          "ViT-Base": 0.7696492236324426
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18146610213075373,
+          "explanation": 0.14590653483226432,
+          "performance": 0.16260521852138035,
+          "representation": 0.15395557372426683,
+          "robustness": 0.16374786244393758,
+          "uncertainty": 0.19231870834739728
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_037",
+        "scores": {
+          "ConvNeXt-T": 0.7319566023613797,
+          "ResNet-18": 0.8162892299082197,
+          "ViT-Base": 0.7431668729495803
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17362647329434316,
+          "explanation": 0.17239838621605463,
+          "performance": 0.13692629512058938,
+          "representation": 0.1734343338096278,
+          "robustness": 0.169870377173931,
+          "uncertainty": 0.17374413438545414
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_038",
+        "scores": {
+          "ConvNeXt-T": 0.7365163535566264,
+          "ResNet-18": 0.8247633808185215,
+          "ViT-Base": 0.747152712957185
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1704067292723034,
+          "explanation": 0.18419432993101842,
+          "performance": 0.138352328592605,
+          "representation": 0.1655985994980182,
+          "robustness": 0.14087755159939058,
+          "uncertainty": 0.20057046110666446
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_039",
+        "scores": {
+          "ConvNeXt-T": 0.7442712618626122,
+          "ResNet-18": 0.8313731003433449,
+          "ViT-Base": 0.7548257522143307
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1867324019515825,
+          "explanation": 0.18303533779751832,
+          "performance": 0.1638483083051722,
+          "representation": 0.15252238840648305,
+          "robustness": 0.13659857678043294,
+          "uncertainty": 0.17726298675881094
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_040",
+        "scores": {
+          "ConvNeXt-T": 0.7547880347866056,
+          "ResNet-18": 0.8285002691572154,
+          "ViT-Base": 0.7649991009197161
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18394955766334334,
+          "explanation": 0.1521823784825836,
+          "performance": 0.1389976478799591,
+          "representation": 0.15480420930630487,
+          "robustness": 0.1663212892389718,
+          "uncertainty": 0.20374491742883735
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_041",
+        "scores": {
+          "ConvNeXt-T": 0.7462235903474227,
+          "ResNet-18": 0.8256061230917968,
+          "ViT-Base": 0.7570534720734967
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13755148009154453,
+          "explanation": 0.16425487717216816,
+          "performance": 0.19176288290582438,
+          "representation": 0.14704587025093235,
+          "robustness": 0.17402233829132632,
+          "uncertainty": 0.18536255128820428
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_042",
+        "scores": {
+          "ConvNeXt-T": 0.7306528504418109,
+          "ResNet-18": 0.8149572312227944,
+          "ViT-Base": 0.7427248758585838
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17322948177969852,
+          "explanation": 0.1703441785660493,
+          "performance": 0.14655573935517868,
+          "representation": 0.16338515265970535,
+          "robustness": 0.19146256870228637,
+          "uncertainty": 0.15502287893708183
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_043",
+        "scores": {
+          "ConvNeXt-T": 0.727921348122466,
+          "ResNet-18": 0.8201237986908035,
+          "ViT-Base": 0.739024431681326
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15206080601136068,
+          "explanation": 0.1918345819264581,
+          "performance": 0.1608436419457241,
+          "representation": 0.1681064530145451,
+          "robustness": 0.1467123077780789,
+          "uncertainty": 0.1804422093238333
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_044",
+        "scores": {
+          "ConvNeXt-T": 0.7586607191693691,
+          "ResNet-18": 0.8262681593172176,
+          "ViT-Base": 0.7678671908280492
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16182096571161358,
+          "explanation": 0.1405227984603225,
+          "performance": 0.18970361155739987,
+          "representation": 0.16377815614433433,
+          "robustness": 0.16408567266746918,
+          "uncertainty": 0.18008879545886064
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_045",
+        "scores": {
+          "ConvNeXt-T": 0.7283964250318568,
+          "ResNet-18": 0.8118383365996633,
+          "ViT-Base": 0.7398274674642824
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16234166720196552,
+          "explanation": 0.16926596299846167,
+          "performance": 0.14762705839445997,
+          "representation": 0.17712741611331506,
+          "robustness": 0.18180725198336414,
+          "uncertainty": 0.16183064330843372
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_046",
+        "scores": {
+          "ConvNeXt-T": 0.7634493531460778,
+          "ResNet-18": 0.8250130887400727,
+          "ViT-Base": 0.7708666544151039
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18986692120590323,
+          "explanation": 0.12974178626446936,
+          "performance": 0.1623761411507482,
+          "representation": 0.19312037996079176,
+          "robustness": 0.134863670346878,
+          "uncertainty": 0.1900311010712095
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_047",
+        "scores": {
+          "ConvNeXt-T": 0.7349339660470819,
+          "ResNet-18": 0.8214802982521652,
+          "ViT-Base": 0.7471424884286402
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1727519301266188,
+          "explanation": 0.17650862388050548,
+          "performance": 0.15967563502747548,
+          "representation": 0.14814178583968565,
+          "robustness": 0.18497543930990779,
+          "uncertainty": 0.1579465858158068
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_048",
+        "scores": {
+          "ConvNeXt-T": 0.7376287093011931,
+          "ResNet-18": 0.8186927566019819,
+          "ViT-Base": 0.7466801548110161
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13537068450122466,
+          "explanation": 0.1706838265191735,
+          "performance": 0.18682353575794097,
+          "representation": 0.18874131873217503,
+          "robustness": 0.13162167984052078,
+          "uncertainty": 0.18675895464896508
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_049",
+        "scores": {
+          "ConvNeXt-T": 0.729292327674143,
+          "ResNet-18": 0.8275463478255433,
+          "ViT-Base": 0.7413581363515134
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18809457138094254,
+          "explanation": 0.20472117001170873,
+          "performance": 0.1552325108798068,
+          "representation": 0.14798405575565843,
+          "robustness": 0.14422036871059765,
+          "uncertainty": 0.15974732326128568
+        }
+      }
+    ],
+    "confounded_cross_input": false,
+    "models": [
+      "ConvNeXt-T",
+      "ResNet-18",
+      "ViT-Base"
+    ],
+    "protocol": [
+      "controlled_benchmark",
+      "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "77bc85e49e729b723f8e5c557418bb1919af40c920c530212e11c193439cdd75"
+    ]
+  },
+  {
+    "analysis": [
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "default",
+        "scores": {
+          "ConvNeXt-T": 0.7393168270064948,
+          "Prithvi-EO-1.0-100M": 0.7234297741039856,
+          "ResNet-18": 0.8202612252420567,
+          "ViT-Base": 0.750046002240297
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16666666666666666,
+          "explanation": 0.16666666666666666,
+          "performance": 0.16666666666666666,
+          "representation": 0.16666666666666666,
+          "robustness": 0.16666666666666666,
+          "uncertainty": 0.16666666666666666
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "equal",
+        "scores": {
+          "ConvNeXt-T": 0.7393168270064948,
+          "Prithvi-EO-1.0-100M": 0.7234297741039856,
+          "ResNet-18": 0.8202612252420567,
+          "ViT-Base": 0.750046002240297
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16666666666666666,
+          "explanation": 0.16666666666666666,
+          "performance": 0.16666666666666666,
+          "representation": 0.16666666666666666,
+          "robustness": 0.16666666666666666,
+          "uncertainty": 0.16666666666666666
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "reliability",
+        "scores": {
+          "ConvNeXt-T": 0.7876634422765024,
+          "Prithvi-EO-1.0-100M": 0.730458643148411,
+          "ResNet-18": 0.8395659877420907,
+          "ViT-Base": 0.799513952209302
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.25,
+          "explanation": 0.1,
+          "performance": 0.15,
+          "representation": 0.1,
+          "robustness": 0.25,
+          "uncertainty": 0.15
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 4.0,
+          "Prithvi-EO-1.0-100M": 2.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 3.0
+        },
+        "scheme": "explanation_priority",
+        "scores": {
+          "ConvNeXt-T": 0.6495393777871944,
+          "Prithvi-EO-1.0-100M": 0.7085684940525847,
+          "ResNet-18": 0.8188041464816032,
+          "ViT-Base": 0.6695505531754866
+        },
+        "spearman_vs_default": 0.39999999999999997,
+        "weights": {
+          "calibration": 0.15,
+          "explanation": 0.35,
+          "performance": 0.15,
+          "representation": 0.1,
+          "robustness": 0.15,
+          "uncertainty": 0.1
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_000",
+        "scores": {
+          "ConvNeXt-T": 0.7558136571384397,
+          "Prithvi-EO-1.0-100M": 0.7278320911027172,
+          "ResNet-18": 0.8218456325265913,
+          "ViT-Base": 0.7649456311596154
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18282495514573013,
+          "explanation": 0.13591969611699847,
+          "performance": 0.16967677905195394,
+          "representation": 0.17731250017276046,
+          "robustness": 0.16636873844733832,
+          "uncertainty": 0.16789733106521876
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_001",
+        "scores": {
+          "ConvNeXt-T": 0.732460494234938,
+          "Prithvi-EO-1.0-100M": 0.7257789044923828,
+          "ResNet-18": 0.8184806227672546,
+          "ViT-Base": 0.7422542613946087
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1284231536950885,
+          "explanation": 0.18054287007790637,
+          "performance": 0.18858849884931983,
+          "representation": 0.18111978162859146,
+          "robustness": 0.13679461072458513,
+          "uncertainty": 0.18453108502450866
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_002",
+        "scores": {
+          "ConvNeXt-T": 0.7469680489717176,
+          "Prithvi-EO-1.0-100M": 0.731829330470258,
+          "ResNet-18": 0.8294489445313362,
+          "ViT-Base": 0.758210915148713
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18764836297142942,
+          "explanation": 0.17040260245952096,
+          "performance": 0.14757169476261947,
+          "representation": 0.1444403010983942,
+          "robustness": 0.16619355943543082,
+          "uncertainty": 0.1837434792726051
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_003",
+        "scores": {
+          "ConvNeXt-T": 0.7459927349416124,
+          "Prithvi-EO-1.0-100M": 0.7157921530215332,
+          "ResNet-18": 0.8166770543402677,
+          "ViT-Base": 0.756827486555006
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1493585271632777,
+          "explanation": 0.14215527039380452,
+          "performance": 0.15357093729879798,
+          "representation": 0.1636822261048354,
+          "robustness": 0.20096835181840025,
+          "uncertainty": 0.19026468722088422
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_004",
+        "scores": {
+          "ConvNeXt-T": 0.7099490024260964,
+          "Prithvi-EO-1.0-100M": 0.7064021796243615,
+          "ResNet-18": 0.8044660314523107,
+          "ViT-Base": 0.7221011373389138
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1482856803863658,
+          "explanation": 0.19192131281889033,
+          "performance": 0.13603038404560322,
+          "representation": 0.18955073661849614,
+          "robustness": 0.17481608318684244,
+          "uncertainty": 0.1593958029438021
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_005",
+        "scores": {
+          "ConvNeXt-T": 0.7350524606109483,
+          "Prithvi-EO-1.0-100M": 0.7270993333707414,
+          "ResNet-18": 0.82627688104511,
+          "ViT-Base": 0.7469758504461385
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1557056546240209,
+          "explanation": 0.1888595264268159,
+          "performance": 0.15785034721431077,
+          "representation": 0.14293990056219777,
+          "robustness": 0.16458656132323132,
+          "uncertainty": 0.19005800984942334
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_006",
+        "scores": {
+          "ConvNeXt-T": 0.7363057909544684,
+          "Prithvi-EO-1.0-100M": 0.7258071847965057,
+          "ResNet-18": 0.8252128834864638,
+          "ViT-Base": 0.7480409678795991
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16308738569335438,
+          "explanation": 0.1838576884676697,
+          "performance": 0.17613993998704003,
+          "representation": 0.14631837465962808,
+          "robustness": 0.1665558827914394,
+          "uncertainty": 0.16404072840086847
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_007",
+        "scores": {
+          "ConvNeXt-T": 0.7451160740299486,
+          "Prithvi-EO-1.0-100M": 0.719668817772056,
+          "ResNet-18": 0.8215152499741643,
+          "ViT-Base": 0.7562871145261267
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15016000331621693,
+          "explanation": 0.1558196250572581,
+          "performance": 0.19076738313058883,
+          "representation": 0.15067916011941052,
+          "robustness": 0.19118404929987978,
+          "uncertainty": 0.16138977907664578
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_008",
+        "scores": {
+          "ConvNeXt-T": 0.7511109061992891,
+          "Prithvi-EO-1.0-100M": 0.7333116158389057,
+          "ResNet-18": 0.829172811899854,
+          "ViT-Base": 0.7612114506862427
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15702651140399776,
+          "explanation": 0.16314940818410587,
+          "performance": 0.1793888432572222,
+          "representation": 0.15218435533403407,
+          "robustness": 0.15554039960967916,
+          "uncertainty": 0.19271048221096101
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_009",
+        "scores": {
+          "ConvNeXt-T": 0.7347872547171155,
+          "Prithvi-EO-1.0-100M": 0.7174360077686399,
+          "ResNet-18": 0.8182977369359516,
+          "ViT-Base": 0.7464077293669471
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.14182581443973602,
+          "explanation": 0.1704777698288601,
+          "performance": 0.16450617601138287,
+          "representation": 0.1566541402245472,
+          "robustness": 0.18497262739164272,
+          "uncertainty": 0.1815634721038311
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_010",
+        "scores": {
+          "ConvNeXt-T": 0.7400874704264477,
+          "Prithvi-EO-1.0-100M": 0.7272883094383482,
+          "ResNet-18": 0.8257195026177362,
+          "ViT-Base": 0.7515532935127411
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17899862587538348,
+          "explanation": 0.17677586039234566,
+          "performance": 0.1671580922029146,
+          "representation": 0.1493948877311047,
+          "robustness": 0.16665356219558256,
+          "uncertainty": 0.16101897160266912
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_011",
+        "scores": {
+          "ConvNeXt-T": 0.7466191526690246,
+          "Prithvi-EO-1.0-100M": 0.7274008232965694,
+          "ResNet-18": 0.8277404997465065,
+          "ViT-Base": 0.7580675065044463
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18105703169633924,
+          "explanation": 0.1669002043577276,
+          "performance": 0.18136790573418077,
+          "representation": 0.14148775126147597,
+          "robustness": 0.17729052609653206,
+          "uncertainty": 0.1518965808537443
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_012",
+        "scores": {
+          "ConvNeXt-T": 0.7697497861029277,
+          "Prithvi-EO-1.0-100M": 0.7460456433587284,
+          "ResNet-18": 0.8378464088429345,
+          "ViT-Base": 0.7784882041667067
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1913995059621139,
+          "explanation": 0.14436087737825892,
+          "performance": 0.17544114682466252,
+          "representation": 0.1506200224909901,
+          "robustness": 0.14076976770672137,
+          "uncertainty": 0.19740867963725317
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_013",
+        "scores": {
+          "ConvNeXt-T": 0.7357754942332574,
+          "Prithvi-EO-1.0-100M": 0.7286459091398525,
+          "ResNet-18": 0.8193631524598878,
+          "ViT-Base": 0.7455905603658155
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1692364643632327,
+          "explanation": 0.17430115881021258,
+          "performance": 0.1419356250829818,
+          "representation": 0.18533174444340217,
+          "robustness": 0.13752621501297935,
+          "uncertainty": 0.19166879228719133
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_014",
+        "scores": {
+          "ConvNeXt-T": 0.7190971378869558,
+          "Prithvi-EO-1.0-100M": 0.7157698709996805,
+          "ResNet-18": 0.8095986495141325,
+          "ViT-Base": 0.730197549853185
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1742015692280091,
+          "explanation": 0.18567056776059712,
+          "performance": 0.13828957134670417,
+          "representation": 0.19406537436927818,
+          "robustness": 0.15457424623214572,
+          "uncertainty": 0.15319867106326568
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_015",
+        "scores": {
+          "ConvNeXt-T": 0.7251547365979638,
+          "Prithvi-EO-1.0-100M": 0.7180240847233654,
+          "ResNet-18": 0.814029063927852,
+          "ViT-Base": 0.7366704180311742
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1932095391020295,
+          "explanation": 0.18174047552409797,
+          "performance": 0.14450035199324457,
+          "representation": 0.17964252998216815,
+          "robustness": 0.16400941367499958,
+          "uncertainty": 0.13689768972346023
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_016",
+        "scores": {
+          "ConvNeXt-T": 0.7193709513626199,
+          "Prithvi-EO-1.0-100M": 0.7077170613687978,
+          "ResNet-18": 0.8077344895073727,
+          "ViT-Base": 0.7316053411835122
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16043737246499776,
+          "explanation": 0.1779974515657678,
+          "performance": 0.1299102535086863,
+          "representation": 0.1788001463975138,
+          "robustness": 0.18988828343348668,
+          "uncertainty": 0.1629664926295476
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_017",
+        "scores": {
+          "ConvNeXt-T": 0.7310483910944958,
+          "Prithvi-EO-1.0-100M": 0.7121565747114553,
+          "ResNet-18": 0.8118341966942357,
+          "ViT-Base": 0.7424693048137481
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.147642484394987,
+          "explanation": 0.1632001187588093,
+          "performance": 0.14024711607502208,
+          "representation": 0.1736607927917946,
+          "robustness": 0.19036743336463913,
+          "uncertainty": 0.18488205461474785
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_018",
+        "scores": {
+          "ConvNeXt-T": 0.734703023093286,
+          "Prithvi-EO-1.0-100M": 0.7247642782368866,
+          "ResNet-18": 0.8254690186709701,
+          "ViT-Base": 0.7465330238915461
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13160384977170378,
+          "explanation": 0.18832922633319316,
+          "performance": 0.188323823530525,
+          "representation": 0.14069049258227448,
+          "robustness": 0.16761092577309245,
+          "uncertainty": 0.18344168200921107
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_019",
+        "scores": {
+          "ConvNeXt-T": 0.7551193763240298,
+          "Prithvi-EO-1.0-100M": 0.7340252136658478,
+          "ResNet-18": 0.8323701152578715,
+          "ViT-Base": 0.7659881986434498
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18391027531764392,
+          "explanation": 0.15984145109138034,
+          "performance": 0.16238522127086333,
+          "representation": 0.13831605626041427,
+          "robustness": 0.17047136361382628,
+          "uncertainty": 0.1850756324458718
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_020",
+        "scores": {
+          "ConvNeXt-T": 0.7224291913435282,
+          "Prithvi-EO-1.0-100M": 0.7163760259176125,
+          "ResNet-18": 0.8129415064922096,
+          "ViT-Base": 0.7339619574806299
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17906250515814473,
+          "explanation": 0.1855591081034455,
+          "performance": 0.16219336378709165,
+          "representation": 0.18003059550487643,
+          "robustness": 0.16268966076565738,
+          "uncertainty": 0.13046476668078427
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_021",
+        "scores": {
+          "ConvNeXt-T": 0.7415538635785504,
+          "Prithvi-EO-1.0-100M": 0.7258027365821502,
+          "ResNet-18": 0.8235626856244258,
+          "ViT-Base": 0.7529102151529253
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.19521539743708646,
+          "explanation": 0.1679314413140658,
+          "performance": 0.1435831053445665,
+          "representation": 0.1565257144460263,
+          "robustness": 0.17277341352280715,
+          "uncertainty": 0.16397092793544782
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_022",
+        "scores": {
+          "ConvNeXt-T": 0.7441551274080923,
+          "Prithvi-EO-1.0-100M": 0.7271869667793149,
+          "ResNet-18": 0.8213752521056863,
+          "ViT-Base": 0.7544059117782691
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18181343656454277,
+          "explanation": 0.15885129882959126,
+          "performance": 0.1308606380799559,
+          "representation": 0.1724082210271192,
+          "robustness": 0.16218080042334618,
+          "uncertainty": 0.19388560507544472
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_023",
+        "scores": {
+          "ConvNeXt-T": 0.7575960572958649,
+          "Prithvi-EO-1.0-100M": 0.732904189941991,
+          "ResNet-18": 0.8267502825420425,
+          "ViT-Base": 0.7666715909258526
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16828493031814473,
+          "explanation": 0.14436851173669962,
+          "performance": 0.18568402882530372,
+          "representation": 0.1668636414030873,
+          "robustness": 0.15563576523541048,
+          "uncertainty": 0.17916312248135402
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_024",
+        "scores": {
+          "ConvNeXt-T": 0.7677250131153621,
+          "Prithvi-EO-1.0-100M": 0.7469188060494146,
+          "ResNet-18": 0.8394817475777747,
+          "ViT-Base": 0.7770654118708296
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1988065039713807,
+          "explanation": 0.1515643832932334,
+          "performance": 0.15712845907947848,
+          "representation": 0.14313349550362772,
+          "robustness": 0.14287134517635294,
+          "uncertainty": 0.20649581297592676
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_025",
+        "scores": {
+          "ConvNeXt-T": 0.7171855081406875,
+          "Prithvi-EO-1.0-100M": 0.7088543576047691,
+          "ResNet-18": 0.8096207443913225,
+          "ViT-Base": 0.7292261437173037
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13141959932961786,
+          "explanation": 0.18892922775260537,
+          "performance": 0.1905011107350768,
+          "representation": 0.17316746271218125,
+          "robustness": 0.17781677544053193,
+          "uncertainty": 0.1381658240299869
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_026",
+        "scores": {
+          "ConvNeXt-T": 0.7343410428289912,
+          "Prithvi-EO-1.0-100M": 0.7186489151668785,
+          "ResNet-18": 0.8146230877503826,
+          "ViT-Base": 0.7447544552468736
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1565266577342521,
+          "explanation": 0.16494852784595462,
+          "performance": 0.1728721469807989,
+          "representation": 0.18119648938228042,
+          "robustness": 0.1657428648787224,
+          "uncertainty": 0.15871331317799153
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_027",
+        "scores": {
+          "ConvNeXt-T": 0.7433837520488498,
+          "Prithvi-EO-1.0-100M": 0.7278487253640085,
+          "ResNet-18": 0.8209132253434479,
+          "ViT-Base": 0.7528569652296269
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15522440731141815,
+          "explanation": 0.16185024081045593,
+          "performance": 0.18326586852091178,
+          "representation": 0.17826464012067356,
+          "robustness": 0.1474266132649395,
+          "uncertainty": 0.1739682299716012
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_028",
+        "scores": {
+          "ConvNeXt-T": 0.7476385119990988,
+          "Prithvi-EO-1.0-100M": 0.731755649259104,
+          "ResNet-18": 0.8279493220203549,
+          "ViT-Base": 0.758199886005765
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17566375001271278,
+          "explanation": 0.1668772370916944,
+          "performance": 0.1675832551613867,
+          "representation": 0.15312953552378217,
+          "robustness": 0.15866150816172475,
+          "uncertainty": 0.17808471404869924
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_029",
+        "scores": {
+          "ConvNeXt-T": 0.7326775258377749,
+          "Prithvi-EO-1.0-100M": 0.7200206591553662,
+          "ResNet-18": 0.8167653216679425,
+          "ViT-Base": 0.7435956010802729
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13971427522523017,
+          "explanation": 0.17286430234364983,
+          "performance": 0.14455887893729216,
+          "representation": 0.17123617761176516,
+          "robustness": 0.16750381982085505,
+          "uncertainty": 0.20412254606120772
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_030",
+        "scores": {
+          "ConvNeXt-T": 0.7438264313603664,
+          "Prithvi-EO-1.0-100M": 0.7232817397304967,
+          "ResNet-18": 0.8182122995567659,
+          "ViT-Base": 0.7538083704928705
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18099626089862547,
+          "explanation": 0.15266199973970146,
+          "performance": 0.16408866629673066,
+          "representation": 0.17917610363589997,
+          "robustness": 0.16620607092271875,
+          "uncertainty": 0.1568708985063237
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_031",
+        "scores": {
+          "ConvNeXt-T": 0.739056748530914,
+          "Prithvi-EO-1.0-100M": 0.7223561235423688,
+          "ResNet-18": 0.8194717758230716,
+          "ViT-Base": 0.7494454529283255
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13803556486004182,
+          "explanation": 0.1664610172466426,
+          "performance": 0.18911722500257433,
+          "representation": 0.16765641062593645,
+          "robustness": 0.16437880647311492,
+          "uncertainty": 0.17435097579168984
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_032",
+        "scores": {
+          "ConvNeXt-T": 0.7324108467299638,
+          "Prithvi-EO-1.0-100M": 0.7293578728644483,
+          "ResNet-18": 0.8220990625458983,
+          "ViT-Base": 0.7432125300520918
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17812311664159966,
+          "explanation": 0.1865802017543941,
+          "performance": 0.1330400042282205,
+          "representation": 0.17143695903880424,
+          "robustness": 0.14148899819307956,
+          "uncertainty": 0.18933072014390198
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_033",
+        "scores": {
+          "ConvNeXt-T": 0.7239610781024729,
+          "Prithvi-EO-1.0-100M": 0.7181307271860053,
+          "ResNet-18": 0.8175074379138572,
+          "ViT-Base": 0.7365101897338474
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18134955130370087,
+          "explanation": 0.1908821772520023,
+          "performance": 0.13288208626055026,
+          "representation": 0.15964510997294076,
+          "robustness": 0.1749166750293595,
+          "uncertainty": 0.16032440018144634
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_034",
+        "scores": {
+          "ConvNeXt-T": 0.724949067754453,
+          "Prithvi-EO-1.0-100M": 0.7187309121307734,
+          "ResNet-18": 0.8164435495600593,
+          "ViT-Base": 0.7365962195477844
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13963218567818964,
+          "explanation": 0.18833673001830267,
+          "performance": 0.1469723437134626,
+          "representation": 0.1667686405023645,
+          "robustness": 0.16498008554654145,
+          "uncertainty": 0.19331001454113927
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_035",
+        "scores": {
+          "ConvNeXt-T": 0.7636641299002127,
+          "Prithvi-EO-1.0-100M": 0.7410210808332005,
+          "ResNet-18": 0.8339489984455865,
+          "ViT-Base": 0.7727672372085647
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18910734953129182,
+          "explanation": 0.14800161614676394,
+          "performance": 0.18124831807919908,
+          "representation": 0.15482761119977975,
+          "robustness": 0.14626302286479606,
+          "uncertainty": 0.18055208217816934
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_036",
+        "scores": {
+          "ConvNeXt-T": 0.7599259976585622,
+          "Prithvi-EO-1.0-100M": 0.7348449092853011,
+          "ResNet-18": 0.8302211096977403,
+          "ViT-Base": 0.7696492236324426
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18146610213075373,
+          "explanation": 0.14590653483226432,
+          "performance": 0.16260521852138035,
+          "representation": 0.15395557372426683,
+          "robustness": 0.16374786244393758,
+          "uncertainty": 0.19231870834739728
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_037",
+        "scores": {
+          "ConvNeXt-T": 0.7319566023613797,
+          "Prithvi-EO-1.0-100M": 0.7196852047822945,
+          "ResNet-18": 0.8162892299082197,
+          "ViT-Base": 0.7431668729495803
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17362647329434316,
+          "explanation": 0.17239838621605463,
+          "performance": 0.13692629512058938,
+          "representation": 0.1734343338096278,
+          "robustness": 0.169870377173931,
+          "uncertainty": 0.17374413438545414
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_038",
+        "scores": {
+          "ConvNeXt-T": 0.7365163535566264,
+          "Prithvi-EO-1.0-100M": 0.7317933926337888,
+          "ResNet-18": 0.8247633808185215,
+          "ViT-Base": 0.747152712957185
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1704067292723034,
+          "explanation": 0.18419432993101842,
+          "performance": 0.138352328592605,
+          "representation": 0.1655985994980182,
+          "robustness": 0.14087755159939058,
+          "uncertainty": 0.20057046110666446
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_039",
+        "scores": {
+          "ConvNeXt-T": 0.7442712618626122,
+          "Prithvi-EO-1.0-100M": 0.7379339175731845,
+          "ResNet-18": 0.8313731003433449,
+          "ViT-Base": 0.7548257522143307
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1867324019515825,
+          "explanation": 0.18303533779751832,
+          "performance": 0.1638483083051722,
+          "representation": 0.15252238840648305,
+          "robustness": 0.13659857678043294,
+          "uncertainty": 0.17726298675881094
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_040",
+        "scores": {
+          "ConvNeXt-T": 0.7547880347866056,
+          "Prithvi-EO-1.0-100M": 0.7329122351459061,
+          "ResNet-18": 0.8285002691572154,
+          "ViT-Base": 0.7649991009197161
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18394955766334334,
+          "explanation": 0.1521823784825836,
+          "performance": 0.1389976478799591,
+          "representation": 0.15480420930630487,
+          "robustness": 0.1663212892389718,
+          "uncertainty": 0.20374491742883735
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_041",
+        "scores": {
+          "ConvNeXt-T": 0.7462235903474227,
+          "Prithvi-EO-1.0-100M": 0.7257981804150895,
+          "ResNet-18": 0.8256061230917968,
+          "ViT-Base": 0.7570534720734967
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13755148009154453,
+          "explanation": 0.16425487717216816,
+          "performance": 0.19176288290582438,
+          "representation": 0.14704587025093235,
+          "robustness": 0.17402233829132632,
+          "uncertainty": 0.18536255128820428
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_042",
+        "scores": {
+          "ConvNeXt-T": 0.7306528504418109,
+          "Prithvi-EO-1.0-100M": 0.7140091139881947,
+          "ResNet-18": 0.8149572312227944,
+          "ViT-Base": 0.7427248758585838
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.17322948177969852,
+          "explanation": 0.1703441785660493,
+          "performance": 0.14655573935517868,
+          "representation": 0.16338515265970535,
+          "robustness": 0.19146256870228637,
+          "uncertainty": 0.15502287893708183
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_043",
+        "scores": {
+          "ConvNeXt-T": 0.727921348122466,
+          "Prithvi-EO-1.0-100M": 0.7250703685659471,
+          "ResNet-18": 0.8201237986908035,
+          "ViT-Base": 0.739024431681326
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.15206080601136068,
+          "explanation": 0.1918345819264581,
+          "performance": 0.1608436419457241,
+          "representation": 0.1681064530145451,
+          "robustness": 0.1467123077780789,
+          "uncertainty": 0.1804422093238333
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_044",
+        "scores": {
+          "ConvNeXt-T": 0.7586607191693691,
+          "Prithvi-EO-1.0-100M": 0.7309403866399022,
+          "ResNet-18": 0.8262681593172176,
+          "ViT-Base": 0.7678671908280492
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16182096571161358,
+          "explanation": 0.1405227984603225,
+          "performance": 0.18970361155739987,
+          "representation": 0.16377815614433433,
+          "robustness": 0.16408567266746918,
+          "uncertainty": 0.18008879545886064
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_045",
+        "scores": {
+          "ConvNeXt-T": 0.7283964250318568,
+          "Prithvi-EO-1.0-100M": 0.7132784468798351,
+          "ResNet-18": 0.8118383365996633,
+          "ViT-Base": 0.7398274674642824
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.16234166720196552,
+          "explanation": 0.16926596299846167,
+          "performance": 0.14762705839445997,
+          "representation": 0.17712741611331506,
+          "robustness": 0.18180725198336414,
+          "uncertainty": 0.16183064330843372
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_046",
+        "scores": {
+          "ConvNeXt-T": 0.7634493531460778,
+          "Prithvi-EO-1.0-100M": 0.7379106512129204,
+          "ResNet-18": 0.8250130887400727,
+          "ViT-Base": 0.7708666544151039
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.18986692120590323,
+          "explanation": 0.12974178626446936,
+          "performance": 0.1623761411507482,
+          "representation": 0.19312037996079176,
+          "robustness": 0.134863670346878,
+          "uncertainty": 0.1900311010712095
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_047",
+        "scores": {
+          "ConvNeXt-T": 0.7349339660470819,
+          "Prithvi-EO-1.0-100M": 0.7200279533763043,
+          "ResNet-18": 0.8214802982521652,
+          "ViT-Base": 0.7471424884286402
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.1727519301266188,
+          "explanation": 0.17650862388050548,
+          "performance": 0.15967563502747548,
+          "representation": 0.14814178583968565,
+          "robustness": 0.18497543930990779,
+          "uncertainty": 0.1579465858158068
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_048",
+        "scores": {
+          "ConvNeXt-T": 0.7376287093011931,
+          "Prithvi-EO-1.0-100M": 0.7280729487719191,
+          "ResNet-18": 0.8186927566019819,
+          "ViT-Base": 0.7466801548110161
+        },
+        "spearman_vs_default": 1.0,
+        "weights": {
+          "calibration": 0.13537068450122466,
+          "explanation": 0.1706838265191735,
+          "performance": 0.18682353575794097,
+          "representation": 0.18874131873217503,
+          "robustness": 0.13162167984052078,
+          "uncertainty": 0.18675895464896508
+        }
+      },
+      {
+        "preferred_models": [
+          "ResNet-18"
+        ],
+        "ranks": {
+          "ConvNeXt-T": 4.0,
+          "Prithvi-EO-1.0-100M": 3.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "perturbation_049",
+        "scores": {
+          "ConvNeXt-T": 0.729292327674143,
+          "Prithvi-EO-1.0-100M": 0.7312576514894749,
+          "ResNet-18": 0.8275463478255433,
+          "ViT-Base": 0.7413581363515134
+        },
+        "spearman_vs_default": 0.7999999999999999,
+        "weights": {
+          "calibration": 0.18809457138094254,
+          "explanation": 0.20472117001170873,
+          "performance": 0.1552325108798068,
+          "representation": 0.14798405575565843,
+          "robustness": 0.14422036871059765,
+          "uncertainty": 0.15974732326128568
+        }
+      }
+    ],
+    "confounded_cross_input": true,
+    "models": [
+      "ConvNeXt-T",
+      "Prithvi-EO-1.0-100M",
+      "ResNet-18",
+      "ViT-Base"
+    ],
+    "note": "Models differ in pretraining, input channels and corruption units; ranks are descriptive only.",
+    "protocol": [
+      "cross_input_all_models"
+    ]
+  }
+]

@@ -1,0 +1,3205 @@
+{
+  "current_source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+  "failed_runs": [],
+  "groups": [
+    {
+      "bands": [
+        "B04",
+        "B03",
+        "B02"
+      ],
+      "cohort": "rgb_imagenet",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": [
+            0.9628159994126636,
+            0.9677519018219042
+          ],
+          "mean": 0.9652839506172839,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0019876159799998004
+        },
+        "brightness_0.3": {
+          "ci95": [
+            0.9596094046763937,
+            0.9664152866816309
+          ],
+          "mean": 0.9630123456790123,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002740629516150446
+        },
+        "brightness_0.5": {
+          "ci95": [
+            0.9442665428814587,
+            0.9573630867481708
+          ],
+          "mean": 0.9508148148148148,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005273787387593604
+        },
+        "gaussian_noise_0.05": {
+          "ci95": [
+            0.5457581517293197,
+            0.5787850581472236
+          ],
+          "mean": 0.5622716049382717,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.013299453985007967
+        },
+        "gaussian_noise_0.1": {
+          "ci95": [
+            0.3286265995746718,
+            0.35996599301792076
+          ],
+          "mean": 0.34429629629629627,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.012619917098581292
+        },
+        "gaussian_noise_0.2": {
+          "ci95": [
+            0.14463758119178077,
+            0.15620192498105873
+          ],
+          "mean": 0.15041975308641975,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004656792741839729
+        }
+      },
+      "current_source": true,
+      "epochs": 5,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_rgb_jpeg",
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            0.9637039519510465,
+            0.9683454307650029
+          ],
+          "mean": 0.9660246913580247,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0018690558881753892
+        },
+        "accuracy_retention": {
+          "ci95": [
+            0.671907355214424,
+            0.6862732353475286
+          ],
+          "mean": 0.6790902952809763,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005784930606785248
+        },
+        "aopc_salient": {
+          "ci95": [
+            0.28360146449541734,
+            0.29682790703857365
+          ],
+          "mean": 0.2902146857669955,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0053260956918659945
+        },
+        "brier": {
+          "ci95": [
+            0.04945979289597021,
+            0.053540300359979316
+          ],
+          "mean": 0.05150004662797476,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.001643160899370567
+        },
+        "calibration": {
+          "ci95": [
+            0.9907016170957792,
+            0.9922082299827206
+          ],
+          "mean": 0.9914549235392499,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0006066910569690739
+        },
+        "composite_trust": {
+          "ci95": [
+            0.7386343536337624,
+            0.739999300379227
+          ],
+          "mean": 0.7393168270064947,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0005496441659897967
+        },
+        "deletion_auc": {
+          "ci95": [
+            0.6901345147474034,
+            0.7071809029369764
+          ],
+          "mean": 0.6986577088421899,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.006864332143894382
+        },
+        "deletion_auc_least": {
+          "ci95": [
+            0.6977365090070625,
+            0.7200124806819582
+          ],
+          "mean": 0.7088744948445104,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008970209214055053
+        },
+        "deletion_auc_random": {
+          "ci95": [
+            0.6445825193913892,
+            0.6649897996807046
+          ],
+          "mean": 0.6547861595360469,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008217714421468767
+        },
+        "deletion_gap_random": {
+          "ci95": [
+            -0.04611008671215243,
+            -0.04163301190013359
+          ],
+          "mean": -0.04387154930614301,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0018028527920981577
+        },
+        "ece": {
+          "ci95": [
+            0.007791770017279352,
+            0.009298382904220682
+          ],
+          "mean": 0.008545076460750017,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.000606691056969055
+        },
+        "error_detection_auroc": {
+          "ci95": [
+            0.9342242825607453,
+            0.9452439007191761
+          ],
+          "mean": 0.9397340916399607,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "n_with_errors": 5,
+          "std": 0.004437439667402805
+        },
+        "explanation": {
+          "ci95": [
+            0.29281909706302356,
+            0.3098654852525966
+          ],
+          "mean": 0.3013422911578101,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.006864332143894382
+        },
+        "explanation_control_normalized": {
+          "ci95": [
+            0.4827837464999965,
+            0.48478942651385365
+          ],
+          "mean": 0.4837865865069251,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0008076581171551539
+        },
+        "macro_f1": {
+          "ci95": [
+            0.962209414086848,
+            0.9673961687777521
+          ],
+          "mean": 0.9648027914323001,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002088630538699443
+        },
+        "nll": {
+          "ci95": [
+            0.09585024680972694,
+            0.10266902434767748
+          ],
+          "mean": 0.09925963557870221,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002745822359275467
+        },
+        "normalized_entropy": {
+          "ci95": [
+            0.05249546803081295,
+            0.054594294409187866
+          ],
+          "mean": 0.05354488122000041,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.000845166800926477
+        },
+        "performance": {
+          "ci95": [
+            0.962209414086848,
+            0.9673961687777521
+          ],
+          "mean": 0.9648027914323001,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002088630538699443
+        },
+        "representation": {
+          "ci95": [
+            0.5480345183182465,
+            0.5480345183182465
+          ],
+          "mean": 0.5480345183182465,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "robustness": {
+          "ci95": [
+            0.6491771128407025,
+            0.6628558089699972
+          ],
+          "mean": 0.6560164609053498,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005508211621293168
+        },
+        "silhouette": {
+          "ci95": [
+            0.09606903663649302,
+            0.09606903663649302
+          ],
+          "mean": 0.09606903663649302,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "stability_ssim": {
+          "ci95": [
+            0.27505145166123046,
+            0.27838460602143766
+          ],
+          "mean": 0.27671802884133406,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0013422126940255447
+        },
+        "uncertainty": {
+          "ci95": [
+            0.9732298498200104,
+            0.9752701035520149
+          ],
+          "mean": 0.9742499766860127,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0008215804496852852
+        },
+        "weighted_f1": {
+          "ci95": [
+            0.9636287299103062,
+            0.9683053714240112
+          ],
+          "mean": 0.9659670506671587,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0018832153950143738
+        }
+      },
+      "model": "ConvNeXt-T",
+      "protocol_hash": "77bc85e49e729b723f8e5c557418bb1919af40c920c530212e11c193439cdd75",
+      "purpose": "controlled_benchmark",
+      "run_ids": [
+        "06162797028c8751-8987552e",
+        "0f3308d8d9691043-0127285a",
+        "5b869f4fb44dfbb2-e232e61f",
+        "65bba586fabf39f9-f0b0aebb",
+        "99ff72bc67a6eb99-d11e32d2"
+      ],
+      "seeds": [
+        2026,
+        1234,
+        42,
+        100,
+        999
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": [
+              0.296301254879381,
+              0.3084227845008162
+            ],
+            "mean": 0.3023620196900986,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.004881163357788697
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9457217122299371,
+              0.9476116211033963
+            ],
+            "mean": 0.9466666666666667,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.000761038765798627
+          }
+        },
+        {
+          "epoch": 2,
+          "training_loss": {
+            "ci95": [
+              0.12540710074790648,
+              0.12760688631361675
+            ],
+            "mean": 0.1265069935307616,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0008858215946071304
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9536488726718587,
+              0.9573634730071537
+            ],
+            "mean": 0.9555061728395062,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0014958154302084782
+          }
+        },
+        {
+          "epoch": 3,
+          "training_loss": {
+            "ci95": [
+              0.09953947323808382,
+              0.10084581187356301
+            ],
+            "mean": 0.10019264255582341,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0005260435340675837
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9579786049467564,
+              0.9615275678927496
+            ],
+            "mean": 0.959753086419753,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0014291156670111311
+          }
+        },
+        {
+          "epoch": 4,
+          "training_loss": {
+            "ci95": [
+              0.08423764109627886,
+              0.0858682301783154
+            ],
+            "mean": 0.08505293563729713,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0006566144642976718
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9604833797115269,
+              0.9626771141156336
+            ],
+            "mean": 0.9615802469135802,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0008833848799999013
+          }
+        },
+        {
+          "epoch": 5,
+          "training_loss": {
+            "ci95": [
+              0.07449629727171654,
+              0.07534636531058554
+            ],
+            "mean": 0.07492133129115104,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0003423100130545535
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9633770516949665,
+              0.9645241828729345
+            ],
+            "mean": 0.9639506172839505,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.00046193301071286157
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B8A",
+        "B11",
+        "B12"
+      ],
+      "cohort": "ms6_prithvi",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": [
+            0.8269192256500398,
+            0.8386610212635403
+          ],
+          "mean": 0.83279012345679,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004728250005833535
+        },
+        "brightness_0.3": {
+          "ci95": [
+            0.678386887686031,
+            0.6977118777460677
+          ],
+          "mean": 0.6880493827160493,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.007781891916006646
+        },
+        "brightness_0.5": {
+          "ci95": [
+            0.46589250138551985,
+            0.4870951529354678
+          ],
+          "mean": 0.4764938271604938,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008537998838905068
+        },
+        "gaussian_noise_0.05": {
+          "ci95": [
+            0.33572422580902883,
+            0.35662145320331684
+          ],
+          "mean": 0.34617283950617284,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008415008981704683
+        },
+        "gaussian_noise_0.1": {
+          "ci95": [
+            0.2652039145511038,
+            0.28373435705383443
+          ],
+          "mean": 0.2744691358024691,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0074619391918978924
+        },
+        "gaussian_noise_0.2": {
+          "ci95": [
+            0.17499806848042243,
+            0.18253279571710845
+          ],
+          "mean": 0.17876543209876544,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0030341248709739566
+        }
+      },
+      "current_source": true,
+      "epochs": 5,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_s2_tif_prithvi6",
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            0.8624394198709548,
+            0.8637828023512675
+          ],
+          "mean": 0.8631111111111112,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0005409605506224033
+        },
+        "accuracy_retention": {
+          "ci95": [
+            0.5327796571535456,
+            0.5473239378965559
+          ],
+          "mean": 0.5400517975250507,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005856769932949038
+        },
+        "aopc_salient": {
+          "ci95": [
+            0.4798489843175279,
+            0.4925096356381184
+          ],
+          "mean": 0.48617930997782316,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00509825981058717
+        },
+        "brier": {
+          "ci95": [
+            0.20733314843591374,
+            0.20940468712955232
+          ],
+          "mean": 0.20836891778273303,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0008341784478874039
+        },
+        "calibration": {
+          "ci95": [
+            0.9242597914928632,
+            0.9277779435822633
+          ],
+          "mean": 0.9260188675375632,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0014167085840007879
+        },
+        "composite_trust": {
+          "ci95": [
+            0.7216254053670657,
+            0.7252341428409055
+          ],
+          "mean": 0.7234297741039856,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0014531859984103315
+        },
+        "deletion_auc": {
+          "ci95": [
+            0.34545419085019335,
+            0.35762692601081414
+          ],
+          "mean": 0.35154055843050375,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004901783082311462
+        },
+        "deletion_auc_least": {
+          "ci95": [
+            0.39408237702948057,
+            0.4053545824690701
+          ],
+          "mean": 0.3997184797492753,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004539152885118782
+        },
+        "deletion_auc_random": {
+          "ci95": [
+            0.37767776909070105,
+            0.39018632571694123
+          ],
+          "mean": 0.38393204740382114,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005037013493318426
+        },
+        "deletion_gap_random": {
+          "ci95": [
+            0.03213481740276156,
+            0.032648160543873296
+          ],
+          "mean": 0.03239148897331743,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00020671580308938514
+        },
+        "ece": {
+          "ci95": [
+            0.07222205641773675,
+            0.07574020850713682
+          ],
+          "mean": 0.07398113246243679,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.001416708584000806
+        },
+        "error_detection_auroc": {
+          "ci95": [
+            0.8549111272225837,
+            0.8623524394982575
+          ],
+          "mean": 0.8586317833604206,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "n_with_errors": 5,
+          "std": 0.0029965080273079594
+        },
+        "explanation": {
+          "ci95": [
+            0.6423730739891857,
+            0.6545458091498066
+          ],
+          "mean": 0.6484594415694962,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004901783082311476
+        },
+        "explanation_control_normalized": {
+          "ci95": [
+            0.5217364758383656,
+            0.5223096911726863
+          ],
+          "mean": 0.522023083505526,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00023082546290700257
+        },
+        "macro_f1": {
+          "ci95": [
+            0.8551205009557483,
+            0.856425618301653
+          ],
+          "mean": 0.8557730596287006,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0005255517385510956
+        },
+        "nll": {
+          "ci95": [
+            0.4334769683084179,
+            0.4360760941794258
+          ],
+          "mean": 0.43477653124392185,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0010466301168302655
+        },
+        "normalized_entropy": {
+          "ci95": [
+            0.27324050013974027,
+            0.2766253872470586
+          ],
+          "mean": 0.27493294369339943,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0013630447174980606
+        },
+        "performance": {
+          "ci95": [
+            0.8551205009557483,
+            0.856425618301653
+          ],
+          "mean": 0.8557730596287006,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0005255517385510956
+        },
+        "representation": {
+          "ci95": [
+            0.5483882779893965,
+            0.5483882779893965
+          ],
+          "mean": 0.5483882779893965,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "robustness": {
+          "ci95": [
+            0.46001830421691614,
+            0.47222860936333066
+          ],
+          "mean": 0.4661234567901234,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004916911968164671
+        },
+        "silhouette": {
+          "ci95": [
+            0.09677655597879305,
+            0.09677655597879305
+          ],
+          "mean": 0.09677655597879305,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "stability_ssim": {
+          "ci95": [
+            0.35721568565443906,
+            0.3607417467460592
+          ],
+          "mean": 0.3589787162002491,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0014198934239540986
+        },
+        "uncertainty": {
+          "ci95": [
+            0.8952976564352239,
+            0.8963334257820431
+          ],
+          "mean": 0.8958155411086335,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00041708922394367664
+        },
+        "weighted_f1": {
+          "ci95": [
+            0.8592192168746143,
+            0.8604627506496628
+          ],
+          "mean": 0.8598409837621386,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0005007529318911307
+        }
+      },
+      "model": "Prithvi-EO-1.0-100M",
+      "protocol_hash": "7c763b5d1d98887c8c9790d91ec171cd5aaca196cd1120119141fc2d69eacdf8",
+      "purpose": "multispectral_foundation_benchmark",
+      "run_ids": [
+        "098d2c10375d9d27-dfbc504a",
+        "33e2e5f5afee8616-5ff9f731",
+        "427859bc8da9fc05-736e8a0b",
+        "deedb1f3c46f1532-7977260f",
+        "f7a69d25d659bbbb-7c71072b"
+      ],
+      "seeds": [
+        100,
+        42,
+        1234,
+        999,
+        2026
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": [
+              1.1007976657732121,
+              1.1145248959651401
+            ],
+            "mean": 1.1076612808691761,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.005527755581134046
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.780118857999122,
+              0.7898564506428535
+            ],
+            "mean": 0.7849876543209877,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0039211866728109555
+          }
+        },
+        {
+          "epoch": 2,
+          "training_loss": {
+            "ci95": [
+              0.6498345465832596,
+              0.6547974934607277
+            ],
+            "mean": 0.6523160200219936,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.001998506393294646
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.8169378294657695,
+              0.8232597013984276
+            ],
+            "mean": 0.8200987654320986,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0025457257123519764
+          }
+        },
+        {
+          "epoch": 3,
+          "training_loss": {
+            "ci95": [
+              0.5373778515205806,
+              0.540131502636842
+            ],
+            "mean": 0.5387546770787113,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.001108855181532531
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.8349526980612719,
+              0.8409979192226785
+            ],
+            "mean": 0.8379753086419752,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0024343224778007083
+          }
+        },
+        {
+          "epoch": 4,
+          "training_loss": {
+            "ci95": [
+              0.4768281994282208,
+              0.4787118042827329
+            ],
+            "mean": 0.47777000185547686,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0007585002292234289
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.8461830568888866,
+              0.8523848443456814
+            ],
+            "mean": 0.849283950617284,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0024973694436523993
+          }
+        },
+        {
+          "epoch": 5,
+          "training_loss": {
+            "ci95": [
+              0.4370084847717657,
+              0.4393396496071418
+            ],
+            "mean": 0.43817406718945373,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0009387261121963999
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.8577542235245896,
+              0.8600729369692375
+            ],
+            "mean": 0.8589135802469136,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0009337121185772232
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B04",
+        "B03",
+        "B02"
+      ],
+      "cohort": "rgb_imagenet",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": [
+            0.9551676815132761,
+            0.961375528363267
+          ],
+          "mean": 0.9582716049382716,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0024998094730020633
+        },
+        "brightness_0.3": {
+          "ci95": [
+            0.9282021145189413,
+            0.9417238114069847
+          ],
+          "mean": 0.934962962962963,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005444990314450766
+        },
+        "brightness_0.5": {
+          "ci95": [
+            0.6794631732143928,
+            0.714808431723879
+          ],
+          "mean": 0.6971358024691359,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.014233020591970898
+        },
+        "gaussian_noise_0.05": {
+          "ci95": [
+            0.7470659154452853,
+            0.7866624796164431
+          ],
+          "mean": 0.7668641975308642,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.015944959436868394
+        },
+        "gaussian_noise_0.1": {
+          "ci95": [
+            0.5016848502269352,
+            0.53871021150146
+          ],
+          "mean": 0.5201975308641976,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.014909573494958
+        },
+        "gaussian_noise_0.2": {
+          "ci95": [
+            0.2746162384120471,
+            0.29555660109412574
+          ],
+          "mean": 0.2850864197530864,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008432378933580982
+        }
+      },
+      "current_source": true,
+      "epochs": 5,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_rgb_jpeg",
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            0.9570170893737039,
+            0.9632792069225921
+          ],
+          "mean": 0.960148148148148,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0025216634926788642
+        },
+        "accuracy_retention": {
+          "ci95": [
+            0.7119041910886579,
+            0.7331696594622465
+          ],
+          "mean": 0.7225369252754522,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008563294258491899
+        },
+        "aopc_salient": {
+          "ci95": [
+            0.3289093952053194,
+            0.3587132145807746
+          ],
+          "mean": 0.343811304893047,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.012001563796071424
+        },
+        "brier": {
+          "ci95": [
+            0.05766718951423991,
+            0.06339469755004083
+          ],
+          "mean": 0.06053094353214037,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0023063840314636436
+        },
+        "calibration": {
+          "ci95": [
+            0.9920704344098997,
+            0.9947547745660453
+          ],
+          "mean": 0.9934126044879725,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0010809446678122104
+        },
+        "composite_trust": {
+          "ci95": [
+            0.7475511534099619,
+            0.7525408510706322
+          ],
+          "mean": 0.750046002240297,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0020092785439090417
+        },
+        "deletion_auc": {
+          "ci95": [
+            0.6364020451383692,
+            0.6656787831124014
+          ],
+          "mean": 0.6510404141253853,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.01178931579573259
+        },
+        "deletion_auc_least": {
+          "ci95": [
+            0.7056152282070229,
+            0.7271877460738829
+          ],
+          "mean": 0.7164014871404529,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00868693861546587
+        },
+        "deletion_auc_random": {
+          "ci95": [
+            0.7048023726158639,
+            0.7281331718668826
+          ],
+          "mean": 0.7164677722413733,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.009394972909245125
+        },
+        "deletion_gap_random": {
+          "ci95": [
+            0.06030013942295618,
+            0.07055457680901997
+          ],
+          "mean": 0.06542735811598807,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0041293125196906035
+        },
+        "ece": {
+          "ci95": [
+            0.0052452254339547515,
+            0.007929565590100256
+          ],
+          "mean": 0.006587395512027504,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0010809446678122136
+        },
+        "error_detection_auroc": {
+          "ci95": [
+            0.925506185374271,
+            0.9311074210245027
+          ],
+          "mean": 0.9283068031993869,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "n_with_errors": 5,
+          "std": 0.0022555359816885594
+        },
+        "explanation": {
+          "ci95": [
+            0.33432121688759864,
+            0.3635979548616308
+          ],
+          "mean": 0.34895958587461473,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.01178931579573259
+        },
+        "explanation_control_normalized": {
+          "ci95": [
+            0.5217540565606951,
+            0.5261211913163566
+          ],
+          "mean": 0.5239376239385258,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0017585815333210624
+        },
+        "macro_f1": {
+          "ci95": [
+            0.9551641443191626,
+            0.9618266883715724
+          ],
+          "mean": 0.9584954163453675,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002682909411099973
+        },
+        "nll": {
+          "ci95": [
+            0.11404706115432936,
+            0.12417276308980968
+          ],
+          "mean": 0.11910991212206952,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.004077472629523168
+        },
+        "normalized_entropy": {
+          "ci95": [
+            0.05330194993537727,
+            0.055789176331884564
+          ],
+          "mean": 0.05454556313363092,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.001001569828917246
+        },
+        "performance": {
+          "ci95": [
+            0.9551641443191626,
+            0.9618266883715724
+          ],
+          "mean": 0.9584954163453675,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002682909411099973
+        },
+        "representation": {
+          "ci95": [
+            0.535920792080145,
+            0.535920792080145
+          ],
+          "mean": 0.535920792080145,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "robustness": {
+          "ci95": [
+            0.6820236495348295,
+            0.7054825233046766
+          ],
+          "mean": 0.6937530864197531,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.009446546651825151
+        },
+        "silhouette": {
+          "ci95": [
+            0.07184158416029005,
+            0.07184158416029005
+          ],
+          "mean": 0.07184158416029005,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "stability_ssim": {
+          "ci95": [
+            0.3871742410466261,
+            0.3884673632081229
+          ],
+          "mean": 0.3878208021273745,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0005207214525699053
+        },
+        "uncertainty": {
+          "ci95": [
+            0.9683026512249797,
+            0.9711664052428801
+          ],
+          "mean": 0.9697345282339299,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.001153192015731831
+        },
+        "weighted_f1": {
+          "ci95": [
+            0.9568837076295299,
+            0.9632357436631668
+          ],
+          "mean": 0.9600597256463483,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0025578723563000525
+        }
+      },
+      "model": "ViT-Base",
+      "protocol_hash": "77bc85e49e729b723f8e5c557418bb1919af40c920c530212e11c193439cdd75",
+      "purpose": "controlled_benchmark",
+      "run_ids": [
+        "27e15ca8acc9f91c-a2802359",
+        "766e5436c7072b66-1ecde3f2",
+        "96f6d00885e84599-7ec1b3cc",
+        "b3e35a3c86c20f9d-530c432f",
+        "b6fa00398765dbbe-9705373e"
+      ],
+      "seeds": [
+        1234,
+        100,
+        999,
+        42,
+        2026
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": [
+              0.30165479716185584,
+              0.3120864481161192
+            ],
+            "mean": 0.3068706226389875,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.004200673841455564
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9437148928418111,
+              0.9458653540717692
+            ],
+            "mean": 0.9447901234567901,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0008659594032962882
+          }
+        },
+        {
+          "epoch": 2,
+          "training_loss": {
+            "ci95": [
+              0.1274997061824083,
+              0.1296673563076664
+            ],
+            "mean": 0.12858353124503735,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0008728811209771298
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9541746596171125,
+              0.9590105255680729
+            ],
+            "mean": 0.9565925925925927,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0019473327558647462
+          }
+        },
+        {
+          "epoch": 3,
+          "training_loss": {
+            "ci95": [
+              0.09815992294596293,
+              0.09981696353681827
+            ],
+            "mean": 0.0989884432413906,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.000667266101478523
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9578664940628971,
+              0.9605532590235224
+            ],
+            "mean": 0.9592098765432098,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0010819211012447977
+          }
+        },
+        {
+          "epoch": 4,
+          "training_loss": {
+            "ci95": [
+              0.08255501808519757,
+              0.08373607332947351
+            ],
+            "mean": 0.08314554570733554,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.00047559373791319253
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9589282472117376,
+              0.9615655799487562
+            ],
+            "mean": 0.9602469135802469,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0010620154650669857
+          }
+        },
+        {
+          "epoch": 5,
+          "training_loss": {
+            "ci95": [
+              0.07079626997025672,
+              0.07288125038586953
+            ],
+            "mean": 0.07183876017806312,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0008395912334693724
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9604977591267835,
+              0.9633540927250682
+            ],
+            "mean": 0.9619259259259259,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0011502039208742608
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B04",
+        "B03",
+        "B02"
+      ],
+      "cohort": "smoke_rgb",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": null,
+          "mean": 0.705,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.3": {
+          "ci95": null,
+          "mean": 0.67,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.5": {
+          "ci95": null,
+          "mean": 0.515,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.05": {
+          "ci95": null,
+          "mean": 0.5,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.1": {
+          "ci95": null,
+          "mean": 0.365,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.2": {
+          "ci95": null,
+          "mean": 0.215,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "current_source": true,
+      "epochs": 1,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_rgb_jpeg",
+      "metrics": {
+        "accuracy": {
+          "ci95": null,
+          "mean": 0.705,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "accuracy_retention": {
+          "ci95": null,
+          "mean": 0.7021276595744682,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "aopc_salient": {
+          "ci95": null,
+          "mean": 0.10235354408621788,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brier": {
+          "ci95": null,
+          "mean": 0.5987495082471783,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "calibration": {
+          "ci95": null,
+          "mean": 0.6155450642108917,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "composite_trust": {
+          "ci95": null,
+          "mean": 0.6304845319464748,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc": {
+          "ci95": null,
+          "mean": 0.2555251139748309,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_least": {
+          "ci95": null,
+          "mean": 0.2579809171793868,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_random": {
+          "ci95": null,
+          "mean": 0.25873693738759934,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_gap_random": {
+          "ci95": null,
+          "mean": 0.003211823412768433,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "ece": {
+          "ci95": null,
+          "mean": 0.3844549357891083,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "error_detection_auroc": {
+          "ci95": null,
+          "mean": 0.710782545979084,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "n_with_errors": 1,
+          "std": null
+        },
+        "explanation": {
+          "ci95": null,
+          "mean": 0.7444748860251691,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "explanation_control_normalized": {
+          "ci95": null,
+          "mean": 0.5031227497773356,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "macro_f1": {
+          "ci95": null,
+          "mean": 0.6973924847101869,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "nll": {
+          "ci95": null,
+          "mean": 1.3425277160809115,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "normalized_entropy": {
+          "ci95": null,
+          "mean": 0.8589965848494069,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "performance": {
+          "ci95": null,
+          "mean": 0.6973924847101869,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "representation": {
+          "ci95": null,
+          "mean": 0.5298695108561904,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "robustness": {
+          "ci95": null,
+          "mean": 0.49500000000000005,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "silhouette": {
+          "ci95": null,
+          "mean": 0.05973902171238071,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "stability_ssim": {
+          "ci95": null,
+          "mean": 0.3780220805315112,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "uncertainty": {
+          "ci95": null,
+          "mean": 0.7006252458764108,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "weighted_f1": {
+          "ci95": null,
+          "mean": 0.697392484710187,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "model": "ViT-Base",
+      "protocol_hash": "c587178d55b2d14940b499bf26e212a31c5ca434f7ebf6f4bb55b499dedad03e",
+      "purpose": "real_data_smoke",
+      "run_ids": [
+        "296da2f403b6cf7d-685196b8"
+      ],
+      "seeds": [
+        42
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": null,
+            "mean": 1.920055809020996,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          },
+          "validation_accuracy": {
+            "ci95": null,
+            "mean": 0.65,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B8A",
+        "B11",
+        "B12"
+      ],
+      "cohort": "smoke_ms6",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": null,
+          "mean": 0.375,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.3": {
+          "ci95": null,
+          "mean": 0.37,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.5": {
+          "ci95": null,
+          "mean": 0.37,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.05": {
+          "ci95": null,
+          "mean": 0.195,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.1": {
+          "ci95": null,
+          "mean": 0.175,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.2": {
+          "ci95": null,
+          "mean": 0.165,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "current_source": true,
+      "epochs": 1,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_s2_tif_prithvi6",
+      "metrics": {
+        "accuracy": {
+          "ci95": null,
+          "mean": 0.4,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "accuracy_retention": {
+          "ci95": null,
+          "mean": 0.6874999999999999,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "aopc_salient": {
+          "ci95": null,
+          "mean": 0.00528242576867342,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brier": {
+          "ci95": null,
+          "mean": 0.8656618434534568,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "calibration": {
+          "ci95": null,
+          "mean": 0.7265281580016016,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "composite_trust": {
+          "ci95": null,
+          "mean": 0.5499952535856985,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc": {
+          "ci95": null,
+          "mean": 0.1192257072909602,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_least": {
+          "ci95": null,
+          "mean": 0.11819428310596518,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_random": {
+          "ci95": null,
+          "mean": 0.11860590988808142,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_gap_random": {
+          "ci95": null,
+          "mean": -0.0006197974028787773,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "ece": {
+          "ci95": null,
+          "mean": 0.2734718419983983,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "error_detection_auroc": {
+          "ci95": null,
+          "mean": 0.7886458333333334,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "n_with_errors": 1,
+          "std": null
+        },
+        "explanation": {
+          "ci95": null,
+          "mean": 0.8807742927090398,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "explanation_control_normalized": {
+          "ci95": null,
+          "mean": 0.49869698274302154,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "macro_f1": {
+          "ci95": null,
+          "mean": 0.30963668114830906,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "nll": {
+          "ci95": null,
+          "mean": 2.1444125781885655,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "normalized_entropy": {
+          "ci95": null,
+          "mean": 0.9959089405979629,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "performance": {
+          "ci95": null,
+          "mean": 0.30963668114830906,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "representation": {
+          "ci95": null,
+          "mean": 0.5408633113819683,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "robustness": {
+          "ci95": null,
+          "mean": 0.27499999999999997,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "silhouette": {
+          "ci95": null,
+          "mean": 0.0817266227639365,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "stability_ssim": {
+          "ci95": null,
+          "mean": 0.3621948755837179,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "uncertainty": {
+          "ci95": null,
+          "mean": 0.5671690782732717,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "weighted_f1": {
+          "ci95": null,
+          "mean": 0.3096366811483091,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "model": "Prithvi-EO-1.0-100M",
+      "protocol_hash": "1aa2c81d1c8fccc9f7db23bf4959cc335a2bccc9ae42a7eeeb1f0b25a3760861",
+      "purpose": "real_data_smoke",
+      "run_ids": [
+        "2ec8bfeaa37a6fc4-9d8f852c"
+      ],
+      "seeds": [
+        42
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": null,
+            "mean": 2.2664123344421387,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          },
+          "validation_accuracy": {
+            "ci95": null,
+            "mean": 0.35,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B04",
+        "B03",
+        "B02"
+      ],
+      "cohort": "rgb_imagenet",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": [
+            0.9390268704196604,
+            0.9465039937778706
+          ],
+          "mean": 0.9427654320987655,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00301092862844817
+        },
+        "brightness_0.3": {
+          "ci95": [
+            0.9102730993813676,
+            0.9240972709890026
+          ],
+          "mean": 0.9171851851851851,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.005566792476722166
+        },
+        "brightness_0.5": {
+          "ci95": [
+            0.8467252559889092,
+            0.8667562254925721
+          ],
+          "mean": 0.8567407407407407,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008066179551247561
+        },
+        "gaussian_noise_0.05": {
+          "ci95": [
+            0.7189413727519278,
+            0.7338981334209116
+          ],
+          "mean": 0.7264197530864197,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.006022869588963201
+        },
+        "gaussian_noise_0.1": {
+          "ci95": [
+            0.4565789987553862,
+            0.5067790259359718
+          ],
+          "mean": 0.481679012345679,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.020214819489494242
+        },
+        "gaussian_noise_0.2": {
+          "ci95": [
+            0.25845562536727923,
+            0.2834703005586467
+          ],
+          "mean": 0.27096296296296296,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.010073045214951322
+        }
+      },
+      "current_source": true,
+      "epochs": 5,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_rgb_jpeg",
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            0.942682769248071,
+            0.9483789591469907
+          ],
+          "mean": 0.9455308641975309,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0022937726740727966
+        },
+        "accuracy_retention": {
+          "ci95": [
+            0.7370183055115253,
+            0.742134695631267
+          ],
+          "mean": 0.7395765005713961,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0020602957511626787
+        },
+        "aopc_salient": {
+          "ci95": [
+            0.7302166363154677,
+            0.7513373839078835
+          ],
+          "mean": 0.7407770101116756,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00850501730861562
+        },
+        "brier": {
+          "ci95": [
+            0.08069877495091321,
+            0.08640847836455007
+          ],
+          "mean": 0.08355362665773164,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002299214369546314
+        },
+        "calibration": {
+          "ci95": [
+            0.9796368992146126,
+            0.9857554979080058
+          ],
+          "mean": 0.9826961985613092,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0024638705407600105
+        },
+        "composite_trust": {
+          "ci95": [
+            0.8191221900759887,
+            0.8214002604081249
+          ],
+          "mean": 0.8202612252420568,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0009173457293726924
+        },
+        "deletion_auc": {
+          "ci95": [
+            0.2086263151125901,
+            0.22858843659784184
+          ],
+          "mean": 0.21860737585521597,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008038455457406205
+        },
+        "deletion_auc_least": {
+          "ci95": [
+            0.22448396865285739,
+            0.24331693932900447
+          ],
+          "mean": 0.23390045399093093,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.007583762879245722
+        },
+        "deletion_auc_random": {
+          "ci95": [
+            0.18894670479006923,
+            0.1965557870214961
+          ],
+          "mean": 0.19275124590578266,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.003064066543942022
+        },
+        "deletion_gap_random": {
+          "ci95": [
+            -0.03360171737039572,
+            -0.018110542528470948
+          ],
+          "mean": -0.025856129949433333,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.006238070389547762
+        },
+        "ece": {
+          "ci95": [
+            0.014244502091994139,
+            0.02036310078538725
+          ],
+          "mean": 0.017303801438690695,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.00246387054076002
+        },
+        "error_detection_auroc": {
+          "ci95": [
+            0.9067143308911992,
+            0.9128889043537362
+          ],
+          "mean": 0.9098016176224677,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "n_with_errors": 5,
+          "std": 0.002486410764695299
+        },
+        "explanation": {
+          "ci95": [
+            0.7714115634021581,
+            0.7913736848874098
+          ],
+          "mean": 0.7813926241447839,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.008038455457406203
+        },
+        "explanation_control_normalized": {
+          "ci95": [
+            0.4602370657423485,
+            0.47713454039201025
+          ],
+          "mean": 0.4686858030671794,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.006804366831166169
+        },
+        "macro_f1": {
+          "ci95": [
+            0.9409327556925264,
+            0.9470606970518622
+          ],
+          "mean": 0.9439967263721943,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002467632696204751
+        },
+        "nll": {
+          "ci95": [
+            0.16015253624715314,
+            0.1701908482988912
+          ],
+          "mean": 0.16517169227302217,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0040422819966834085
+        },
+        "normalized_entropy": {
+          "ci95": [
+            0.09326071681377364,
+            0.09545709492076325
+          ],
+          "mean": 0.09435890586726844,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0008844494606298352
+        },
+        "performance": {
+          "ci95": [
+            0.9409327556925264,
+            0.9470606970518622
+          ],
+          "mean": 0.9439967263721943,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002467632696204751
+        },
+        "representation": {
+          "ci95": [
+            0.5559664346329599,
+            0.5559664346329599
+          ],
+          "mean": 0.5559664346329599,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0
+        },
+        "robustness": {
+          "ci95": [
+            0.6961806123983286,
+            0.7024037497415893
+          ],
+          "mean": 0.6992921810699589,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0025059667318466333
+        },
+        "silhouette": {
+          "ci95": [
+            0.11193286926591985,
+            0.11193286926591987
+          ],
+          "mean": 0.11193286926591986,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 1.5515838457795457e-17
+        },
+        "stability_ssim": {
+          "ci95": [
+            0.24549539269038811,
+            0.2490724676247893
+          ],
+          "mean": 0.2472839301575887,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0014404359551279287
+        },
+        "uncertainty": {
+          "ci95": [
+            0.956795760817725,
+            0.9596506125245435
+          ],
+          "mean": 0.9582231866711343,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.0011496071847731655
+        },
+        "weighted_f1": {
+          "ci95": [
+            0.9425574741694435,
+            0.9483908877091568
+          ],
+          "mean": 0.9454741809393001,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 5,
+          "std": 0.002349030634757964
+        }
+      },
+      "model": "ResNet-18",
+      "protocol_hash": "77bc85e49e729b723f8e5c557418bb1919af40c920c530212e11c193439cdd75",
+      "purpose": "controlled_benchmark",
+      "run_ids": [
+        "4552d176bbd4b5f5-0086f08c",
+        "bfc2210647e0bf33-cc3b4d52",
+        "cb63bff77918b9f2-1e84f0c3",
+        "e46f1c2720aff67e-f79cc1b3",
+        "edbfcdd9b6cc8181-df03a29e"
+      ],
+      "seeds": [
+        999,
+        100,
+        42,
+        1234,
+        2026
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": [
+              0.47060317203734586,
+              0.48074133159242943
+            ],
+            "mean": 0.47567225181488765,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.004082489131419546
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9093176621598827,
+              0.9126082637660432
+            ],
+            "mean": 0.910962962962963,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.001325077319999888
+          }
+        },
+        {
+          "epoch": 2,
+          "training_loss": {
+            "ci95": [
+              0.22322098537118665,
+              0.22645846241596193
+            ],
+            "mean": 0.2248397238935743,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0013036848331991304
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9221630463099443,
+              0.9263307808505495
+            ],
+            "mean": 0.9242469135802469,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0016782859721448304
+          }
+        },
+        {
+          "epoch": 3,
+          "training_loss": {
+            "ci95": [
+              0.1872875590767321,
+              0.19078285791746363
+            ],
+            "mean": 0.18903520849709787,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0014075059137528027
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9270836569549141,
+              0.929311404773481
+            ],
+            "mean": 0.9281975308641975,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0008970815863992452
+          }
+        },
+        {
+          "epoch": 4,
+          "training_loss": {
+            "ci95": [
+              0.1688978945879783,
+              0.17044137780198867
+            ],
+            "mean": 0.1696696361949835,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.000621538200448434
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9316263475160969,
+              0.9350403191505698
+            ],
+            "mean": 0.9333333333333333,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0013747566327975446
+          }
+        },
+        {
+          "epoch": 5,
+          "training_loss": {
+            "ci95": [
+              0.15541413448672517,
+              0.15835918027950588
+            ],
+            "mean": 0.15688665738311552,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0011859270289873484
+          },
+          "validation_accuracy": {
+            "ci95": [
+              0.9335723680967933,
+              0.9384276319032065
+            ],
+            "mean": 0.9359999999999999,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 5,
+            "std": 0.0019551439896127584
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B04",
+        "B03",
+        "B02"
+      ],
+      "cohort": "smoke_rgb",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": null,
+          "mean": 0.795,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.3": {
+          "ci95": null,
+          "mean": 0.8,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.5": {
+          "ci95": null,
+          "mean": 0.775,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.05": {
+          "ci95": null,
+          "mean": 0.415,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.1": {
+          "ci95": null,
+          "mean": 0.235,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.2": {
+          "ci95": null,
+          "mean": 0.12,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "current_source": true,
+      "epochs": 1,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_rgb_jpeg",
+      "metrics": {
+        "accuracy": {
+          "ci95": null,
+          "mean": 0.785,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "accuracy_retention": {
+          "ci95": null,
+          "mean": 0.6666666666666666,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "aopc_salient": {
+          "ci95": null,
+          "mean": 0.07135252632200718,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brier": {
+          "ci95": null,
+          "mean": 0.6101825598833654,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "calibration": {
+          "ci95": null,
+          "mean": 0.5068796877563,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "composite_trust": {
+          "ci95": null,
+          "mean": 0.636386828350423,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc": {
+          "ci95": null,
+          "mean": 0.23573660254478454,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_least": {
+          "ci95": null,
+          "mean": 0.2362553446534641,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_random": {
+          "ci95": null,
+          "mean": 0.2154480872922862,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_gap_random": {
+          "ci95": null,
+          "mean": -0.020288515252498335,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "ece": {
+          "ci95": null,
+          "mean": 0.49312031224370007,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "error_detection_auroc": {
+          "ci95": null,
+          "mean": 0.7210783587616649,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "n_with_errors": 1,
+          "std": null
+        },
+        "explanation": {
+          "ci95": null,
+          "mean": 0.7642633974552154,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "explanation_control_normalized": {
+          "ci95": null,
+          "mean": 0.47751639660044226,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "macro_f1": {
+          "ci95": null,
+          "mean": 0.7831711285888764,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "nll": {
+          "ci95": null,
+          "mean": 1.3524871525584938,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "normalized_entropy": {
+          "ci95": null,
+          "mean": 0.8902927020596673,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "performance": {
+          "ci95": null,
+          "mean": 0.7831711285888764,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "representation": {
+          "ci95": null,
+          "mean": 0.5457647029104968,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "robustness": {
+          "ci95": null,
+          "mean": 0.5233333333333333,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "silhouette": {
+          "ci95": null,
+          "mean": 0.09152940582099368,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "stability_ssim": {
+          "ci95": null,
+          "mean": 0.3150616456749213,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "uncertainty": {
+          "ci95": null,
+          "mean": 0.6949087200583173,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "weighted_f1": {
+          "ci95": null,
+          "mean": 0.7831711285888763,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "model": "ConvNeXt-T",
+      "protocol_hash": "c587178d55b2d14940b499bf26e212a31c5ca434f7ebf6f4bb55b499dedad03e",
+      "purpose": "real_data_smoke",
+      "run_ids": [
+        "7a31ee75498bb00b-4e2c427e"
+      ],
+      "seeds": [
+        42
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": null,
+            "mean": 1.8822533559799195,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          },
+          "validation_accuracy": {
+            "ci95": null,
+            "mean": 0.7,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          }
+        }
+      ]
+    },
+    {
+      "bands": [
+        "B04",
+        "B03",
+        "B02"
+      ],
+      "cohort": "smoke_rgb",
+      "corruption_accuracy": {
+        "brightness_0.1": {
+          "ci95": null,
+          "mean": 0.5,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.3": {
+          "ci95": null,
+          "mean": 0.5,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brightness_0.5": {
+          "ci95": null,
+          "mean": 0.43,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.05": {
+          "ci95": null,
+          "mean": 0.365,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.1": {
+          "ci95": null,
+          "mean": 0.26,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "gaussian_noise_0.2": {
+          "ci95": null,
+          "mean": 0.15,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "current_source": true,
+      "epochs": 1,
+      "evaluation_split": "test",
+      "input_representation": "eurosat_rgb_jpeg",
+      "metrics": {
+        "accuracy": {
+          "ci95": null,
+          "mean": 0.52,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "accuracy_retention": {
+          "ci95": null,
+          "mean": 0.7067307692307692,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "aopc_salient": {
+          "ci95": null,
+          "mean": 0.06705683478154242,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "brier": {
+          "ci95": null,
+          "mean": 0.7759375090547904,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "calibration": {
+          "ci95": null,
+          "mean": 0.6840123844891786,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "composite_trust": {
+          "ci95": null,
+          "mean": 0.5936476078334227,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc": {
+          "ci95": null,
+          "mean": 0.15731140095526733,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_least": {
+          "ci95": null,
+          "mean": 0.18093817798511064,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_auc_random": {
+          "ci95": null,
+          "mean": 0.14871857836509922,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "deletion_gap_random": {
+          "ci95": null,
+          "mean": -0.008592822590168109,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "ece": {
+          "ci95": null,
+          "mean": 0.3159876155108214,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "error_detection_auroc": {
+          "ci95": null,
+          "mean": 0.5952524038461539,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "n_with_errors": 1,
+          "std": null
+        },
+        "explanation": {
+          "ci95": null,
+          "mean": 0.8426885990447327,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "explanation_control_normalized": {
+          "ci95": null,
+          "mean": 0.48596081565399063,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "macro_f1": {
+          "ci95": null,
+          "mean": 0.5024012142000912,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "nll": {
+          "ci95": null,
+          "mean": 1.7884658937299394,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "normalized_entropy": {
+          "ci95": null,
+          "mean": 0.9322099455378147,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "performance": {
+          "ci95": null,
+          "mean": 0.5024012142000912,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "representation": {
+          "ci95": null,
+          "mean": 0.5532522037939294,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "robustness": {
+          "ci95": null,
+          "mean": 0.3675,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "silhouette": {
+          "ci95": null,
+          "mean": 0.10650440758785869,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "stability_ssim": {
+          "ci95": null,
+          "mean": 0.24288841316747156,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "uncertainty": {
+          "ci95": null,
+          "mean": 0.6120312454726048,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        },
+        "weighted_f1": {
+          "ci95": null,
+          "mean": 0.5024012142000912,
+          "method": "Student-t; independent seeds; ddof=1",
+          "missing_runs": 0,
+          "n": 1,
+          "std": null
+        }
+      },
+      "model": "ResNet-18",
+      "protocol_hash": "c587178d55b2d14940b499bf26e212a31c5ca434f7ebf6f4bb55b499dedad03e",
+      "purpose": "real_data_smoke",
+      "run_ids": [
+        "b1c3ca156124f5e4-bb22cd20"
+      ],
+      "seeds": [
+        42
+      ],
+      "source_revision": "eb8e733d278f080372f5159cb2c9148baf769ad78809e2257cdb4a1aae61162c",
+      "split_lineage": "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899",
+      "validation_history": [
+        {
+          "epoch": 1,
+          "training_loss": {
+            "ci95": null,
+            "mean": 2.114555153846741,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          },
+          "validation_accuracy": {
+            "ci95": null,
+            "mean": 0.4,
+            "method": "Student-t; independent seeds; ddof=1",
+            "missing_runs": null,
+            "n": 1,
+            "std": null
+          }
+        }
+      ]
+    }
+  ],
+  "records": [
+    "06162797028c8751-8987552e",
+    "098d2c10375d9d27-dfbc504a",
+    "0f3308d8d9691043-0127285a",
+    "27e15ca8acc9f91c-a2802359",
+    "296da2f403b6cf7d-685196b8",
+    "2ec8bfeaa37a6fc4-9d8f852c",
+    "33e2e5f5afee8616-5ff9f731",
+    "427859bc8da9fc05-736e8a0b",
+    "4552d176bbd4b5f5-0086f08c",
+    "5b869f4fb44dfbb2-e232e61f",
+    "65bba586fabf39f9-f0b0aebb",
+    "766e5436c7072b66-1ecde3f2",
+    "7a31ee75498bb00b-4e2c427e",
+    "96f6d00885e84599-7ec1b3cc",
+    "99ff72bc67a6eb99-d11e32d2",
+    "b1c3ca156124f5e4-bb22cd20",
+    "b3e35a3c86c20f9d-530c432f",
+    "b6fa00398765dbbe-9705373e",
+    "bfc2210647e0bf33-cc3b4d52",
+    "cb63bff77918b9f2-1e84f0c3",
+    "deedb1f3c46f1532-7977260f",
+    "e46f1c2720aff67e-f79cc1b3",
+    "edbfcdd9b6cc8181-df03a29e",
+    "f7a69d25d659bbbb-7c71072b"
+  ],
+  "rejected": [],
+  "superseded_unvalidated": [
+    {
+      "path": "results/raw/60cd69f102823abd-c2cb24a8.json",
+      "reason": "Input representation mismatch",
+      "run_id": "60cd69f102823abd-c2cb24a8",
+      "source_revision": "b220b710283a6dc1c4cae28b2b0a6dbcf2dd8f5ce134a52accd56ca9346a1003"
+    },
+    {
+      "path": "results/raw/655517951bd8d76d-fb3ddec4.json",
+      "reason": "Input representation mismatch",
+      "run_id": "655517951bd8d76d-fb3ddec4",
+      "source_revision": "99458dae8b7174c7b0e05e0f8c7d3c6f1d2197aa236bef159c9bff4c613437c2"
+    },
+    {
+      "path": "results/raw/72a9d9c69bcd7fcd-5dc95146.json",
+      "reason": "Input representation mismatch",
+      "run_id": "72a9d9c69bcd7fcd-5dc95146",
+      "source_revision": "99458dae8b7174c7b0e05e0f8c7d3c6f1d2197aa236bef159c9bff4c613437c2"
+    },
+    {
+      "path": "results/raw/9ca82f83a676c4d7-627075be.json",
+      "reason": "Input representation mismatch",
+      "run_id": "9ca82f83a676c4d7-627075be",
+      "source_revision": "99458dae8b7174c7b0e05e0f8c7d3c6f1d2197aa236bef159c9bff4c613437c2"
+    },
+    {
+      "path": "results/raw/b8b51440f51a26fe-cf42e33b.json",
+      "reason": "Input representation mismatch",
+      "run_id": "b8b51440f51a26fe-cf42e33b",
+      "source_revision": "99458dae8b7174c7b0e05e0f8c7d3c6f1d2197aa236bef159c9bff4c613437c2"
+    },
+    {
+      "path": "results/raw/f348342ac3525d02-8ce1c7c2.json",
+      "reason": "Input representation mismatch",
+      "run_id": "f348342ac3525d02-8ce1c7c2",
+      "source_revision": "99458dae8b7174c7b0e05e0f8c7d3c6f1d2197aa236bef159c9bff4c613437c2"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""CropXAI foundation adapters subpackage."""

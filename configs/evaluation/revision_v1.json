@@ -1,0 +1,22 @@
+{
+  "version": "revision-v1",
+  "pillars": ["performance", "explanation", "calibration", "robustness", "uncertainty", "representation"],
+  "weights": {
+    "default": {"performance": 0.16666666666666666, "explanation": 0.16666666666666666, "calibration": 0.16666666666666666, "robustness": 0.16666666666666666, "uncertainty": 0.16666666666666666, "representation": 0.16666666666666666},
+    "equal": {"performance": 0.16666666666666666, "explanation": 0.16666666666666666, "calibration": 0.16666666666666666, "robustness": 0.16666666666666666, "uncertainty": 0.16666666666666666, "representation": 0.16666666666666666},
+    "reliability": {"performance": 0.15, "explanation": 0.1, "calibration": 0.25, "robustness": 0.25, "uncertainty": 0.15, "representation": 0.1},
+    "explanation_priority": {"performance": 0.15, "explanation": 0.35, "calibration": 0.15, "robustness": 0.15, "uncertainty": 0.1, "representation": 0.1}
+  },
+  "ece_bins": 15,
+  "attribution": "absolute input-times-gradient",
+  "explanation_noise_std_rgb": 0.05,
+  "explanation_per_class": 10,
+  "representation_per_class": 20,
+  "deletion_steps": 20,
+  "deletion_patch_size": 16,
+  "corruptions": {"gaussian_noise": [0.05, 0.1, 0.2], "brightness": [0.1, 0.3, 0.5]},
+  "robustness_scope": "synthetic covariate shift proxy; real geographic/seasonal OOD NOT COMPUTED",
+  "selection_seed": 445,
+  "perturbation_seed": 445,
+  "sensitivity_perturbations": 50
+}

@@ -1,0 +1,5 @@
+# ─── Cross-Entropy Loss Configuration ────────────────────────────────────────
+_target_: torch.nn.CrossEntropyLoss
+weight: null          # null = compute from class distribution
+ignore_index: 255
+label_smoothing: 0.1

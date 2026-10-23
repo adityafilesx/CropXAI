@@ -1,0 +1,81 @@
+# ─── IBM–NASA Crop Classification Dataset Configuration ───────────────────────
+# Reference: IBM–NASA Geospatial Foundation Model — EuroSAT / CDL / NASA Harvest
+# Sentinel-2 multi-spectral, multi-temporal imagery
+# https://huggingface.co/datasets/ibm-nasa-geospatial
+
+_target_: src.research.dataset.dataset.CropXAIDataset
+
+name: ibm_nasa
+display_name: "IBM-NASA Crop Classification Dataset"
+version: "1.0.0"
+
+# ─── Download ─────────────────────────────────────────────────────────────────
+download:
+  source: huggingface  # options: huggingface | torchgeo | local | url
+  repo_id: "ibm-nasa-geospatial/hls_burn_scars"  # update to actual repo
+  cache_dir: ${paths.raw}/ibm_nasa
+  auto_download: false  # set true to trigger download automatically
+
+# ─── Spectral Bands ───────────────────────────────────────────────────────────
+bands:
+  all: ["B02", "B03", "B04", "B05", "B06", "B07", "B8A", "B11", "B12", "B01", "B09", "B10"]
+  rgb: ["B04", "B03", "B02"]       # True color
+  false_color: ["B08", "B04", "B03"]  # Vegetation false color
+  selected: ["B02", "B03", "B04", "B8A", "B11", "B12"]  # HLS standard 6 bands
+  num_bands: 6
+
+# ─── Temporal ─────────────────────────────────────────────────────────────────
+temporal:
+  enabled: true
+  num_timesteps: 3                  # Number of temporal frames
+  interval_days: 30                 # Approximate days between acquisitions
+  fill_missing: true                # Fill missing temporal acquisitions
+
+# ─── Spatial ──────────────────────────────────────────────────────────────────
+spatial:
+  patch_size: 224                   # Spatial patch size (pixels)
+  resolution: 30                    # Native resolution in meters (HLS)
+  overlap: 0                        # Patch overlap for sliding window (pixels)
+  padding: reflect                  # Padding mode for edge patches
+
+# ─── Labels ───────────────────────────────────────────────────────────────────
+labels:
+  num_classes: 7
+  class_names:
+    - "Background"
+    - "Natural Herbaceous"
+    - "Grassland / Pasture"
+    - "Corn"
+    - "Soybeans"
+    - "Other Crops"
+    - "Burned Area"
+  class_weights: null               # null = compute from distribution
+
+# ─── Data versioning ──────────────────────────────────────────────────────────
+versioning:
+  enabled: true
+  version_tag: "v1.0"
+  processed_dir: ${paths.processed}/${dataset.versioning.version_tag}
+  checksum_algorithm: sha256
+
+# ─── Loader ───────────────────────────────────────────────────────────────────
+loader:
+  batch_size: 16
+  num_workers: 4
+  pin_memory: true
+  prefetch_factor: 2
+  persistent_workers: true
+  drop_last: false
+
+# ─── Caching ──────────────────────────────────────────────────────────────────
+cache:
+  enabled: true
+  backend: joblib               # options: joblib | shelve | memory
+  max_size_gb: 20.0
+
+# ─── Statistics (computed from training set) ──────────────────────────────────
+statistics:
+  mean: null   # Set after computing from training data
+  std: null    # Set after computing from training data
+  min_val: 0
+  max_val: 10000  # Sentinel-2 reflectance scale

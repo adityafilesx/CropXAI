@@ -1,0 +1,147 @@
+\documentclass[3p,times,procedia]{elsarticle}
+\usepackage{ecrc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,booktabs,graphicx,longtable,array}
+\usepackage[bookmarks=false,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\volume{00}\firstpage{1}\journalname{Procedia Computer Science}
+\runauth{Aditya Kumar et al.}\jid{procs}
+\newcommand{\NC}{\textsc{NC}}
+\begin{document}
+\begin{frontmatter}
+\title{CropXAI: Quantifying the Accuracy--Trust Gap in Earth Observation Vision Models}
+\author{Aditya Kumar}\author{Govind Upadhyay}\author{Nitin Rathour}\author{Sanjay Patidar}
+\address{Department of Software Engineering, Delhi Technological University, Delhi, India}
+\begin{abstract}
+@@ABSTRACT@@
+\end{abstract}
+\begin{keyword}Earth observation \sep EuroSAT \sep Prithvi \sep Explainability evaluation \sep Calibration \sep Reproducibility\end{keyword}
+\end{frontmatter}
+
+\noindent\textbf{Revision status, Paper 445.} @@STATUS@@
+
+\section{Introduction}\label{sec:introduction}
+Land-cover recognition from satellite imagery is a practical setting for evaluating computer vision beyond aggregate accuracy. EuroSAT supplies labeled Sentinel-2 patches for this task \cite{eurosat}. Prediction accuracy, probability calibration and the response of explanations to perturbations describe different properties; one does not establish the others \cite{calibration,rise}. CropXAI therefore records these quantities separately and only then applies a transparent, preference-dependent summary.
+
+The evaluated scope is \textbf{EuroSAT land-cover classification}. It does not validate crop-health diagnosis, disease detection, yield estimation or field-level stress assessment; such applications need dedicated labels and domain validation. Two input representations are evaluated and are never conflated: three ImageNet-pretrained architectures receive \emph{RGB} patches, and the geospatial foundation model Prithvi-EO-1.0-100M receives \emph{six Sentinel-2 bands}. No experiment in this paper uses all 13 Sentinel-2 bands. The retained title names the motivating question; it does not assert a universal or statistically established accuracy--trust gap.
+
+The contribution is a tested integration of standard metrics, explicit input and checkpoint identities, and provenance-linked reporting, together with an audit of the submitted version of this work. We do not propose a new Bayesian inference method or claim that existing geospatial frameworks lack reproducibility support.
+
+\section{Related work and comparison}\label{sec:related}
+EuroSAT provides a land-use and land-cover benchmark \cite{eurosat}. ResNet \cite{resnet}, ViT \cite{vit} and ConvNeXt \cite{convnext} offer distinct visual feature extractors. Prithvi-EO-1.0 is a masked-autoencoder ViT pretrained on Harmonized Landsat Sentinel-2 (HLS) surface reflectance in six bands and three time steps \cite{prithvi,prithvicard,hls,mae}. Because its inputs differ from those of the RGB models, our comparison with it is explicitly confounded (Section~\ref{sec:models}).
+
+Calibration analysis \cite{calibration}, attribution analysis \cite{attribution,gradcam}, perturbation-based explanation evaluation \cite{rise}, and corruption benchmarking \cite{corruptions} motivate complementary measurements. TorchGeo already provides geospatial datasets, samplers and benchmark tooling \cite{torchgeo}. CropXAI's narrower contribution is to connect such evaluations with traceable records and consistent publication assets.
+
+\begin{center}\small
+\textbf{Methodological literature comparison.} Published scores are not pooled with controlled CropXAI runs.\par\medskip
+\begin{tabular}{p{.23\linewidth}p{.29\linewidth}p{.39\linewidth}}\toprule
+Work & Evaluation focus & Relationship and comparison limit\\\midrule
+Helber et al. \cite{eurosat} & EuroSAT classification benchmarks & Dataset and baseline context; original training/splits differ.\\
+Jakubik et al. \cite{prithvi} & HLS foundation-model tasks & Spectral/temporal pretraining; our frozen linear probe on EuroSAT is not their fine-tuning protocol.\\
+Guo et al. \cite{calibration} & Probability calibration & ECE motivation; temperature scaling is not evaluated here.\\
+Petsiuk et al. \cite{rise} & Deletion/insertion evaluation & Deletion protocol inspiration; our attribution is not RISE.\\
+Hendrycks and Dietterich \cite{corruptions} & Corruption robustness & Our two corruption families do not reproduce ImageNet-C.\\
+Stewart et al. \cite{torchgeo} & Geospatial data and benchmarks & Complementary tooling; no superiority claim.\\\bottomrule
+\end{tabular}\end{center}
+
+The comparison is methodological: each source is interpreted under its original task and protocol. Only newly recorded experiments sharing the split, evaluation sample IDs and training settings can form a controlled comparison; inputs and pretraining still differ between the RGB and six-band cohorts. Different pretraining histories and feature dimensions remain limitations. The repository includes a fuller comparison matrix with source URLs, datasets, metrics and protocol differences.
+
+\section{Implementation and evaluation protocol}\label{sec:implementation}
+The validated workflow consists of dataset validation, an explicit model registry, frozen-backbone training, evaluation, immutable provenance records and result-driven reporting. Legacy research prototypes remain archived or isolated; their presence is not treated as evidence of completed experiments. Figure~\ref{fig:architecture} shows the implemented path.
+\begin{figure}[htbp]\centering
+\fbox{\parbox{.94\linewidth}{\centering
+Hashed splits (JPEG and GeoTIFF) $\rightarrow$ checkpoint-verified model registry\\[3pt]
+$\downarrow$\\[3pt]
+Frozen features and seeded linear head $\rightarrow$ checkpoint/history\\[3pt]
+$\downarrow$\\[3pt]
+Probabilities, explanations, corruptions and embeddings\\[3pt]
+$\downarrow$\\[3pt]
+Metrics $\rightarrow$ immutable JSON/SQLite $\rightarrow$ tables, figures and checks}}
+\caption{Implemented system architecture. Artifact hashes link generated results to individual runs.}\label{fig:architecture}
+\end{figure}
+
+\subsection{Datasets, inputs and preprocessing}\label{sec:data}
+The local EuroSAT copy contains 27,000 patches of 64$\times$64 pixels in ten classes. The preserved class-wise random split has 18,900 training, 4,050 validation and 4,050 test patches; classes hold 2,000, 2,500 or 3,000 patches, so the distribution is not balanced. Content hashes found no identical file or decoded-pixel pair across splits, which does not exclude spatial proximity, near-duplicates or label errors. The split is random within classes and \emph{not} geographically independent. The upstream release version is not recorded locally; content-hashed manifests identify the exact files.
+
+\textbf{RGB representation.} The 27,000 JPEG files (three channels, Sentinel-2 B04/B03/B02 after the provider's unspecified contrast stretch \cite{eurosat}) are resized to 224$\times$224 (bilinear, antialiased), scaled to $[0,1]$ and normalized with ImageNet statistics. Training alone uses a horizontal flip.
+
+\textbf{Six-band representation.} The 13-band Sentinel-2 GeoTIFFs (uint16) were paired with the JPEG split by file stem; channel-mean correlation between paired JPEG and GeoTIFF red, green and blue is $\ge$ 0.999 over 200 sampled patches. The files carry no band metadata, and their storage order differs from the nominal listing: B8A is stored last. We inferred the order from spectral physics and enforce it by assertions (B8A correlates 0.98 with B08 but B09 only 0.75; B10 cirrus has a mean of 12 DN; B11 exceeds B12). The six bands passed to Prithvi are B02, B03, B04, B8A, B11 and B12 (GeoTIFF indices 1, 2, 3, 12, 10, 11), bilinearly upsampled to 224$\times$224 and standardized with Prithvi's own pretraining statistics; no statistic is fitted on evaluation data.
+
+\subsection{Models and training}\label{sec:models}
+The RGB cohort uses ResNet-18, ViT-Base/16 and ConvNeXt-T with locally cached torchvision ImageNet-1K V1 weights \cite{resnet,vit,convnext}; file hashes are verified at load. The six-band cohort uses the encoder of Prithvi-EO-1.0-100M (Hugging Face revision \texttt{f3a9ea7a}, SHA-256 \texttt{7fac0c8a...}) \cite{prithvi,prithvicard}. \textbf{Band adaptation:} Prithvi's six pretrained input channels (HLS names B02--B07: blue, green, red, narrow NIR, SWIR1, SWIR2) receive the corresponding Sentinel-2 bands; no input parameter is added or re-initialized. The pretrained network takes three time steps; one acquisition is supplied ($T{=}1$) and the three-dimensional sine--cosine position table is rebuilt for one frame and verified to equal the first-frame rows of the checkpoint table. Uncorrected differences are the processing level of the EuroSAT products (apparently Level-1C top-of-atmosphere rather than surface reflectance: the cirrus band B10, which Level-2A products omit, is present; the dataset paper does not state the level), the 64-to-224 pixel upsampling, and the absence of HLS bandpass and BRDF harmonization \cite{hls}. The classification head is linear on the mean of final-layer patch tokens \cite{mae}.
+
+\textbf{The cohorts do not use the same bands.} RGB models see three channels; Prithvi sees six. Both share the split and the 4,050 test patches, but differ in input information, pretraining data, feature dimension and corruption units. A controlled common-input comparison is not possible without an unvalidated input adapter, so cross-cohort contrasts are descriptive and confounded.
+
+For all models the classifier is a new ten-class linear head; backbone weights, normalization buffers and dropout are fixed (evaluation mode). Adam optimizes the head at learning rate $10^{-3}$, batch size 32, for five epochs, with seeds 42, 100, 999, 1234 and 2026. The final epoch is selected in advance; validation is diagnostic. Because the backbone is fixed, original and flipped training features are cached; cache identity includes samples, split, checkpoint hash, preprocessing and code hashes. This protocol is a new, controlled design, not an exact reconstruction of the historical trainer, which updated normalization buffers.
+
+The submitted version mapped the name ``Prithvi-100M'' to an RGB ViT-Base proxy (Section~\ref{sec:discrepancy}); those results are withdrawn as Prithvi evidence, and unregistered model names now raise errors.
+
+\subsection{Prediction and probability metrics}\label{sec:metrics}
+In text and tables, \NC{} marks a quantity that was not computed.
+Let $N$ be the number of evaluated images, $C$ the class count, $p_{ic}$ a predicted probability, $y_i$ the true class and $\hat y_i=\arg\max_c p_{ic}$. Accuracy is $N^{-1}\sum_i\mathbf{1}(\hat y_i=y_i)$. Per-class F1 is $2TP_c/(2TP_c+FP_c+FN_c)$, with zero for a zero denominator; macro-F1 averages equally across all declared classes. Weighted F1 uses class supports and is reported separately.
+
+Using 15 equal-width confidence bins $B_b$, top-label expected calibration error is \cite{calibration}
+\begin{equation}\mathrm{ECE}=\sum_b\frac{|B_b|}{N}|\mathrm{acc}(B_b)-\mathrm{conf}(B_b)|.\label{eq:ece}\end{equation}
+Empty bins contribute nothing; confidence one belongs to the final bin. Negative log-likelihood is $-N^{-1}\sum_i\log p_{i,y_i}$ with a numerical floor $10^{-15}$. The multiclass Brier score is \cite{brier}
+\begin{equation}B=\frac1N\sum_i\sum_c(p_{ic}-\mathbf{1}(y_i=c))^2.\label{eq:brier}\end{equation}
+Normalized predictive entropy is $-\sum_c p_{ic}\log p_{ic}/\log C$, averaged over images. Entropy describes predictive dispersion, not calibrated uncertainty quality. Error-detection AUROC uses entropy to rank prediction errors and is \NC{} if only one outcome occurs.
+
+\subsection{Explanation stability and faithfulness}\label{sec:explanation}
+For an architecture-independent comparison, the revised attribution map sums absolute input-times-gradient contributions across channels \cite{attribution}, then scales each nonconstant map to [0,1]. It differs from the legacy Grad-CAM computation \cite{gradcam}. The target $t_i$ is the clean predicted class and remains fixed in every perturbed evaluation. Ten test images per class ($K=100$ images) are selected deterministically; smoke tests use one. Constant maps fail validation rather than receiving a default score.
+
+Stability is the mean structural similarity \cite{ssim} between clean and noise-perturbed attribution maps:
+\begin{equation}S=\frac1K\sum_i\mathrm{SSIM}(A_{t_i}(x_i),A_{t_i}(\tilde x_i)).\label{eq:stability}\end{equation}
+Noise has standard deviation .05 on the unit scale of the representation (RGB: pixel/255; six-band: reflectance, DN/10\,000), followed by clipping. A fixed seed and identical sample schedule are used across models. Stability does not establish faithfulness.
+
+Deletion evaluates faithfulness to model response \cite{rise}. We rank 16$\times$16 patches by mean absolute attribution, with deterministic ties, and replace the most salient patches by normalized zero (the per-channel mean of the input statistics). At 20 deletion steps, including intact and fully masked endpoints, the fixed target probability $q_{ik}$ is recorded. With $L=20$ deletion steps (before merging identical counts), actual deleted fractions $f_0=0<\dots<f_L=1$ and $K=100$ images (the same as in Eq.~\eqref{eq:stability}),
+\begin{equation}D=\frac1K\sum_i\sum_{k=1}^{L}\frac{q_{i,k-1}+q_{ik}}2(f_k-f_{k-1}).\label{eq:deletion}\end{equation}
+Lower deletion AUC $D$ means faster probability removal. AOPC averages $q_{i0}-q_{ik}$ over nonzero steps and images. Random and least-salient controls use identical inputs and masking schedules. Masking can itself cause distribution shift, and low initial confidence can lower AUC; controls and original probabilities must therefore accompany interpretation. AOPC follows \cite{aopc}. Neither metric proves agronomic validity.
+
+\subsection{Robustness, uncertainty and representation}\label{sec:pillars}
+The robustness proxy $R$ averages \emph{absolute} accuracy under Gaussian noise of standard deviation .05, .1 and .2 and brightness reductions .1, .3 and .5, applied on the unit scale of each representation before re-normalization (RGB clipped to $[0,1]$; reflectance clipped at zero). Because $R$ is an absolute accuracy it partly repeats the performance component; the accuracy-retention ratio (corrupted over clean accuracy) is reported separately. The same numerical severities are not equivalent across representations. These tests are motivated by corruption benchmarking \cite{corruptions}, but real geographic and seasonal OOD robustness remains \NC{}.
+
+Uncertainty-quality score $U=1-B/2$ measures probabilistic forecast quality; it is not an isolated estimate of epistemic uncertainty. Representation score $Q=(s+1)/2$ uses the mean silhouette $s$ \cite{silhouette} of L2-normalized penultimate embeddings on a fixed balanced subset of 20 images per class. For each image, the silhouette compares average within-class distance $a$ with the nearest other-class mean distance $b$: $(b-a)/\max(a,b)$. It is a limited class-separation proxy and may depend on embedding dimension.
+
+\subsection{Composite Trust Score and sensitivity}\label{sec:composite}
+The six components are $\mathbf{s}=(\mathrm{macroF1},1-D,1-\mathrm{ECE},R,U,Q)$. Their documented ranges are [0,1]; no transformation depends on test-set extrema. Stability is reported separately and is not silently substituted for deletion faithfulness. The Composite Trust Score is
+\begin{equation}T=\sum_{j=1}^{6}w_js_j,\qquad w_j\geq0,\quad\sum_jw_j=1.\label{eq:composite}\end{equation}
+This weighted sum is not a Bayesian posterior or a calibrated probability of trustworthiness. The default weights are $1/6$, reflecting the absence of a justified operational preference. Missing or invalid components reject the score. Calibration, Brier and performance are correlated; independence is not assumed.
+
+Sensitivity compares equal weights with reliability-priority weights $(.15,.10,.25,.25,.15,.10)$, explanation-priority weights $(.15,.35,.15,.15,.10,.10)$, and 50 seeded multiplicative perturbations in [.8,1.2] renormalized to sum to one. Scores, average-tie ranks, preferred models and Spearman correlation against default ranks are recorded. Correlation is \NC{} for one-model or constant-rank cases. No weighting is claimed to be universally optimal.
+
+\section{Results and evidence audit}\label{sec:results}
+@@RESULTS@@
+
+\subsection{Statistical analysis}\label{sec:statistics}
+\textbf{Statistical unit and uncertainty.} Two sources of variation are quantified separately. (i) \emph{Training seeds}: for $n$ independent seeds under one configuration we report mean $\bar z$, sample standard deviation $s_z$ ($n-1$) and the 95\% Student-$t$ interval $\bar z\pm t_{.975,n-1}s_z/\sqrt n$; with $n<2$ these are \NC{}. Because the backbone is frozen, seeds randomize only the head initialization, batch order and flips, so seed intervals are narrow and describe optimization noise, not data variation. (ii) \emph{Test patches}: per-patch correctness averaged over seeds is resampled with a percentile bootstrap (10,000 draws, fixed seed) over the 4,050 test patches, which describes sampling noise on this fixed split. Patches, pixels and minibatches are never counted as training replicates. Neither interval reflects geographic or seasonal variance.
+
+\textbf{Pairwise comparisons} use identical test patches; accuracy differences use the paired bootstrap at a Bonferroni-adjusted level, and seed-level differences of other metrics use paired Student-$t$ intervals over shared seeds. Seeds do not imply identical data ordering across architectures. All comparisons are exploratory. The Friedman/Nemenyi analysis and critical-difference diagram of the submitted version are withdrawn: they require many independent datasets \cite{statistics}, and seeds of one dataset are not datasets. No significance is inferred from plots.
+
+\textbf{Sensitivity to weights} reuses the scores of Section~\ref{sec:composite}: Spearman correlation compares each scheme's ranking with the default ranking.
+
+\section{Audit of the submitted results}\label{sec:discrepancy}
+@@DISCREPANCY@@
+
+\section{Discussion and limitations}\label{sec:limitations}
+\textbf{What the evidence supports.} Accuracy, calibration, explanation behaviour and robustness ranked the models differently, so no single number summarizes them. In particular, the most accurate RGB model (ConvNeXt-T) has the lowest pre-declared composite among the RGB models, and the composite ranking reverses under a post-hoc control normalization of the explanation component (Section~\ref{sec:posthoc}); neither ranking should be read as a statement of trustworthiness. Attribution stability under small noise was low for every model, and deletion faithfulness relative to a random-order control was mixed: two models' salient-first deletion removed probability faster than random deletion, two did not. These observations describe one attribution rule (absolute input-times-gradient), one masking baseline and one patch size.
+
+\textbf{The Prithvi result is not a verdict on the model.} Its lower accuracy and calibration may reflect any of the following, which this experiment does not separate: a frozen encoder with a linear head on mean-pooled tokens, apparently top-of-atmosphere instead of surface-reflectance inputs, bilinear 64-to-224 upsampling, a single time step instead of the three used in pretraining, and (for the corruption results) reflectance-unit severities that are harsher than their RGB counterparts. Published Prithvi results use fine-tuning \cite{prithvi,prithvicard}; our protocol was chosen for control across architectures, not for peak accuracy.
+
+\textbf{Limits of the experiment.} EuroSAT's land-cover labels and small patches do not establish field-level agricultural utility. The random split does not establish geographic independence, and no seasonal or cross-dataset transfer was evaluated; exact-duplicate checks cannot rule out spatial correlation. Four architectures and five seeds are a small sample, and the seeds randomize only a linear head, so intervals understate total uncertainty. Frozen linear probes and five epochs do not reproduce full fine-tuning. The RGB and six-band cohorts differ in input information and pretraining, so no controlled common-input comparison exists. Synthetic noise and brightness changes are not real distribution shift, and their severities are not equivalent across representations.
+
+\textbf{Limits of the metrics.} Noise stability depends on perturbation scale. Deletion changes the input distribution and may reward low starting confidence or fragility to masking; the post-hoc control check of Section~\ref{sec:posthoc} shows that this materially changes the composite ranking, and that check was defined after the results were seen. Brier quality overlaps calibration and discrimination, the robustness component partly repeats accuracy, and the silhouette-based representation score is a weak proxy for representation quality (it varies little across models here). Composite weights are subjective, components are correlated, and several components are close to saturation, which compresses composite differences. No field deployment guarantee follows from the score.
+
+\textbf{Future work.} Dedicated crop-health, disease, yield or stress datasets, spatially separated splits, fine-tuned and surface-reflectance Prithvi variants, additional attribution methods and real distribution-shift benchmarks are required before any agricultural claim.
+
+\section{Conclusion}\label{sec:conclusion}
+The revision separates explanation stability from deletion-based faithfulness, defines a non-Bayesian composite, evaluates a real six-band Prithvi-EO-1.0-100M alongside three RGB models with five seeds each, and ties every reported number to preserved run artifacts. It corrects the submitted version's pooled epochs, fallback trust values, proxy foundation-model label and mismatched figure and table. The results show that accuracy, calibration, explanation faithfulness and robustness diverge across models and that the composite ranking is sensitive to how explanation quality is defined. The contribution is auditable evaluation on land-cover classification, not a guarantee of trustworthiness or a demonstrated crop-health system.
+
+\section*{Acknowledgements}
+The authors' original acknowledgement of Delhi Technological University's infrastructure and research support is retained. No new funding or institutional approval is asserted.
+\section*{Data and code availability}
+EuroSAT is publicly provided by its authors \cite{eurosat}. This revision preserves local code, data manifests and experiment artifacts. A public CropXAI release URL and author-approved license have not been verified; no open-source release claim is made.
+\section*{Responsible use}
+The evaluated land-cover task does not support disease-treatment, insurance or yield decisions. Any such use needs task-specific evidence, stakeholder review and monitoring. No similarity score or publication acceptance is guaranteed.
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+@@RESPONSE@@
+\end{document}

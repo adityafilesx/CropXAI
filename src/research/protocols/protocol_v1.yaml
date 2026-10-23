@@ -1,0 +1,27 @@
+name: CropXAI_Final_Benchmark_Protocol
+version: "1.0.0"
+date: "2026-07-06"
+frozen: true
+
+dataset:
+  name: "CropSentinel-2"
+  version: "v1.2.0"
+  preprocessing: "v1.0"
+  augmentations: "v1.1"
+  label_version: "v1.0"
+
+models:
+  architectures: "frozen_v1"
+  hyperparameters: "frozen_v1"
+
+evaluation:
+  metrics: "v2.0"
+  trust_estimators: "frozen_v1"
+  xai_methods: "frozen_v1"
+
+statistics:
+  seeds: 1
+  epochs: 5
+  xai_subset: 100
+  significance_threshold: 0.05
+  bayesian_rope: 0.01

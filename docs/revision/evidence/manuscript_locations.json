@@ -1,0 +1,174 @@
+{
+  "eq:brier": {
+    "number": "2",
+    "page": "4"
+  },
+  "eq:composite": {
+    "number": "5",
+    "page": "5"
+  },
+  "eq:deletion": {
+    "number": "4",
+    "page": "4"
+  },
+  "eq:ece": {
+    "number": "1",
+    "page": "4"
+  },
+  "eq:stability": {
+    "number": "3",
+    "page": "4"
+  },
+  "fig:accuracy": {
+    "number": "2",
+    "page": "6"
+  },
+  "fig:architecture": {
+    "number": "1",
+    "page": "3"
+  },
+  "fig:confusion": {
+    "number": "10",
+    "page": "11"
+  },
+  "fig:deletion": {
+    "number": "5",
+    "page": "8"
+  },
+  "fig:history": {
+    "number": "9",
+    "page": "11"
+  },
+  "fig:paired": {
+    "number": "8",
+    "page": "10"
+  },
+  "fig:pillars": {
+    "number": "3",
+    "page": "7"
+  },
+  "fig:reliability": {
+    "number": "4",
+    "page": "8"
+  },
+  "fig:robustness": {
+    "number": "6",
+    "page": "9"
+  },
+  "fig:sensitivity": {
+    "number": "7",
+    "page": "9"
+  },
+  "lastpage": {
+    "number": "7",
+    "page": "19"
+  },
+  "sec:calib": {
+    "number": "4.3",
+    "page": "7"
+  },
+  "sec:cohorts": {
+    "number": "4.1",
+    "page": "5"
+  },
+  "sec:composite": {
+    "number": "3.6",
+    "page": "5"
+  },
+  "sec:conclusion": {
+    "number": "7",
+    "page": "14"
+  },
+  "sec:data": {
+    "number": "3.1",
+    "page": "2"
+  },
+  "sec:discrepancy": {
+    "number": "5",
+    "page": "12"
+  },
+  "sec:explanation": {
+    "number": "3.4",
+    "page": "4"
+  },
+  "sec:history": {
+    "number": "4.7",
+    "page": "10"
+  },
+  "sec:implementation": {
+    "number": "3",
+    "page": "2"
+  },
+  "sec:introduction": {
+    "number": "1",
+    "page": "1"
+  },
+  "sec:limitations": {
+    "number": "6",
+    "page": "13"
+  },
+  "sec:metrics": {
+    "number": "3.3",
+    "page": "4"
+  },
+  "sec:models": {
+    "number": "3.2",
+    "page": "3"
+  },
+  "sec:pairs": {
+    "number": "4.6",
+    "page": "10"
+  },
+  "sec:perf": {
+    "number": "4.2",
+    "page": "5"
+  },
+  "sec:pillars": {
+    "number": "3.5",
+    "page": "5"
+  },
+  "sec:posthoc": {
+    "number": "4.5",
+    "page": "9"
+  },
+  "sec:related": {
+    "number": "2",
+    "page": "2"
+  },
+  "sec:results": {
+    "number": "4",
+    "page": "5"
+  },
+  "sec:sensresults": {
+    "number": "4.4",
+    "page": "7"
+  },
+  "sec:statistics": {
+    "number": "4.8",
+    "page": "12"
+  },
+  "tab:ci": {
+    "number": "5",
+    "page": "11"
+  },
+  "tab:corruption": {
+    "number": "3",
+    "page": "7"
+  },
+  "tab:legacy": {
+    "number": "6",
+    "page": "12"
+  },
+  "tab:metrics": {
+    "number": "2",
+    "page": "6"
+  },
+  "tab:paired": {
+    "number": "4",
+    "page": "10"
+  },
+  "tab:trust": {
+    "number": "1",
+    "page": "6"
+  }
+}

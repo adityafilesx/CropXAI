@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+"""Unified CLI; legacy data and unsupported publication generators are archived."""
+from src.cropxai.cli import main
+if __name__ == '__main__': main()

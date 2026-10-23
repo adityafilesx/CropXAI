@@ -1,0 +1,171 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cropxai"
+version = "0.2.0"
+description = "CropXAI: A publication-quality benchmarking framework for explainable AI in crop classification"
+readme = "README.md"
+license = { text = "License grant not established; see LICENSE" }
+authors = [{ name = "CropXAI Research Team" }]
+requires-python = ">=3.12"
+keywords = ["remote-sensing", "crop-classification", "explainable-ai", "deep-learning", "benchmarking"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+
+dependencies = [
+    # Core ML
+    "torch>=2.3.0",
+    "torchvision>=0.18.0",
+    "pytorch-lightning>=2.3.0",
+    "torchgeo>=0.6.0",
+    # Geospatial
+    "rasterio>=1.3.10",
+    "geopandas>=0.14.4",
+    "shapely>=2.0.4",
+    "pyproj>=3.6.1",
+    # Data & Numerics
+    "numpy>=1.26.4",
+    "pandas>=2.2.2",
+    "scikit-learn>=1.4.2",
+    # Augmentation
+    "albumentations>=1.4.8",
+    # Visualization
+    "matplotlib>=3.9.0",
+    "plotly>=5.22.0",
+    "dash>=2.17.0",
+    "seaborn>=0.13.2",
+    # Configuration
+    "hydra-core>=1.3.2",
+    "omegaconf>=2.3.0",
+    # Logging
+    "rich>=13.7.1",
+    "tensorboard>=2.17.0",
+    "wandb>=0.17.0",
+    # Utilities
+    "joblib>=1.4.2",
+    "tqdm>=4.66.4",
+    "click>=8.1.7",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.1",
+    "jinja2>=3.1.4",
+    # Type checking support
+    "typing-extensions>=4.12.2",
+    # Foundation Models & Transformers
+    "transformers>=4.41.0",
+    "timm>=1.0.3",
+    "umap-learn>=0.5.6",
+    # XAI & Interpretability
+    "captum>=0.7.0",
+    "scikit-image>=0.23.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.2",
+    "pytest-cov>=5.0.0",
+    "pytest-xdist>=3.5.0",
+    "pytest-benchmark>=4.0.0",
+    "black>=24.4.2",
+    "ruff>=0.4.8",
+    "mypy>=1.10.0",
+    "pre-commit>=3.7.1",
+    "ipykernel>=6.29.4",
+    "jupyter>=1.0.0",
+]
+gdal = [
+    "GDAL>=3.8.4",
+]
+
+[project.scripts]
+cropxai = "src.cropxai.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cropxai/cropxai"
+Documentation = "https://cropxai.readthedocs.io"
+Repository = "https://github.com/cropxai/cropxai"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+# ─── Black ────────────────────────────────────────────────────────────────────
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+include = '\.pyi?$'
+
+# ─── Ruff ─────────────────────────────────────────────────────────────────────
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "ANN", # flake8-annotations (type hints)
+    "RUF", # ruff-specific
+]
+ignore = [
+    "ANN101",  # missing type annotation for self
+    "ANN102",  # missing type annotation for cls
+    "ANN401",  # dynamically typed Any
+    "B008",    # do not perform function calls in default arguments (Hydra pattern)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+
+# ─── Mypy ─────────────────────────────────────────────────────────────────────
+[tool.mypy]
+python_version = "3.12"
+strict = false
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+exclude = ["tests/", "notebooks/"]
+
+# ─── Pytest ───────────────────────────────────────────────────────────────────
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--tb=short",
+    "-v",
+]
+markers = [
+    "unit: Unit tests (fast)",
+    "integration: Integration tests (medium)",
+    "regression: Regression tests",
+    "performance: Performance benchmarks (slow)",
+    "dataset: Dataset validation tests (requires data)",
+    "slow: Tests that take significant time",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*", "notebooks/*", "profiling/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+    "@abstractmethod",
+]

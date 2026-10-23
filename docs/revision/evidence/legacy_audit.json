@@ -1,0 +1,406 @@
+{
+  "cohort_composition": {
+    "ConvNeXt-T": {
+      "1": [
+        100
+      ],
+      "5": [
+        42,
+        100,
+        999
+      ]
+    },
+    "Prithvi-100M": {
+      "1": [
+        42,
+        100,
+        999
+      ],
+      "5": [
+        42,
+        100
+      ]
+    },
+    "ResNet-18": {
+      "1": [
+        42,
+        100,
+        999
+      ],
+      "5": [
+        42,
+        100,
+        999
+      ]
+    },
+    "ResNet-50": {
+      "1": [
+        1234
+      ]
+    },
+    "ViT-Base": {
+      "1": [
+        42,
+        100,
+        999
+      ],
+      "5": [
+        42,
+        100,
+        999
+      ]
+    }
+  },
+  "database_divergence": {
+    "experiment_timestamps": {
+      "96f1e21d95740cc2": 1783312025.374197,
+      "d43a23483f5306fb": 1783314219.4779022
+    },
+    "figures_main": [
+      {
+        "figure_name": "baseline_results.pdf",
+        "generated_at": 1783312114.941695,
+        "source_run_ids": "[\"ResNet-18/eurosat\"]"
+      },
+      {
+        "figure_name": "accuracy_trust_gap.pdf",
+        "generated_at": 1783446504.629971,
+        "source_run_ids": "[\"ResNet-18/eurosat\", \"ViT-Base/eurosat\", \"Prithvi-100M/eurosat\"]"
+      }
+    ],
+    "figures_reviewer_package": [
+      {
+        "figure_name": "baseline_results.pdf",
+        "generated_at": 1783312114.941695,
+        "source_run_ids": "[\"ResNet-18/eurosat\"]"
+      },
+      {
+        "figure_name": "accuracy_trust_gap.pdf",
+        "generated_at": 1783317378.6189692,
+        "source_run_ids": "[\"ResNet-18/eurosat\", \"ViT-Base/eurosat\", \"Prithvi-100M/eurosat\"]"
+      }
+    ],
+    "mechanism": "INSERT OR REPLACE on metrics + deterministic run_id: a re-execution replaced metrics, keeping the first execution row and timestamp",
+    "run_id_is_config_fingerprint": true,
+    "runs_with_differing_metrics": [
+      {
+        "differing_metrics": {
+          "accuracy": {
+            "main": 0.9237037037037037,
+            "reviewer_package": 0.8518518518518519
+          },
+          "f1": {
+            "main": 0.9230667500782053,
+            "reviewer_package": 0.8512814288590409
+          },
+          "final_loss": {
+            "main": 0.24923977391343632,
+            "reviewer_package": 0.498994018624075
+          },
+          "precision": {
+            "main": 0.9240150432175936,
+            "reviewer_package": 0.8535535821850765
+          },
+          "recall": {
+            "main": 0.9237037037037037,
+            "reviewer_package": 0.8518518518518519
+          },
+          "trust_T3": {
+            "main": 0.3266809208431434,
+            "reviewer_package": 0.2393661506246907
+          }
+        },
+        "epochs": 5,
+        "model": "ResNet-18",
+        "run_id": "96f1e21d95740cc2",
+        "same_experiment_row": true,
+        "seed": 42
+      },
+      {
+        "differing_metrics": {
+          "trust_T3": {
+            "main": 0.38752942534620016,
+            "reviewer_package": 0.5
+          }
+        },
+        "epochs": 1,
+        "model": "ViT-Base",
+        "run_id": "d43a23483f5306fb",
+        "same_experiment_row": true,
+        "seed": 100
+      }
+    ]
+  },
+  "fallback_trust_runs": [
+    {
+      "epochs": 1,
+      "model": "Prithvi-100M",
+      "run_id": "efd150893ff74f2a",
+      "seed": 42,
+      "trust_T3": 0.5
+    },
+    {
+      "epochs": 1,
+      "model": "Prithvi-100M",
+      "run_id": "02b9eac4b29af8f4",
+      "seed": 100,
+      "trust_T3": 0.5
+    },
+    {
+      "epochs": 1,
+      "model": "Prithvi-100M",
+      "run_id": "c9b0a2f7a76736e9",
+      "seed": 999,
+      "trust_T3": 0.5
+    },
+    {
+      "epochs": 1,
+      "model": "ViT-Base",
+      "run_id": "a15c9b862ccac4cf",
+      "seed": 42,
+      "trust_T3": 0.5
+    },
+    {
+      "epochs": 1,
+      "model": "ViT-Base",
+      "run_id": "f2782f5c8dbc3ed4",
+      "seed": 999,
+      "trust_T3": 0.5
+    }
+  ],
+  "five_epoch_accuracy_all_models": {
+    "ConvNeXt-T": {
+      "accuracy_mean": 0.9657613168724279,
+      "n_runs": 3
+    },
+    "Prithvi-100M": {
+      "accuracy_mean": 0.961358024691358,
+      "n_runs": 2
+    },
+    "ResNet-18": {
+      "accuracy_mean": 0.9251851851851852,
+      "n_runs": 3
+    },
+    "ViT-Base": {
+      "accuracy_mean": 0.9607407407407407,
+      "n_runs": 3
+    }
+  },
+  "n_runs": 22,
+  "prithvi_vs_vit_identity": [
+    {
+      "epochs": 1,
+      "identical": {
+        "accuracy": true,
+        "f1": true,
+        "precision": true,
+        "recall": true,
+        "trust_T3": true
+      },
+      "metrics_compared": [
+        "accuracy",
+        "f1",
+        "precision",
+        "recall",
+        "trust_T3"
+      ],
+      "seed": 42
+    },
+    {
+      "epochs": 1,
+      "identical": {
+        "accuracy": true,
+        "f1": true,
+        "precision": true,
+        "recall": true,
+        "trust_T3": false
+      },
+      "metrics_compared": [
+        "accuracy",
+        "f1",
+        "precision",
+        "recall",
+        "trust_T3"
+      ],
+      "seed": 100
+    },
+    {
+      "epochs": 1,
+      "identical": {
+        "accuracy": true,
+        "f1": true,
+        "precision": true,
+        "recall": true,
+        "trust_T3": true
+      },
+      "metrics_compared": [
+        "accuracy",
+        "f1",
+        "precision",
+        "recall",
+        "trust_T3"
+      ],
+      "seed": 999
+    },
+    {
+      "epochs": 5,
+      "identical": {
+        "accuracy": true,
+        "f1": true,
+        "precision": true,
+        "recall": true,
+        "trust_T3": true
+      },
+      "metrics_compared": [
+        "accuracy",
+        "f1",
+        "precision",
+        "recall",
+        "trust_T3"
+      ],
+      "seed": 42
+    },
+    {
+      "epochs": 5,
+      "identical": {
+        "accuracy": true,
+        "f1": true,
+        "precision": true,
+        "recall": true,
+        "trust_T3": true
+      },
+      "metrics_compared": [
+        "accuracy",
+        "f1",
+        "precision",
+        "recall",
+        "trust_T3"
+      ],
+      "seed": 100
+    }
+  ],
+  "reviewer_package_db": {
+    "cells_in_main_not_in_package": 12,
+    "cells_missing_from_main": [],
+    "n_runs": 10
+  },
+  "source": "results/experiment_db.sqlite",
+  "submitted_figure_files": {
+    "baseline_results": {
+      "path": "paper/figures/baseline_results.pdf",
+      "sha256": "f3bb0b5c9b9b48de4e7c23b118b022404b3da170434ab8fb64980b61a0f59cfe",
+      "text": "ResNet-18 Baseline \u2014 Validated Experimental Results Final Test Accuracy: 85.19% Final Trust Score (T3): 0.2394"
+    },
+    "training_curve": {
+      "path": "paper/figures/training_curve.pdf",
+      "sha256": "6d93d9df3650d621750b2a4a561de66b0c40df896e7b41f51551c3455b530963",
+      "text": "Training Convergence \u2014 ResNet-18 Baseline 85.50 Training Loss 0.75 85.25 0.70 85.00 0.65 84.75 0.60 84.50 84.25 0.55 84.00 0.50 1.0 1.5 2.0 2.5 3.0 Epoch 3.5 4.0 4.5 5.0 Validation Accuracy (%) 85.75 0.80"
+    }
+  },
+  "table1_reconstruction": {
+    "Prithvi-100M": {
+      "accuracy": {
+        "abs_diff_pooled": 3.703703703705763e-05,
+        "five_epoch_only": 0.961358024691358,
+        "n_five_epoch": 2,
+        "pooled_all_runs": 0.953037037037037,
+        "submitted": 0.953
+      },
+      "epochs_pooled": [
+        1,
+        5
+      ],
+      "f1": {
+        "abs_diff_pooled": 1.6331973704653002e-05,
+        "five_epoch_only": 0.9613929731962396,
+        "n_five_epoch": 2,
+        "pooled_all_runs": 0.9529163319737046,
+        "submitted": 0.9529
+      },
+      "matches_pooled_to_4dp": true,
+      "n_runs": 5,
+      "run_ids": [
+        "efd150893ff74f2a",
+        "02b9eac4b29af8f4",
+        "c9b0a2f7a76736e9",
+        "0ce370a922caa226",
+        "8d1ae133ff40742f"
+      ],
+      "seeds_pooled": [
+        42,
+        100,
+        999
+      ]
+    },
+    "ResNet-18": {
+      "accuracy": {
+        "abs_diff_pooled": 8.641975308587568e-06,
+        "five_epoch_only": 0.9251851851851852,
+        "n_five_epoch": 3,
+        "pooled_all_runs": 0.9153086419753086,
+        "submitted": 0.9153
+      },
+      "epochs_pooled": [
+        1,
+        5
+      ],
+      "f1": {
+        "abs_diff_pooled": 4.190926767755343e-05,
+        "five_epoch_only": 0.9244193219644683,
+        "n_five_epoch": 3,
+        "pooled_all_runs": 0.9144580907323224,
+        "submitted": 0.9145
+      },
+      "matches_pooled_to_4dp": true,
+      "n_runs": 6,
+      "run_ids": [
+        "0ed59131d6303de9",
+        "807ec0c9a979d8ec",
+        "665f76ff6cb59d82",
+        "96f1e21d95740cc2",
+        "87dd764ee6ba1745",
+        "122040875f4bff32"
+      ],
+      "seeds_pooled": [
+        42,
+        100,
+        999
+      ]
+    },
+    "ViT-Base": {
+      "accuracy": {
+        "abs_diff_pooled": 1.5226337448659422e-05,
+        "five_epoch_only": 0.9607407407407407,
+        "n_five_epoch": 3,
+        "pooled_all_runs": 0.9541152263374486,
+        "submitted": 0.9541
+      },
+      "epochs_pooled": [
+        1,
+        5
+      ],
+      "f1": {
+        "abs_diff_pooled": 1.5553706638082865e-05,
+        "five_epoch_only": 0.9607658695879282,
+        "n_five_epoch": 3,
+        "pooled_all_runs": 0.954015553706638,
+        "submitted": 0.954
+      },
+      "matches_pooled_to_4dp": true,
+      "n_runs": 6,
+      "run_ids": [
+        "a15c9b862ccac4cf",
+        "d43a23483f5306fb",
+        "f2782f5c8dbc3ed4",
+        "7c0c53dc5681765d",
+        "c7e754c4c3f96b10",
+        "30c54a44cb758320"
+      ],
+      "seeds_pooled": [
+        42,
+        100,
+        999
+      ]
+    }
+  }
+}

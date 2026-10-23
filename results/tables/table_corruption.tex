@@ -1,0 +1,15 @@
+\begin{longtable}{lcccc}
+\caption{Mean test accuracy under synthetic corruptions (severity in the unit scale of each input representation, so Prithvi and RGB severities are not equivalent).}\label{tab:corruption}\\
+\toprule Condition & ResNet-18 & ViT-Base & ConvNeXt-T & Prithvi (6-band) \\
+\midrule\endfirsthead
+\toprule Condition & ResNet-18 & ViT-Base & ConvNeXt-T & Prithvi (6-band) \\
+\midrule\endhead
+gaussian noise 0.05 & 0.726 & 0.767 & 0.562 & 0.346 \\
+gaussian noise 0.1 & 0.482 & 0.520 & 0.344 & 0.274 \\
+gaussian noise 0.2 & 0.271 & 0.285 & 0.150 & 0.179 \\
+brightness 0.1 & 0.943 & 0.958 & 0.965 & 0.833 \\
+brightness 0.3 & 0.917 & 0.935 & 0.963 & 0.688 \\
+brightness 0.5 & 0.857 & 0.697 & 0.951 & 0.476 \\
+clean & 0.946 & 0.960 & 0.966 & 0.863 \\
+\bottomrule
+\end{longtable}

@@ -1,0 +1,41 @@
+{
+  "models": {
+    "ConvNeXt-T": {
+      "cohort": "rgb_imagenet",
+      "posthoc_composite": 0.7697242095646806,
+      "posthoc_explanation": 0.4837865865069251,
+      "primary_composite": 0.7393168270064948,
+      "primary_explanation": 0.3013422911578101,
+      "rank_posthoc_composite": 2.0,
+      "rank_primary_composite": 3.0
+    },
+    "Prithvi-EO-1.0-100M": {
+      "cohort": "ms6_prithvi",
+      "posthoc_composite": 0.7023570477599905,
+      "posthoc_explanation": 0.522023083505526,
+      "primary_composite": 0.7234297741039856,
+      "primary_explanation": 0.6484594415694962,
+      "rank_posthoc_composite": 4.0,
+      "rank_primary_composite": 4.0
+    },
+    "ResNet-18": {
+      "cohort": "rgb_imagenet",
+      "posthoc_composite": 0.7681434217291225,
+      "posthoc_explanation": 0.4686858030671794,
+      "primary_composite": 0.8202612252420567,
+      "primary_explanation": 0.7813926241447839,
+      "rank_posthoc_composite": 3.0,
+      "rank_primary_composite": 1.0
+    },
+    "ViT-Base": {
+      "cohort": "rgb_imagenet",
+      "posthoc_composite": 0.7792090085842822,
+      "posthoc_explanation": 0.5239376239385258,
+      "primary_composite": 0.750046002240297,
+      "primary_explanation": 0.34895958587461473,
+      "rank_posthoc_composite": 1.0,
+      "rank_primary_composite": 2.0
+    }
+  },
+  "status": "POST-HOC; defined after inspecting results; default weights; primary composite unchanged"
+}

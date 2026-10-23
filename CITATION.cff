@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Unpublished revision of Paper 445; no public release or DOI has been verified."
+title: "CropXAI: Quantifying the Accuracy–Trust Gap in Earth Observation Vision Models"
+type: software
+version: 0.2.0
+authors:
+  - family-names: Kumar
+    given-names: Aditya
+  - family-names: Upadhyay
+    given-names: Govind
+  - family-names: Rathour
+    given-names: Nitin
+  - family-names: Patidar
+    given-names: Sanjay

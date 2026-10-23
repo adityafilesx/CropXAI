@@ -1,0 +1,23 @@
+# ─── Metrics Configuration ────────────────────────────────────────────────────
+# All metrics are interface stubs in Phase 1.
+# Enable/disable groups for Phase 2+.
+
+prediction:
+  enabled: true
+  metrics: [accuracy, f1_macro, f1_weighted, iou_mean, cohen_kappa]
+
+explainability:
+  enabled: false       # Phase 4: XAI
+  metrics: []
+
+calibration:
+  enabled: false       # Phase 4: Uncertainty
+  metrics: []
+
+efficiency:
+  enabled: false       # Phase 3: Model comparison
+  metrics: []
+
+statistical:
+  enabled: false
+  metrics: []

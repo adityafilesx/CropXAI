@@ -1,0 +1,22 @@
+\begin{longtable}{lcccc}
+\caption{Underlying metrics (mean $\pm$ SD over seeds). Direction: higher is better except ECE, NLL, Brier and deletion AUC of the salient order; entropy is descriptive.}\label{tab:metrics}\\
+\toprule Metric & ResNet-18 & ViT-Base & ConvNeXt-T & Prithvi (6-band) \\
+\midrule\endfirsthead
+\toprule Metric & ResNet-18 & ViT-Base & ConvNeXt-T & Prithvi (6-band) \\
+\midrule\endhead
+Accuracy & 0.9455 $\pm$ 0.0023 & 0.9601 $\pm$ 0.0025 & 0.9660 $\pm$ 0.0019 & 0.8631 $\pm$ 0.0005 \\
+Macro-F1 & 0.9440 $\pm$ 0.0025 & 0.9585 $\pm$ 0.0027 & 0.9648 $\pm$ 0.0021 & 0.8558 $\pm$ 0.0005 \\
+ECE (15 bins) & 0.0173 $\pm$ 0.0025 & 0.0066 $\pm$ 0.0011 & 0.0085 $\pm$ 0.0006 & 0.0740 $\pm$ 0.0014 \\
+NLL & 0.1652 $\pm$ 0.0040 & 0.1191 $\pm$ 0.0041 & 0.0993 $\pm$ 0.0027 & 0.4348 $\pm$ 0.0010 \\
+Brier & 0.0836 $\pm$ 0.0023 & 0.0605 $\pm$ 0.0023 & 0.0515 $\pm$ 0.0016 & 0.2084 $\pm$ 0.0008 \\
+Norm. entropy & 0.0944 $\pm$ 0.0009 & 0.0545 $\pm$ 0.0010 & 0.0535 $\pm$ 0.0008 & 0.2749 $\pm$ 0.0014 \\
+Error-detection AUROC & 0.9098 $\pm$ 0.0025 & 0.9283 $\pm$ 0.0023 & 0.9397 $\pm$ 0.0044 & 0.8586 $\pm$ 0.0030 \\
+Stability (SSIM) & 0.2473 $\pm$ 0.0014 & 0.3878 $\pm$ 0.0005 & 0.2767 $\pm$ 0.0013 & 0.3590 $\pm$ 0.0014 \\
+Deletion AUC, salient & 0.2186 $\pm$ 0.0080 & 0.6510 $\pm$ 0.0118 & 0.6987 $\pm$ 0.0069 & 0.3515 $\pm$ 0.0049 \\
+Deletion AUC, random & 0.1928 $\pm$ 0.0031 & 0.7165 $\pm$ 0.0094 & 0.6548 $\pm$ 0.0082 & 0.3839 $\pm$ 0.0050 \\
+Deletion AUC, least salient & 0.2339 $\pm$ 0.0076 & 0.7164 $\pm$ 0.0087 & 0.7089 $\pm$ 0.0090 & 0.3997 $\pm$ 0.0045 \\
+AOPC, salient & 0.7408 $\pm$ 0.0085 & 0.3438 $\pm$ 0.0120 & 0.2902 $\pm$ 0.0053 & 0.4862 $\pm$ 0.0051 \\
+Silhouette & 0.1119 $\pm$ 0.0000 & 0.0718 $\pm$ 0.0000 & 0.0961 $\pm$ 0.0000 & 0.0968 $\pm$ 0.0000 \\
+Accuracy retention & 0.7396 $\pm$ 0.0021 & 0.7225 $\pm$ 0.0086 & 0.6791 $\pm$ 0.0058 & 0.5401 $\pm$ 0.0059 \\
+\bottomrule
+\end{longtable}

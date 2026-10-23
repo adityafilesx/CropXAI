@@ -1,0 +1,646 @@
+[
+  {
+    "ci95": [
+      0.9409327556925264,
+      0.9470606970518622
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9439967263721943,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "performance",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.002467632696204751
+  },
+  {
+    "ci95": [
+      0.7714115634021581,
+      0.7913736848874098
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.7813926241447839,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "explanation",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.008038455457406203
+  },
+  {
+    "ci95": [
+      0.9796368992146126,
+      0.9857554979080058
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9826961985613092,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "calibration",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.0024638705407600105
+  },
+  {
+    "ci95": [
+      0.6961806123983286,
+      0.7024037497415893
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.6992921810699589,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "robustness",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.0025059667318466333
+  },
+  {
+    "ci95": [
+      0.956795760817725,
+      0.9596506125245435
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9582231866711343,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "uncertainty",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.0011496071847731655
+  },
+  {
+    "ci95": [
+      0.5559664346329599,
+      0.5559664346329599
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.5559664346329599,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "representation",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.0
+  },
+  {
+    "ci95": [
+      0.8191221900759887,
+      0.8214002604081249
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.8202612252420568,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "composite_trust",
+    "missing_runs": 0,
+    "model": "ResNet-18",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "4552d176bbd4b5f5-0086f08c",
+      "bfc2210647e0bf33-cc3b4d52",
+      "cb63bff77918b9f2-1e84f0c3",
+      "e46f1c2720aff67e-f79cc1b3",
+      "edbfcdd9b6cc8181-df03a29e"
+    ],
+    "split": "test",
+    "std": 0.0009173457293726924
+  },
+  {
+    "ci95": [
+      0.9551641443191626,
+      0.9618266883715724
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9584954163453675,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "performance",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.002682909411099973
+  },
+  {
+    "ci95": [
+      0.33432121688759864,
+      0.3635979548616308
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.34895958587461473,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "explanation",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.01178931579573259
+  },
+  {
+    "ci95": [
+      0.9920704344098997,
+      0.9947547745660453
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9934126044879725,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "calibration",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.0010809446678122104
+  },
+  {
+    "ci95": [
+      0.6820236495348295,
+      0.7054825233046766
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.6937530864197531,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "robustness",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.009446546651825151
+  },
+  {
+    "ci95": [
+      0.9683026512249797,
+      0.9711664052428801
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9697345282339299,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "uncertainty",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.001153192015731831
+  },
+  {
+    "ci95": [
+      0.535920792080145,
+      0.535920792080145
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.535920792080145,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "representation",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.0
+  },
+  {
+    "ci95": [
+      0.7475511534099619,
+      0.7525408510706322
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.750046002240297,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "composite_trust",
+    "missing_runs": 0,
+    "model": "ViT-Base",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "27e15ca8acc9f91c-a2802359",
+      "766e5436c7072b66-1ecde3f2",
+      "96f6d00885e84599-7ec1b3cc",
+      "b3e35a3c86c20f9d-530c432f",
+      "b6fa00398765dbbe-9705373e"
+    ],
+    "split": "test",
+    "std": 0.0020092785439090417
+  },
+  {
+    "ci95": [
+      0.962209414086848,
+      0.9673961687777521
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9648027914323001,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "performance",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.002088630538699443
+  },
+  {
+    "ci95": [
+      0.29281909706302356,
+      0.3098654852525966
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.3013422911578101,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "explanation",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.006864332143894382
+  },
+  {
+    "ci95": [
+      0.9907016170957792,
+      0.9922082299827206
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9914549235392499,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "calibration",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.0006066910569690739
+  },
+  {
+    "ci95": [
+      0.6491771128407025,
+      0.6628558089699972
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.6560164609053498,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "robustness",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.005508211621293168
+  },
+  {
+    "ci95": [
+      0.9732298498200104,
+      0.9752701035520149
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.9742499766860127,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "uncertainty",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.0008215804496852852
+  },
+  {
+    "ci95": [
+      0.5480345183182465,
+      0.5480345183182465
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.5480345183182465,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "representation",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.0
+  },
+  {
+    "ci95": [
+      0.7386343536337624,
+      0.739999300379227
+    ],
+    "cohort": "rgb_imagenet",
+    "mean": 0.7393168270064947,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "composite_trust",
+    "missing_runs": 0,
+    "model": "ConvNeXt-T",
+    "n": 5,
+    "purpose": "controlled_benchmark",
+    "run_ids": [
+      "06162797028c8751-8987552e",
+      "0f3308d8d9691043-0127285a",
+      "5b869f4fb44dfbb2-e232e61f",
+      "65bba586fabf39f9-f0b0aebb",
+      "99ff72bc67a6eb99-d11e32d2"
+    ],
+    "split": "test",
+    "std": 0.0005496441659897967
+  },
+  {
+    "ci95": [
+      0.8551205009557483,
+      0.856425618301653
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.8557730596287006,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "performance",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.0005255517385510956
+  },
+  {
+    "ci95": [
+      0.6423730739891857,
+      0.6545458091498066
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.6484594415694962,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "explanation",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.004901783082311476
+  },
+  {
+    "ci95": [
+      0.9242597914928632,
+      0.9277779435822633
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.9260188675375632,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "calibration",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.0014167085840007879
+  },
+  {
+    "ci95": [
+      0.46001830421691614,
+      0.47222860936333066
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.4661234567901234,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "robustness",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.004916911968164671
+  },
+  {
+    "ci95": [
+      0.8952976564352239,
+      0.8963334257820431
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.8958155411086335,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "uncertainty",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.00041708922394367664
+  },
+  {
+    "ci95": [
+      0.5483882779893965,
+      0.5483882779893965
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.5483882779893965,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "representation",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.0
+  },
+  {
+    "ci95": [
+      0.7216254053670657,
+      0.7252341428409055
+    ],
+    "cohort": "ms6_prithvi",
+    "mean": 0.7234297741039856,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "composite_trust",
+    "missing_runs": 0,
+    "model": "Prithvi-EO-1.0-100M",
+    "n": 5,
+    "purpose": "multispectral_foundation_benchmark",
+    "run_ids": [
+      "098d2c10375d9d27-dfbc504a",
+      "33e2e5f5afee8616-5ff9f731",
+      "427859bc8da9fc05-736e8a0b",
+      "deedb1f3c46f1532-7977260f",
+      "f7a69d25d659bbbb-7c71072b"
+    ],
+    "split": "test",
+    "std": 0.0014531859984103315
+  }
+]

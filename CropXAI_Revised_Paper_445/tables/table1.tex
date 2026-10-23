@@ -1,0 +1,15 @@
+\begin{longtable}{lcccc}
+\caption{Six normalized components and Composite Trust Score on the test split (mean $\pm$ sample SD over $n=5$ independent seeds; five epochs). 95\% intervals are in Table~\ref{tab:ci}.}\label{tab:trust}\\
+\toprule Component & ResNet-18 & ViT-Base & ConvNeXt-T & Prithvi (6-band) \\
+\midrule\endfirsthead
+\toprule Component & ResNet-18 & ViT-Base & ConvNeXt-T & Prithvi (6-band) \\
+\midrule\endhead
+Performance (macro-F1) & 0.944 $\pm$ 0.002 & 0.958 $\pm$ 0.003 & 0.965 $\pm$ 0.002 & 0.856 $\pm$ 0.001 \\
+Explanation (1 - deletion AUC) & 0.781 $\pm$ 0.008 & 0.349 $\pm$ 0.012 & 0.301 $\pm$ 0.007 & 0.648 $\pm$ 0.005 \\
+Calibration (1 - ECE) & 0.983 $\pm$ 0.002 & 0.993 $\pm$ 0.001 & 0.991 $\pm$ 0.001 & 0.926 $\pm$ 0.001 \\
+Robustness (corrupted accuracy) & 0.699 $\pm$ 0.003 & 0.694 $\pm$ 0.009 & 0.656 $\pm$ 0.006 & 0.466 $\pm$ 0.005 \\
+Uncertainty (1 - Brier/2) & 0.958 $\pm$ 0.001 & 0.970 $\pm$ 0.001 & 0.974 $\pm$ 0.001 & 0.896 $\pm$ 0.000 \\
+Representation ((silhouette+1)/2) & 0.556 $\pm$ 0.000 & 0.536 $\pm$ 0.000 & 0.548 $\pm$ 0.000 & 0.548 $\pm$ 0.000 \\
+Composite Trust Score & 0.820 $\pm$ 0.001 & 0.750 $\pm$ 0.002 & 0.739 $\pm$ 0.001 & 0.723 $\pm$ 0.001 \\
+\bottomrule
+\end{longtable}

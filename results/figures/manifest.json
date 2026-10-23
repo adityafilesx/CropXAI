@@ -1,0 +1,42 @@
+{
+  "files": [
+    "results/figures/accuracy.pdf",
+    "results/figures/pillars.pdf",
+    "results/figures/reliability.pdf",
+    "results/figures/deletion.pdf",
+    "results/figures/robustness.pdf",
+    "results/figures/training_history.pdf",
+    "results/figures/sensitivity.pdf",
+    "results/figures/paired_differences.pdf",
+    "results/figures/confusion.pdf"
+  ],
+  "models": [
+    "ResNet-18",
+    "ViT-Base",
+    "ConvNeXt-T",
+    "Prithvi-EO-1.0-100M"
+  ],
+  "run_ids": [
+    "4552d176bbd4b5f5-0086f08c",
+    "bfc2210647e0bf33-cc3b4d52",
+    "cb63bff77918b9f2-1e84f0c3",
+    "e46f1c2720aff67e-f79cc1b3",
+    "edbfcdd9b6cc8181-df03a29e",
+    "27e15ca8acc9f91c-a2802359",
+    "766e5436c7072b66-1ecde3f2",
+    "96f6d00885e84599-7ec1b3cc",
+    "b3e35a3c86c20f9d-530c432f",
+    "b6fa00398765dbbe-9705373e",
+    "06162797028c8751-8987552e",
+    "0f3308d8d9691043-0127285a",
+    "5b869f4fb44dfbb2-e232e61f",
+    "65bba586fabf39f9-f0b0aebb",
+    "99ff72bc67a6eb99-d11e32d2",
+    "098d2c10375d9d27-dfbc504a",
+    "33e2e5f5afee8616-5ff9f731",
+    "427859bc8da9fc05-736e8a0b",
+    "deedb1f3c46f1532-7977260f",
+    "f7a69d25d659bbbb-7c71072b"
+  ],
+  "source_sha256": "cb1bdd55a64e601d1319036514afa3940c37dd4858d705ed5837935c7e040bde"
+}

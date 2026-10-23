@@ -1,0 +1,18 @@
+name: ieee_tgrs
+figure_style:
+  format: pdf
+  width_single_column_inches: 3.5
+  width_double_column_inches: 7.16
+  font_family: "Times New Roman"
+  font_size: 9
+table_style:
+  format: latex
+  booktabs: true
+  bold_significant: true
+  significance_legend: true
+bibliography:
+  style: ieee
+  max_authors_before_etal: 3
+manuscript:
+  template: bare_jrnl.tex
+  page_limit: 14

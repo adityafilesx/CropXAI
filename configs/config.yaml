@@ -1,0 +1,53 @@
+# ─── Root Hydra Configuration ─────────────────────────────────────────────────
+# CropXAI — Research Framework
+# All sub-configs are composed via the defaults list below.
+
+defaults:
+  - dataset: ibm_nasa
+  - model: base
+  - training: default
+  - optimizer: adam
+  - scheduler: cosine
+  - loss: cross_entropy
+  - metrics: default
+  - xai: base
+  - uncertainty: base
+  - visualization: default
+  - experiment: default
+  - preprocessing: default
+  - augmentation: default
+  - logging: default
+  - _self_  # allow overrides from command line
+
+# ─── Global settings ──────────────────────────────────────────────────────────
+project:
+  name: cropxai
+  version: "0.1.0"
+  description: "Explainable AI benchmarking for crop classification"
+
+# ─── Paths ────────────────────────────────────────────────────────────────────
+paths:
+  root: ${hydra:runtime.cwd}
+  data_root: ${paths.root}/data
+  raw: ${paths.data_root}/raw
+  interim: ${paths.data_root}/interim
+  processed: ${paths.data_root}/processed
+  cache: ${paths.data_root}/cache
+  splits: ${paths.data_root}/splits
+  version: ${paths.data_root}/version
+  experiments: ${paths.root}/experiments
+  artifacts: ${paths.root}/artifacts
+  outputs: ${paths.root}/outputs
+  logs: ${paths.root}/logs
+  metadata: ${paths.root}/metadata
+  paper: ${paths.root}/paper
+
+# ─── Hydra settings ───────────────────────────────────────────────────────────
+hydra:
+  run:
+    dir: ${paths.outputs}/${now:%Y-%m-%d_%H-%M-%S}
+  sweep:
+    dir: ${paths.outputs}/multirun
+    subdir: ${hydra.job.num}
+  job:
+    chdir: false

@@ -1,0 +1,14 @@
+\begin{longtable}{lrlrl}
+\caption{Exploratory paired differences. Accuracy: percentile bootstrap over test images (Bonferroni-adjusted level, seed-averaged correctness). Composite: Student-$t$ over paired seeds. * different input representation.}\label{tab:paired}\\
+\toprule A $-$ B & $\Delta$acc & Bonf. CI (items) & $\Delta T$ & 95\% CI (seeds) \\
+\midrule\endfirsthead
+\toprule A $-$ B & $\Delta$acc & Bonf. CI (items) & $\Delta T$ & 95\% CI (seeds) \\
+\midrule\endhead
+ConvNeXt-T $-$ Prithvi (6-band) * & +0.1029 & [0.0892, 0.1167] & +0.0159 & [0.0142, 0.0176] \\
+ConvNeXt-T $-$ ResNet-18 & +0.0205 & [0.0125, 0.0284] & -0.0809 & [-0.0827, -0.0792] \\
+ConvNeXt-T $-$ ViT-Base & +0.0059 & [-0.0006, 0.0125] & -0.0107 & [-0.0128, -0.0087] \\
+Prithvi (6-band) $-$ ResNet-18 * & -0.0824 & [-0.0969, -0.0675] & -0.0968 & [-0.0993, -0.0943] \\
+Prithvi (6-band) $-$ ViT-Base * & -0.0970 & [-0.1110, -0.0833] & -0.0266 & [-0.0289, -0.0244] \\
+ResNet-18 $-$ ViT-Base & -0.0146 & [-0.0235, -0.0055] & +0.0702 & [0.0670, 0.0734] \\
+\bottomrule
+\end{longtable}

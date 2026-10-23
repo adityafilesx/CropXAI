@@ -1,0 +1,115 @@
+{
+  "eurosat": {
+    "url": "https://doi.org/10.1109/JSTARS.2019.2918242",
+    "verification": "Crossref API record (title, venue, volume, pages, year, first author) matched on 2026-10-22; EuroSAT also resolves to IEEE Xplore document 8736785",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity"
+  },
+  "resnet": {
+    "url": "https://arxiv.org/abs/1512.03385",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "vit": {
+    "url": "https://arxiv.org/abs/2010.11929v2",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "convnext": {
+    "url": "https://arxiv.org/abs/2201.03545",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "prithvi": {
+    "url": "https://arxiv.org/abs/2310.18660v2",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "prithvicard": {
+    "url": "https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-1.0-100M",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "calibration": {
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "gradcam": {
+    "url": "https://arxiv.org/abs/1610.02391v4",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "rise": {
+    "url": "https://arxiv.org/abs/1806.07421v3",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "attribution": {
+    "url": "https://arxiv.org/abs/1711.06104v4",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "ssim": {
+    "url": "https://ece.uwaterloo.ca/~z70wang/publications/ssim.html",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "brier": {
+    "url": "https://journals.ametsoc.org/view/journals/mwre/78/1/mwre.78.issue-1.xml",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "corruptions": {
+    "url": "https://arxiv.org/abs/1903.12261",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "torchgeo": {
+    "url": "https://arxiv.org/abs/2111.08872v4",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "statistics": {
+    "url": "https://jmlr.org/papers/v7/demsar06a.html",
+    "verification": "Primary author/publisher/model-card page inspected via web tool",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity and claim scope; preprint versions explicitly labelled"
+  },
+  "silhouette": {
+    "url": "https://wis.kuleuven.be/stat/robust/papers/publications-1987/rousseeuw-silhouettes-jcam-sciencedirectopenarchiv.pdf",
+    "verification": "Author institutional copy inspected",
+    "checked_on": "2026-10-22"
+  },
+  "mae": {
+    "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
+    "verification": "Crossref API record (title, venue, volume, pages, year, first author) matched on 2026-10-22; EuroSAT also resolves to IEEE Xplore document 8736785",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity"
+  },
+  "hls": {
+    "url": "https://doi.org/10.1016/j.rse.2018.09.002",
+    "verification": "Crossref API record (title, venue, volume, pages, year, first author) matched on 2026-10-22; EuroSAT also resolves to IEEE Xplore document 8736785",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity"
+  },
+  "aopc": {
+    "url": "https://doi.org/10.1109/TNNLS.2016.2599820",
+    "verification": "Crossref API record (title, venue, volume, pages, year, first author) matched on 2026-10-22; EuroSAT also resolves to IEEE Xplore document 8736785",
+    "checked_on": "2026-10-22",
+    "scope": "Bibliographic identity"
+  }
+}

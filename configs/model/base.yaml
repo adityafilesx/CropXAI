@@ -1,0 +1,7 @@
+# ─── Model Configuration Base (Phase 1 placeholder) ──────────────────────────
+name: ???
+architecture: ???
+pretrained: false
+pretrained_weights: null
+num_classes: ${dataset.labels.num_classes}
+in_channels: ${dataset.bands.num_bands}

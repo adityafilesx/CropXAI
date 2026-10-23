@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Hydra outputs
+outputs/
+multirun/
+.hydra/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Data (large files)
+data/raw/
+data/interim/
+data/cache/
+data/external/
+
+# Keep versioned processed data structure but not contents
+data/processed/**/*.tif
+data/processed/**/*.npy
+data/processed/**/*.h5
+
+# Experiment outputs
+experiments/
+artifacts/models/
+artifacts/predictions/
+
+# Logs
+logs/
+*.log
+wandb/
+lightning_logs/
+tensorboard_logs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V3
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Pre-commit
+.pre-commit-db
+
+# Scientific evidence remains local; never commit dataset/checkpoint archives.
+archives/
+artifacts/revision/
+artifacts/feature_cache/
+results/raw/
+results/processed/dataset_manifest.json
+output/
+
+# Large model checkpoints (use Git LFS or download separately)
+*.pt
+*.pth
+*.safetensors
+
+# Data files
+data/processed/**/*.pt
+
+# Artifacts
+artifacts/pretrained/**/*.pt
+artifacts/revision/**/*.pt
+
+# Too large for GitHub / regenerable (kept locally, never deleted)
+data/
+artifacts/
+reviewer_package/
+tmp/
+venv/
+.impeccable/
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.sqlite

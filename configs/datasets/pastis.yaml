@@ -1,0 +1,18 @@
+name: "PASTIS"
+version: "1.0.0"
+license: "CC BY-NC 4.0"
+url: "https://zenodo.org/record/5012444/files/PASTIS-R.zip"
+checksum: "9c3d4a1b" # Mock checksum
+expected_dir: "data/raw/pastis"
+processed_dir: "data/processed/pastis"
+classes: 18
+bands: 10
+spatial_resolution: 10
+splits:
+  train: 0.8
+  validation: 0.1
+  test: 0.1
+preprocessing:
+  normalize: true
+  method: "minmax"
+citation: "Garnot et al., 2021"

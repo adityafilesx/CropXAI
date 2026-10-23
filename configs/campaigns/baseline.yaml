@@ -1,0 +1,18 @@
+name: baseline_campaign
+description: "Core CNN baselines for CropXAI"
+models:
+  - UNet
+  - ResUNet
+  - DeepLabV3+
+datasets:
+  - crop_sentinel2
+seeds:
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+trust_estimators:
+  - None
+calibrations:
+  - None

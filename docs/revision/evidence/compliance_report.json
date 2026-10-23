@@ -1,0 +1,279 @@
+{
+  "ok": true,
+  "reports": [
+    {
+      "checks": [
+        {
+          "check": "source_current",
+          "critical": true,
+          "detail": "0 completed record(s) come from superseded code: []",
+          "passed": true
+        },
+        {
+          "check": "failed_runs_disclosed",
+          "critical": false,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "matrix_complete",
+          "critical": true,
+          "detail": {
+            "duplicates": {},
+            "missing": [],
+            "undeclared": []
+          },
+          "passed": true
+        },
+        {
+          "check": "seed_count_matches",
+          "critical": true,
+          "detail": {
+            "ConvNeXt-T": [
+              42,
+              100,
+              999,
+              1234,
+              2026
+            ],
+            "ResNet-18": [
+              42,
+              100,
+              999,
+              1234,
+              2026
+            ],
+            "ViT-Base": [
+              42,
+              100,
+              999,
+              1234,
+              2026
+            ]
+          },
+          "passed": true
+        },
+        {
+          "check": "model_identity",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "one_checkpoint_per_architecture",
+          "critical": true,
+          "detail": {
+            "ConvNeXt-T": [
+              "983f1562536e84ff750a1576fb08e54de751dbf2e17c0d8a4a13704341fdcd3d"
+            ],
+            "ResNet-18": [
+              "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+            ],
+            "ViT-Base": [
+              "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9"
+            ]
+          },
+          "passed": true
+        },
+        {
+          "check": "input_representation",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "protocol_homogeneous",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "epochs_completed",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "single_split_id",
+          "critical": true,
+          "detail": [
+            "ce82b234f029bac2d8bb379711d3b94ddaca691862e7229e4849407a1a1a2899"
+          ],
+          "passed": true
+        },
+        {
+          "check": "manifest_valid",
+          "critical": true,
+          "detail": "manifest present and error-free",
+          "passed": true
+        },
+        {
+          "check": "manifest_unchanged",
+          "critical": true,
+          "detail": "0 run(s) used a different manifest version: []",
+          "passed": true
+        },
+        {
+          "check": "identical_test_items",
+          "critical": true,
+          "detail": "all runs evaluate the same ordered test items",
+          "passed": true
+        },
+        {
+          "check": "metrics_valid",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "artifacts_present",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "provenance_complete",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "explanation_samples_complete",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        }
+      ],
+      "cohort": "rgb_imagenet",
+      "config": "configs/experiments/revision_v1.json",
+      "ok": true
+    },
+    {
+      "checks": [
+        {
+          "check": "source_current",
+          "critical": true,
+          "detail": "0 completed record(s) come from superseded code: []",
+          "passed": true
+        },
+        {
+          "check": "failed_runs_disclosed",
+          "critical": false,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "matrix_complete",
+          "critical": true,
+          "detail": {
+            "duplicates": {},
+            "missing": [],
+            "undeclared": []
+          },
+          "passed": true
+        },
+        {
+          "check": "seed_count_matches",
+          "critical": true,
+          "detail": {
+            "Prithvi-EO-1.0-100M": [
+              42,
+              100,
+              999,
+              1234,
+              2026
+            ]
+          },
+          "passed": true
+        },
+        {
+          "check": "model_identity",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "one_checkpoint_per_architecture",
+          "critical": true,
+          "detail": {
+            "Prithvi-EO-1.0-100M": [
+              "7fac0c8a8693198e32a055e0c5a967f8b005f382182b63df1b29fdcd5c880731"
+            ]
+          },
+          "passed": true
+        },
+        {
+          "check": "input_representation",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "protocol_homogeneous",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "epochs_completed",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "single_split_id",
+          "critical": true,
+          "detail": [
+            "6345578c8d5df213eb2bf5d656335cff08bfb077210d70008a5650baa7d819af"
+          ],
+          "passed": true
+        },
+        {
+          "check": "manifest_valid",
+          "critical": true,
+          "detail": "manifest present and error-free",
+          "passed": true
+        },
+        {
+          "check": "manifest_unchanged",
+          "critical": true,
+          "detail": "0 run(s) used a different manifest version: []",
+          "passed": true
+        },
+        {
+          "check": "identical_test_items",
+          "critical": true,
+          "detail": "all runs evaluate the same ordered test items",
+          "passed": true
+        },
+        {
+          "check": "metrics_valid",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "artifacts_present",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "provenance_complete",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        },
+        {
+          "check": "explanation_samples_complete",
+          "critical": true,
+          "detail": [],
+          "passed": true
+        }
+      ],
+      "cohort": "ms6_prithvi",
+      "config": "configs/experiments/revision_v1_prithvi_ms6.json",
+      "ok": true
+    }
+  ]
+}

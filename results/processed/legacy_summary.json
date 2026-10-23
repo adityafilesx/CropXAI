@@ -1,0 +1,2204 @@
+[
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9428002442782853,
+      0.9517302313724106
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.947265237825348,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017974017808845884
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.30324334869267816,
+      0.31100402233128915
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.30712368551198366,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0015620457758645863
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9437109219397195,
+      0.9516031769550162
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9476570494473678,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.001588530091944013
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.5,
+      0.5
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9597893574399781,
+      0.962926691942738
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.961358024691358,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 3,
+    "model_label": "Prithvi-100M",
+    "n": 2,
+    "run_ids": [
+      "0ce370a922caa226",
+      "8d1ae133ff40742f"
+    ],
+    "seeds": [
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0001745942669596861
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9590874378015979,
+      0.9636985085908814
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9613929731962396,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 3,
+    "model_label": "Prithvi-100M",
+    "n": 2,
+    "run_ids": [
+      "0ce370a922caa226",
+      "8d1ae133ff40742f"
+    ],
+    "seeds": [
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0002566084437747803
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.07090559169148608,
+      0.07220198405427855
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.07155378787288232,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 3,
+    "model_label": "Prithvi-100M",
+    "n": 2,
+    "run_ids": [
+      "0ce370a922caa226",
+      "8d1ae133ff40742f"
+    ],
+    "seeds": [
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 7.214489691002592e-05
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9594802470557104,
+      0.963954352127885
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9617172995917977,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 3,
+    "model_label": "Prithvi-100M",
+    "n": 2,
+    "run_ids": [
+      "0ce370a922caa226",
+      "8d1ae133ff40742f"
+    ],
+    "seeds": [
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0002489862316848055
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9597893574399781,
+      0.962926691942738
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.961358024691358,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 3,
+    "model_label": "Prithvi-100M",
+    "n": 2,
+    "run_ids": [
+      "0ce370a922caa226",
+      "8d1ae133ff40742f"
+    ],
+    "seeds": [
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0001745942669596861
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.16328622073582585,
+      0.5701508328359769
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.3667185267859014,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 3,
+    "model_label": "Prithvi-100M",
+    "n": 2,
+    "run_ids": [
+      "0ce370a922caa226",
+      "8d1ae133ff40742f"
+    ],
+    "seeds": [
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.022642223403009993
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.8992071001804173,
+      0.9116570973504469
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9054320987654321,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002505899151874586
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.898785561080966,
+      0.9102081579193874
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9044968595001767,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0022991070069084594
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.5746515934543535,
+      0.6045461682427917
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5895988808485726,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.006017092902505478
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9024082623307117,
+      0.909057988167451
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9057331252490813,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0013384374395359058
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.8992071001804173,
+      0.9116570973504469
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9054320987654321,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002505899151874586
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.32122644998717376,
+      0.5062570342116783
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.41374174209942605,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.03724241682521931
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9188108848448157,
+      0.9315594855255548
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9251851851851852,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "122040875f4bff32",
+      "87dd764ee6ba1745",
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      999,
+      100,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0025660011963983534
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9174462204739221,
+      0.9313924234550145
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9244193219644683,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "122040875f4bff32",
+      "87dd764ee6ba1745",
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      999,
+      100,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002807051097675643
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.2445343741519364,
+      0.25202925481323607
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.24828181448258624,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "122040875f4bff32",
+      "87dd764ee6ba1745",
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      999,
+      100,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0015085477398953722
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.919560566635168,
+      0.930973480345187
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9252670234901775,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "122040875f4bff32",
+      "87dd764ee6ba1745",
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      999,
+      100,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002297158015039643
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9188108848448157,
+      0.9315594855255548
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9251851851851852,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "122040875f4bff32",
+      "87dd764ee6ba1745",
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      999,
+      100,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0025660011963983534
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.28980890362940576,
+      0.3995765117969687
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.3446927077131872,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "122040875f4bff32",
+      "87dd764ee6ba1745",
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      999,
+      100,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.022093704316058293
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.958067134506825,
+      0.9634143469746563
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9607407407407407,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "30c54a44cb758320",
+      "7c0c53dc5681765d",
+      "c7e754c4c3f96b10"
+    ],
+    "seeds": [
+      999,
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0010762713440841379
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9580302702396392,
+      0.9635014689362172
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9607658695879282,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "30c54a44cb758320",
+      "7c0c53dc5681765d",
+      "c7e754c4c3f96b10"
+    ],
+    "seeds": [
+      999,
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0011012269309182297
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.07021016524679533,
+      0.07370828938923801
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.07195922731801667,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "30c54a44cb758320",
+      "7c0c53dc5681765d",
+      "c7e754c4c3f96b10"
+    ],
+    "seeds": [
+      999,
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0007040922340770518
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9586115475614949,
+      0.9636660380553677
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9611387928084313,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "30c54a44cb758320",
+      "7c0c53dc5681765d",
+      "c7e754c4c3f96b10"
+    ],
+    "seeds": [
+      999,
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0010173531181392164
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.958067134506825,
+      0.9634143469746563
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9607407407407407,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "30c54a44cb758320",
+      "7c0c53dc5681765d",
+      "c7e754c4c3f96b10"
+    ],
+    "seeds": [
+      999,
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0010762713440841379
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.3244328995124328,
+      0.40544114601745507
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.36493702276494394,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "30c54a44cb758320",
+      "7c0c53dc5681765d",
+      "c7e754c4c3f96b10"
+    ],
+    "seeds": [
+      999,
+      42,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.016305103803593814
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9607657295415007,
+      0.9707569042033551
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9657613168724279,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ConvNeXt-T",
+    "n": 3,
+    "run_ids": [
+      "59dc438e2ee303dd",
+      "62713faa0d407afc",
+      "c29f61ce0f94c566"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0020109945222832604
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9606593246670077,
+      0.9706987118506951
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9656790182588514,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ConvNeXt-T",
+    "n": 3,
+    "run_ids": [
+      "59dc438e2ee303dd",
+      "62713faa0d407afc",
+      "c29f61ce0f94c566"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0020206985981895734
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.0845766205518519,
+      0.0866150392522161
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.085595829902034,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ConvNeXt-T",
+    "n": 3,
+    "run_ids": [
+      "59dc438e2ee303dd",
+      "62713faa0d407afc",
+      "c29f61ce0f94c566"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0004102869761853752
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9608666185338071,
+      0.9708953975142773
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9658810080240422,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ConvNeXt-T",
+    "n": 3,
+    "run_ids": [
+      "59dc438e2ee303dd",
+      "62713faa0d407afc",
+      "c29f61ce0f94c566"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002018563409957649
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9607657295415007,
+      0.9707569042033551
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9657613168724279,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ConvNeXt-T",
+    "n": 3,
+    "run_ids": [
+      "59dc438e2ee303dd",
+      "62713faa0d407afc",
+      "c29f61ce0f94c566"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0020109945222832604
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.4675486887026844,
+      0.5504098638254943
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5089792762640893,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ConvNeXt-T",
+    "n": 3,
+    "run_ids": [
+      "59dc438e2ee303dd",
+      "62713faa0d407afc",
+      "c29f61ce0f94c566"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.016678055876464606
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9528395061728395,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 4,
+    "model_label": "ConvNeXt-T",
+    "n": 1,
+    "run_ids": [
+      "60fdf7c382fde39b"
+    ],
+    "seeds": [
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.952758063615409,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 4,
+    "model_label": "ConvNeXt-T",
+    "n": 1,
+    "run_ids": [
+      "60fdf7c382fde39b"
+    ],
+    "seeds": [
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.3244803666646156,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 4,
+    "model_label": "ConvNeXt-T",
+    "n": 1,
+    "run_ids": [
+      "60fdf7c382fde39b"
+    ],
+    "seeds": [
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9529622278455748,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 4,
+    "model_label": "ConvNeXt-T",
+    "n": 1,
+    "run_ids": [
+      "60fdf7c382fde39b"
+    ],
+    "seeds": [
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9528395061728395,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 4,
+    "model_label": "ConvNeXt-T",
+    "n": 1,
+    "run_ids": [
+      "60fdf7c382fde39b"
+    ],
+    "seeds": [
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5116469284043158,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 4,
+    "model_label": "ConvNeXt-T",
+    "n": 1,
+    "run_ids": [
+      "60fdf7c382fde39b"
+    ],
+    "seeds": [
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9106172839506173,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 4,
+    "model_label": "ResNet-50",
+    "n": 1,
+    "run_ids": [
+      "78469d56005ac137"
+    ],
+    "seeds": [
+      1234
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9090712115249686,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 4,
+    "model_label": "ResNet-50",
+    "n": 1,
+    "run_ids": [
+      "78469d56005ac137"
+    ],
+    "seeds": [
+      1234
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5021951324645234,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 4,
+    "model_label": "ResNet-50",
+    "n": 1,
+    "run_ids": [
+      "78469d56005ac137"
+    ],
+    "seeds": [
+      1234
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9124193105169799,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 4,
+    "model_label": "ResNet-50",
+    "n": 1,
+    "run_ids": [
+      "78469d56005ac137"
+    ],
+    "seeds": [
+      1234
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9106172839506173,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 4,
+    "model_label": "ResNet-50",
+    "n": 1,
+    "run_ids": [
+      "78469d56005ac137"
+    ],
+    "seeds": [
+      1234
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.399945421781088,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 4,
+    "model_label": "ResNet-50",
+    "n": 1,
+    "run_ids": [
+      "78469d56005ac137"
+    ],
+    "seeds": [
+      1234
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9428002442782853,
+      0.9517302313724106
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.947265237825348,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017974017808845884
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.30324334869267816,
+      0.31100402233128915
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.30712368551198366,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0015620457758645863
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9437109219397195,
+      0.9516031769550162
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9476570494473678,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.001588530091944013
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.3012025334318459,
+      0.6238170834656209
+    ],
+    "database": "results/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.4625098084487334,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.06493491655228324
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9428002442782853,
+      0.9517302313724106
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.947265237825348,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017974017808845884
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.30324334869267816,
+      0.31100402233128915
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.30712368551198366,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0015620457758645863
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9437109219397195,
+      0.9516031769550162
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9476570494473678,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.001588530091944013
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.5,
+      0.5
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "Prithvi-100M",
+    "n": 3,
+    "run_ids": [
+      "02b9eac4b29af8f4",
+      "c9b0a2f7a76736e9",
+      "efd150893ff74f2a"
+    ],
+    "seeds": [
+      100,
+      999,
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.8992071001804173,
+      0.9116570973504469
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9054320987654321,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002505899151874586
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.898785561080966,
+      0.9102081579193874
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9044968595001767,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0022991070069084594
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.5746515934543535,
+      0.6045461682427917
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5895988808485726,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.006017092902505478
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9024082623307117,
+      0.909057988167451
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9057331252490813,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0013384374395359058
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.8992071001804173,
+      0.9116570973504469
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9054320987654321,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.002505899151874586
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.32122644998717376,
+      0.5062570342116783
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.41374174209942605,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ResNet-18",
+    "n": 3,
+    "run_ids": [
+      "0ed59131d6303de9",
+      "665f76ff6cb59d82",
+      "807ec0c9a979d8ec"
+    ],
+    "seeds": [
+      42,
+      999,
+      100
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.03724241682521931
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.8518518518518519,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 4,
+    "model_label": "ResNet-18",
+    "n": 1,
+    "run_ids": [
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.8512814288590409,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 4,
+    "model_label": "ResNet-18",
+    "n": 1,
+    "run_ids": [
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.498994018624075,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 4,
+    "model_label": "ResNet-18",
+    "n": 1,
+    "run_ids": [
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.8535535821850765,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 4,
+    "model_label": "ResNet-18",
+    "n": 1,
+    "run_ids": [
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.8518518518518519,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 4,
+    "model_label": "ResNet-18",
+    "n": 1,
+    "run_ids": [
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": null,
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 5,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.2393661506246907,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 4,
+    "model_label": "ResNet-18",
+    "n": 1,
+    "run_ids": [
+      "96f1e21d95740cc2"
+    ],
+    "seeds": [
+      42
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": null
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "accuracy",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9428002442782853,
+      0.9517302313724106
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.947265237825348,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "f1",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017974017808845884
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.30324334869267816,
+      0.31100402233128915
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.30712368551198366,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "final_loss",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0015620457758645863
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9437109219397195,
+      0.9516031769550162
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9476570494473678,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "precision",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.001588530091944013
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.9431381167146575,
+      0.9518413071536553
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.9474897119341564,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "recall",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0017517528110117502
+  },
+  {
+    "caution": "No split/checkpoint hashes; trust_T3 may contain fallbacks; foundation names are proxies",
+    "ci95": [
+      0.5,
+      0.5
+    ],
+    "database": "reviewer_package/legacy_stale_reviewer_db/experiment_db.sqlite",
+    "dataset": "eurosat",
+    "epochs": 1,
+    "evaluation_split": "test according to legacy trainer; saved predictions unavailable",
+    "finetune_mode": "frozen",
+    "mean": 0.5,
+    "method": "Student-t; independent seeds; ddof=1",
+    "metric": "trust_T3",
+    "missing_runs": 2,
+    "model_label": "ViT-Base",
+    "n": 3,
+    "run_ids": [
+      "a15c9b862ccac4cf",
+      "d43a23483f5306fb",
+      "f2782f5c8dbc3ed4"
+    ],
+    "seeds": [
+      42,
+      100,
+      999
+    ],
+    "status": "RECOVERED_UNVERIFIED",
+    "std": 0.0
+  }
+]

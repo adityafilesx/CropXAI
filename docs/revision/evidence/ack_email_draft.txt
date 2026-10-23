@@ -1,0 +1,21 @@
+DRAFT - NOT SENT. Fill every [BRACKET] yourself; nothing here was taken from the notification email because it was not supplied.
+
+To: info@icmlde.org
+Subject: Paper ID 445 - Acknowledgement of notification and submission of revised version
+
+Dear ICMLDE 5.0 Organizing Committee,
+
+We acknowledge receipt of the notification dated [DATE OF NOTIFICATION] regarding our paper
+
+  Paper ID: 445
+  Title: CropXAI: Quantifying the Accuracy-Trust Gap in Earth Observation Vision Models
+
+We have revised the manuscript according to the reviewers' comments and will upload the following files through the portal [on DATE / have uploaded the following files]:
+
+  1. 445_revised_version.pdf - revised manuscript with the point-by-point response to reviewers in the same file
+  2. [reviewer_response_sheet.pdf - separate response sheet, only if the portal requires it]
+  3. [similarity_report.pdf - similarity report from SERVICE NAME, overall similarity X %]
+
+Kind regards,
+[NAME], on behalf of all authors
+[AFFILIATION]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <graph id="G" edgedefault="directed">
+    <node id="ResNet18"/>
+    <node id="ResNet18_Trust"/>
+    <node id="Prithvi"/>
+    <node id="Prithvi_Trust"/>
+    <node id="SatMAE"/>
+    <node id="SatMAE_Trust"/>
+    <edge id="e0" source="ResNet18" target="ResNet18_Trust"/>
+    <edge id="e1" source="Prithvi" target="Prithvi_Trust"/>
+    <edge id="e2" source="SatMAE" target="SatMAE_Trust"/>
+  </graph>
+</graphml>

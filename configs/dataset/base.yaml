@@ -1,0 +1,40 @@
+# ─── Base Dataset Schema ──────────────────────────────────────────────────────
+# Inherit from this for any dataset added to CropXAI.
+# Override only the fields relevant to your dataset.
+
+name: ???                     # REQUIRED: dataset identifier
+display_name: ???             # REQUIRED: human-readable name
+version: "1.0.0"
+
+download:
+  source: ???                 # huggingface | torchgeo | local | url
+  auto_download: false
+
+bands:
+  num_bands: ???              # REQUIRED
+  selected: ???               # REQUIRED: list of band identifiers
+
+temporal:
+  enabled: false
+  num_timesteps: 1
+
+spatial:
+  patch_size: 224
+  resolution: ???             # REQUIRED: meters per pixel
+
+labels:
+  num_classes: ???            # REQUIRED
+  class_names: ???            # REQUIRED: list of class names
+
+loader:
+  batch_size: 16
+  num_workers: 4
+  pin_memory: true
+
+cache:
+  enabled: true
+  backend: joblib
+
+statistics:
+  mean: null
+  std: null

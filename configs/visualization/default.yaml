@@ -1,0 +1,47 @@
+# ─── Visualization Configuration ──────────────────────────────────────────────
+
+# Export settings
+export:
+  dpi: 300
+  formats: [pdf, png, svg]     # Publication formats
+  bbox_inches: tight
+  transparent: false
+
+# Style
+style:
+  theme: seaborn-v0_8-paper     # Matplotlib style
+  font_family: "DejaVu Sans"
+  font_size: 12
+  title_size: 14
+  label_size: 11
+  tick_size: 10
+  figure_size: [10, 8]          # Default figure size (width, height) in inches
+  ieee_column_width: 3.5        # Single column width for IEEE papers
+  ieee_double_width: 7.16       # Double column width for IEEE papers
+  palette: tab10                # Color palette
+
+# Color maps
+colormaps:
+  classification: tab20
+  heatmap: RdYlGn
+  spectral: viridis
+  error: RdBu_r
+
+# Dashboard (interactive Plotly)
+dashboard:
+  enabled: true
+  host: 127.0.0.1
+  port: 8050
+  debug: false
+  theme: plotly_dark
+
+# Sample grid
+sample_grid:
+  n_samples: 16
+  n_cols: 4
+  show_labels: true
+  show_index: true
+
+# Output directory
+output_dir: ${paths.artifacts}/figures
+paper_dir: ${paths.paper}/figures

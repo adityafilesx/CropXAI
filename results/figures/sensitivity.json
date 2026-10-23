@@ -1,0 +1,120 @@
+{
+  "caption_note": "weight sensitivity",
+  "figure_sha256": "a9e2fb1de70df9720ef2916f74bf56b1ea9a9ae62328b808a3761dee9e26600a",
+  "run_ids": [
+    "4552d176bbd4b5f5-0086f08c",
+    "bfc2210647e0bf33-cc3b4d52",
+    "cb63bff77918b9f2-1e84f0c3",
+    "e46f1c2720aff67e-f79cc1b3",
+    "edbfcdd9b6cc8181-df03a29e",
+    "27e15ca8acc9f91c-a2802359",
+    "766e5436c7072b66-1ecde3f2",
+    "96f6d00885e84599-7ec1b3cc",
+    "b3e35a3c86c20f9d-530c432f",
+    "b6fa00398765dbbe-9705373e",
+    "06162797028c8751-8987552e",
+    "0f3308d8d9691043-0127285a",
+    "5b869f4fb44dfbb2-e232e61f",
+    "65bba586fabf39f9-f0b0aebb",
+    "99ff72bc67a6eb99-d11e32d2",
+    "098d2c10375d9d27-dfbc504a",
+    "33e2e5f5afee8616-5ff9f731",
+    "427859bc8da9fc05-736e8a0b",
+    "deedb1f3c46f1532-7977260f",
+    "f7a69d25d659bbbb-7c71072b"
+  ],
+  "script_sha256": "376ba434614be8ee3a73cbb2e24cfb81bef5ce4065681a16398446aebef15c80",
+  "source": "results/processed/revision_summary.json",
+  "source_sha256": "cb1bdd55a64e601d1319036514afa3940c37dd4858d705ed5837935c7e040bde",
+  "values": {
+    "confounded_cross_input": true,
+    "named": [
+      {
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "default",
+        "scores": {
+          "ConvNeXt-T": 0.7393168270064948,
+          "Prithvi-EO-1.0-100M": 0.7234297741039856,
+          "ResNet-18": 0.8202612252420567,
+          "ViT-Base": 0.750046002240297
+        }
+      },
+      {
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "equal",
+        "scores": {
+          "ConvNeXt-T": 0.7393168270064948,
+          "Prithvi-EO-1.0-100M": 0.7234297741039856,
+          "ResNet-18": 0.8202612252420567,
+          "ViT-Base": 0.750046002240297
+        }
+      },
+      {
+        "ranks": {
+          "ConvNeXt-T": 3.0,
+          "Prithvi-EO-1.0-100M": 4.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 2.0
+        },
+        "scheme": "reliability",
+        "scores": {
+          "ConvNeXt-T": 0.7876634422765024,
+          "Prithvi-EO-1.0-100M": 0.730458643148411,
+          "ResNet-18": 0.8395659877420907,
+          "ViT-Base": 0.799513952209302
+        }
+      },
+      {
+        "ranks": {
+          "ConvNeXt-T": 4.0,
+          "Prithvi-EO-1.0-100M": 2.0,
+          "ResNet-18": 1.0,
+          "ViT-Base": 3.0
+        },
+        "scheme": "explanation_priority",
+        "scores": {
+          "ConvNeXt-T": 0.6495393777871944,
+          "Prithvi-EO-1.0-100M": 0.7085684940525847,
+          "ResNet-18": 0.8188041464816032,
+          "ViT-Base": 0.6695505531754866
+        }
+      }
+    ],
+    "rank_counts": {
+      "ConvNeXt-T": [
+        0,
+        0,
+        49,
+        1
+      ],
+      "Prithvi-EO-1.0-100M": [
+        0,
+        0,
+        1,
+        49
+      ],
+      "ResNet-18": [
+        50,
+        0,
+        0,
+        0
+      ],
+      "ViT-Base": [
+        0,
+        50,
+        0,
+        0
+      ]
+    }
+  }
+}

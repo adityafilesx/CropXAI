@@ -1,0 +1,41 @@
+{
+  "epochs": 5,
+  "final_metrics_passed_to_store_run": {
+    "accuracy": 0.9237037037037037,
+    "f1": 0.9230667500782053,
+    "final_loss": 0.24923977391343632,
+    "precision": 0.9240150432175936,
+    "recall": 0.9237037037037037,
+    "trust_T3": 0.3266809208431434
+  },
+  "model": "ResNet-18",
+  "note": "Legacy code unchanged except store_run redirected; BatchNorm running statistics are updated in train mode (legacy behaviour).",
+  "per_epoch": [
+    {
+      "epoch": 1,
+      "training_loss": 0.5961,
+      "validation_accuracy_percent": 89.73
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.3226,
+      "validation_accuracy_percent": 90.84
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.2883,
+      "validation_accuracy_percent": 91.93
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.2649,
+      "validation_accuracy_percent": 91.6
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.2492,
+      "validation_accuracy_percent": 92.07
+    }
+  ],
+  "seed": 42
+}

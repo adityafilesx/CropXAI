@@ -1,0 +1,83 @@
+{
+  "caption_note": "seed t interval and test-item bootstrap",
+  "figure_sha256": "743cdbd762456ea0d78f10f95c467fb865a8175c800d148c77f02e05acb9ee8b",
+  "run_ids": [
+    "4552d176bbd4b5f5-0086f08c",
+    "bfc2210647e0bf33-cc3b4d52",
+    "cb63bff77918b9f2-1e84f0c3",
+    "e46f1c2720aff67e-f79cc1b3",
+    "edbfcdd9b6cc8181-df03a29e",
+    "27e15ca8acc9f91c-a2802359",
+    "766e5436c7072b66-1ecde3f2",
+    "96f6d00885e84599-7ec1b3cc",
+    "b3e35a3c86c20f9d-530c432f",
+    "b6fa00398765dbbe-9705373e",
+    "06162797028c8751-8987552e",
+    "0f3308d8d9691043-0127285a",
+    "5b869f4fb44dfbb2-e232e61f",
+    "65bba586fabf39f9-f0b0aebb",
+    "99ff72bc67a6eb99-d11e32d2",
+    "098d2c10375d9d27-dfbc504a",
+    "33e2e5f5afee8616-5ff9f731",
+    "427859bc8da9fc05-736e8a0b",
+    "deedb1f3c46f1532-7977260f",
+    "f7a69d25d659bbbb-7c71072b"
+  ],
+  "script_sha256": "376ba434614be8ee3a73cbb2e24cfb81bef5ce4065681a16398446aebef15c80",
+  "source": "results/processed/revision_summary.json",
+  "source_sha256": "cb1bdd55a64e601d1319036514afa3940c37dd4858d705ed5837935c7e040bde",
+  "values": [
+    {
+      "item_bootstrap_ci95": [
+        0.9388148148148148,
+        0.952
+      ],
+      "mean": 0.9455308641975309,
+      "model": "ResNet-18",
+      "n_seeds": 5,
+      "seed_ci95": [
+        0.942682769248071,
+        0.9483789591469907
+      ]
+    },
+    {
+      "item_bootstrap_ci95": [
+        0.9546172839506173,
+        0.9654814814814814
+      ],
+      "mean": 0.960148148148148,
+      "model": "ViT-Base",
+      "n_seeds": 5,
+      "seed_ci95": [
+        0.9570170893737039,
+        0.9632792069225921
+      ]
+    },
+    {
+      "item_bootstrap_ci95": [
+        0.9608888888888889,
+        0.9709629629629629
+      ],
+      "mean": 0.9660246913580247,
+      "model": "ConvNeXt-T",
+      "n_seeds": 5,
+      "seed_ci95": [
+        0.9637039519510465,
+        0.9683454307650029
+      ]
+    },
+    {
+      "item_bootstrap_ci95": [
+        0.8528876543209876,
+        0.873432098765432
+      ],
+      "mean": 0.8631111111111112,
+      "model": "Prithvi-EO-1.0-100M",
+      "n_seeds": 5,
+      "seed_ci95": [
+        0.8624394198709548,
+        0.8637828023512675
+      ]
+    }
+  ]
+}

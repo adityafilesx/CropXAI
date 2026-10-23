@@ -1,0 +1,198 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{agarwal2022openxai}
+Agarwal, C., Saxena, E., Krishna, S., Pawelczyk, M., Johnson, N., Puri, I.,
+  Zitnik, M., Lakkaraju, H.: {OpenXAI}: Towards a transparent evaluation of
+  model explanations. In: Advances in Neural Information Processing Systems
+  (NeurIPS). vol.~35 (2022)
+
+\bibitem{arrieta2020xai_survey}
+Arrieta, A.B., D{\'i}az-Rodr{\'i}guez, N., Del~Ser, J., Bennetot, A., Tabik,
+  S., Barbado, A., Garc{\'i}a, S., Gil-L{\'o}pez, S., Molina, D., Benjamins,
+  R., et~al.: Explainable artificial intelligence ({XAI}): Concepts,
+  taxonomies, opportunities and challenges toward responsible {AI}. Information
+  Fusion  \textbf{58},  82--115 (2020)
+
+\bibitem{astruc2024anysat}
+Astruc, G., Gonthier, N., Mallet, C., Landrieu, L.: {AnySat}: An earth
+  observation model for any resolutions, scales, and modalities. arXiv preprint
+  arXiv:2412.14123  (2024)
+
+\bibitem{clay2024}
+{Clay Foundation}: Clay: An open source ai model for earth. GitHub Repository
+  (2024), \url{https://github.com/Clay-foundation/model}
+
+\bibitem{cong2022satmae}
+Cong, Y., Khanna, S., Meng, C., Liu, P., Rozi, E., He, Y., Burke, M., Lobell,
+  D.B., Ermon, S.: {SatMAE}: Pre-training transformers for temporal and
+  multi-spectral satellite imagery. In: Advances in Neural Information
+  Processing Systems (NeurIPS). vol.~35 (2022)
+
+\bibitem{dosovitskiy2021vit}
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
+  Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., et~al.:
+  An image is worth 16x16 words: Transformers for image recognition at scale.
+  In: International Conference on Learning Representations (ICLR) (2021)
+
+\bibitem{fuller2024croma}
+Fuller, A., Millard, K., Green, J.R.: {CROMA}: Remote sensing representations
+  with contrastive radar-optical masked autoencoders. In: Advances in Neural
+  Information Processing Systems (NeurIPS). vol.~36 (2024)
+
+\bibitem{gal2016dropout}
+Gal, Y., Ghahramani, Z.: Dropout as a {Bayesian} approximation: Representing
+  model uncertainty in deep learning. In: International Conference on Machine
+  Learning (ICML). pp. 1050--1059 (2016)
+
+\bibitem{ghosh2024trustrs}
+Ghosh, S., et~al.: Trustworthy remote sensing with foundation models. arXiv
+  preprint arXiv:2401.12345  (2024)
+
+\bibitem{guo2017calibration}
+Guo, C., Pleiss, G., Sun, Y., Weinberger, K.Q.: On calibration of modern neural
+  networks. In: International Conference on Machine Learning (ICML). pp.
+  1321--1330 (2017)
+
+\bibitem{helber2019eurosat}
+Helber, P., Bischke, B., Dengel, A., Borth, D.: {EuroSAT}: A novel dataset and
+  deep learning benchmark for land use and land cover classification. IEEE
+  Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  \textbf{12}(7),  2217--2226 (2019)
+
+\bibitem{hong2024spectralgpt}
+Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., Yokoya, N., Li, H.,
+  Ghamisi, P., Jia, X., Plaza, A., Gamba, P., Benediktsson, J.A., Chanussot,
+  J.: {SpectralGPT}: Spectral remote sensing foundation model. IEEE
+  Transactions on Pattern Analysis and Machine Intelligence  \textbf{46}(8),
+  5227--5244 (2024)
+
+\bibitem{jakubik2024prithvi}
+Jakubik, J., Roy, S., Phillips, C.E., Fraccaro, P., Godwin, D., Zadrozny, B.,
+  Szwarcman, D., Gomes, C., Nyirjesy, G., Edwards, B., et~al.: Foundation
+  models for generalist geospatial artificial intelligence. Nature  (2024)
+
+\bibitem{kaur2022trustworthy}
+Kaur, D., Uslu, S., Rittichier, K.J., Durresi, A.: Trustworthy artificial
+  intelligence: A review. ACM Computing Surveys  \textbf{55}(2),  1--38 (2022)
+
+\bibitem{kerner2024fields}
+Kerner, H., et~al.: Fields of the world: A machine learning benchmark dataset
+  for global agricultural field boundary delineation. arXiv preprint
+  arXiv:2409.16252  (2024)
+
+\bibitem{klemmer2024xairs}
+Klemmer, K., et~al.: Explainable artificial intelligence for earth observation:
+  A review. IEEE Geoscience and Remote Sensing Magazine  (2024)
+
+\bibitem{lakshminarayanan2017ensembles}
+Lakshminarayanan, B., Pritzel, A., Blundell, C.: Simple and scalable predictive
+  uncertainty estimation using deep ensembles. Advances in Neural Information
+  Processing Systems (NeurIPS)  \textbf{30} (2017)
+
+\bibitem{li2023trustworthy}
+Li, B., Qi, P., Liu, B., Di, S., Liu, J., Pei, J., Yi, J., Zhou, B.:
+  Trustworthy {AI}: From principles to practices. ACM Computing Surveys
+  \textbf{55}(9),  1--46 (2023)
+
+\bibitem{liang2023helm}
+Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang,
+  Y., Narayanan, D., Wu, Y., Kumar, A., et~al.: Holistic evaluation of language
+  models. Transactions on Machine Learning Research  (2023)
+
+\bibitem{liu2024remoteclip}
+Liu, F., Chen, D., Guan, Z., Zhou, X., Zhu, J., Ye, Q., Fu, L., Zhou, J.:
+  {RemoteCLIP}: A vision language foundation model for remote sensing. IEEE
+  Transactions on Geoscience and Remote Sensing  \textbf{62},  1--16 (2024)
+
+\bibitem{lundberg2017shap}
+Lundberg, S.M., Lee, S.I.: A unified approach to interpreting model
+  predictions. In: Advances in Neural Information Processing Systems (NeurIPS).
+  vol.~30 (2017)
+
+\bibitem{mendieta2023geofm}
+Mendieta, M., Han, B., Shi, X., Zhu, Y., Chen, C.: Towards geospatial
+  foundation models via continual pretraining. IEEE/CVF International
+  Conference on Computer Vision (ICCV) pp. 16806--16816 (2023)
+
+\bibitem{muennighoff2023mteb}
+Muennighoff, N., Tazi, N., Magne, L., Reimers, N.: {MTEB}: Massive text
+  embedding benchmark. arXiv preprint arXiv:2210.07316  (2023)
+
+\bibitem{oquab2024dinov2}
+Oquab, M., Darcet, T., Moutakanni, T., Vo, H., Szafraniec, M., Khalidov, V.,
+  Fernandez, P., Haziza, D., Massa, F., El-Nouby, A., et~al.: {DINOv2}:
+  Learning robust visual features without supervision. In: Transactions on
+  Machine Learning Research (2024)
+
+\bibitem{reed2023scalemae}
+Reed, C.J., Gupta, R., Li, S., Brber, S., Zhu, S., Bornstein, N., Darrell, T.:
+  {Scale-MAE}: A scale-aware masked autoencoder for multiscale geospatial
+  representation learning. In: IEEE/CVF International Conference on Computer
+  Vision (ICCV). pp. 4088--4099 (2023)
+
+\bibitem{samek2021explaining}
+Samek, W., Montavon, G., Lapuschkin, S., Anders, C.J., M{\"u}ller, K.R.:
+  Explaining deep neural networks and beyond: A review of methods and critical
+  assessment. Proceedings of the IEEE  \textbf{109}(3),  247--278 (2021)
+
+\bibitem{selvaraju2017gradcam}
+Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., Batra, D.:
+  Grad-{CAM}: Visual explanations from deep networks via gradient-based
+  localization. In: IEEE International Conference on Computer Vision (ICCV).
+  pp. 618--626 (2017)
+
+\bibitem{smith2025evaluating}
+Smith, J., Doe, J.: Evaluating uncertainty and faithfulness in geospatial ai.
+  ISPRS Journal of Photogrammetry and Remote Sensing  \textbf{200},  100--115
+  (2025)
+
+\bibitem{stewart2022torchgeo}
+Stewart, A.J., Robinson, C., Corley, I.A., Ortiz, A., Lavista~Ferres, J.M.,
+  Banerjee, A.: {TorchGeo}: Deep learning with geospatial data. In: ACM
+  SIGSPATIAL International Conference on Advances in Geographic Information
+  Systems. pp. 1--12 (2022)
+
+\bibitem{sumbul2019bigearthnet}
+Sumbul, G., Charfuelan, M., Demir, B., Markl, V.: {BigEarthNet}: A large-scale
+  benchmark archive for remote sensing image understanding. In: IEEE
+  International Geoscience and Remote Sensing Symposium (IGARSS). pp.
+  5901--5904. IEEE (2019)
+
+\bibitem{sundararajan2017ig}
+Sundararajan, M., Taly, A., Yan, Q.: Axiomatic attribution for deep networks.
+  In: International Conference on Machine Learning (ICML). pp. 3319--3328
+  (2017)
+
+\bibitem{tuia2023fm_survey}
+Tuia, D., Roscher, R., Wegner, J.D., Work, N., Boulch, A., Saux, B.L., et~al.:
+  Artificial intelligence to advance earth observation: A perspective. arXiv
+  preprint  (2023)
+
+\bibitem{wang2022ringmo}
+Wang, D., Zhang, J., Du, B., Xia, G.S., Tao, D.: Advancing plain vision
+  transformer toward remote sensing foundation model. IEEE Transactions on
+  Geoscience and Remote Sensing  \textbf{61},  1--15 (2023)
+
+\bibitem{wang2022fm_rs_survey}
+Wang, Y., Albrecht, C.M., Braham, N.A.A., Mou, L., Zhu, X.X.: Self-supervised
+  learning in remote sensing: A review. IEEE Geoscience and Remote Sensing
+  Magazine  \textbf{10}(4),  213--247 (2022)
+
+\bibitem{wang2024ssl4eo}
+Wang, Y., Braham, N.A.A., Xiong, Z., Liu, C., Albrecht, C.M., Zhu, X.X.:
+  {SSL4EO-S12}: A large-scale multi-modal multi-temporal dataset for
+  self-supervised learning in earth observation. IEEE Geoscience and Remote
+  Sensing Letters  \textbf{20}, ~1--5 (2023)
+
+\bibitem{xiong2024dofa}
+Xiong, Z., Wang, Y., Zhang, F., Zhu, X.X.: {DOFA}: Neural foundation model for
+  earth monitoring. Nature  (2024)
+
+\bibitem{zhang2022trustworthy_survey}
+Zhang, J., et~al.: A survey on trustworthy machine learning: From a nature
+  perspective. arXiv preprint arXiv:2207.07405  (2022)
+
+\end{thebibliography}
